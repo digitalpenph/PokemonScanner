@@ -4,6 +4,8 @@ import { Constants } from 'expo';
 import { Ionicons } from "@expo/vector-icons"; // 5.2.0
 import { TabNavigator, StackNavigator } from 'react-navigation'
 
+import { POKEMON } from './data/pokemon.js';
+
 import ScanScreen from './app/ScanScreen';
 
 class App extends Component {
@@ -21,7 +23,7 @@ class App extends Component {
     return (
       <View style={styles.container}>
         <TouchableHighlight onPress={() => {this.props.navigation.navigate('Test', {id: Math.random()})}}>
-          <Text>Press</Text>
+          <Text>this.pokemon.</Text>
         </TouchableHighlight>
       </View>
     );
