@@ -4,8 +4,7 @@ import { Constants } from 'expo';
 import { Ionicons } from "@expo/vector-icons"; // 5.2.0
 import { TabNavigator, StackNavigator } from 'react-navigation'
 
-import { POKEMON } from './data/pokemon.js';
-
+import PokedexScreen from './app/PokedexScreen';
 import ScanScreen from './app/ScanScreen';
 
 class App extends Component {
@@ -60,11 +59,9 @@ const Main = StackNavigator({
   },
 })
 
-const Root = TabNavigator({
-  Main2: {
-    screen: Main,
-  },
-  Main1: { screen: ScanScreen, },
+export const Root = TabNavigator({
+  Main2: { screen: PokedexScreen },
+  Main1: { screen: ScanScreen },
 }, {
   tabBarPosition: 'bottom',
   animationEnabled: true,
@@ -73,8 +70,12 @@ const Root = TabNavigator({
   },
 });
 
-
-export default Root
+export default class App extends Component {
+  render() {
+    console.disableYellowBox = true;
+    return <Root />;
+  }
+}
 
 const styles = StyleSheet.create({
   container: {

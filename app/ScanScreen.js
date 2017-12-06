@@ -1,10 +1,21 @@
 import React, { Component } from 'react';
-import { TouchableOpacity, Text, View, StyleSheet, Alert } from 'react-native';
+import { Image, TouchableOpacity, Text, View, StyleSheet, Alert } from 'react-native';
 import { Constants, BarCodeScanner, Permissions } from 'expo';
 
 import { Pokemon } from '../data/pokemon.js';
 
 export default class App extends Component {
+  static navigationOptions = {
+    header: null,
+    tabBarLabel: 'Scan Pokemon',
+    tabBarIcon: ({ tintColor }) => (
+      <Image
+        source={require('../assets/icon.png')}
+        style={[styles.icon, {tintColor: tintColor}]}
+      />
+    ),  
+  };
+
   state = {
     hasCameraPermission: null,
     id: -1
@@ -28,6 +39,8 @@ export default class App extends Component {
       this.setState({
         id: this.generateRandomNumber(parseInt(id)),
       });
+    } else {
+      Alert.alert("You got nothing.");
     }
   };
 
@@ -44,8 +57,13 @@ export default class App extends Component {
   render() {
     if(this.state.id >= 0) {
       let pokemon = Pokemon[this.state.id]['name'];
+      let sprite = Pokemon[this.state.id]['ThumbnailImage'];
       return (
         <View style={styles.container}>
+          <Image
+            style={{width: 200, height: 200}}
+            source={sprite}
+          />
           <Text style={styles.paragraph}>{pokemon}</Text>
           <TouchableOpacity
             style={styles.button}
@@ -56,6 +74,7 @@ export default class App extends Component {
         </View>
       ); 
     }
+
     return (
       <View style={styles.container}>
         {this.state.hasCameraPermission === null ?
@@ -73,24 +92,29 @@ export default class App extends Component {
 }
 
 const styles = StyleSheet.create({
+  icon: {
+    width: 26,
+    height: 26,
+  },
   container: {
     flex: 1,
     alignItems: 'center',
     justifyContent: 'center',
     paddingTop: Constants.statusBarHeight,
-    backgroundColor: '#ecf0f1',
+    backgroundColor: '#EFF0F0',
   },
   paragraph: {
     margin: 24,
     fontSize: 18,
     fontWeight: 'bold',
     textAlign: 'center',
-    color: '#34495e',
+    color: '#272729'
   },
   button: {
     alignItems: 'center',
-    backgroundColor: '#DDDDDD',
-    padding: 10
+    backgroundColor: '#F9001A',
+    padding: 10,
+    color: '#272729'
   },
 });
 

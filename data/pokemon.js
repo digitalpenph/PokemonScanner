@@ -18,7 +18,7 @@ export const Pokemon = [
       "slug": "bulbasaur",
       "name": "Bulbasaur",
       "ThumbnailAltText": "Bulbasaur",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/001.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/1.png"),
       "id": 1,
       "type": [
          "grass",
@@ -44,7 +44,7 @@ export const Pokemon = [
       "slug": "ivysaur",
       "name": "Ivysaur",
       "ThumbnailAltText": "Ivysaur",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/002.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/2.png"),
       "id": 2,
       "type": [
          "grass",
@@ -70,7 +70,7 @@ export const Pokemon = [
       "slug": "venusaur",
       "name": "Venusaur",
       "ThumbnailAltText": "Venusaur",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/003.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/3.png"),
       "id": 3,
       "type": [
          "grass",
@@ -96,7 +96,7 @@ export const Pokemon = [
       "slug": "venusaur",
       "name": "Venusaur",
       "ThumbnailAltText": "Venusaur",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/003.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/3.png"),
       "id": 3,
       "type": [
          "grass",
@@ -121,7 +121,7 @@ export const Pokemon = [
       "slug": "charmander",
       "name": "Charmander",
       "ThumbnailAltText": "Charmander",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/004.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/4.png"),
       "id": 4,
       "type": [
          "fire"
@@ -145,7 +145,7 @@ export const Pokemon = [
       "slug": "charmeleon",
       "name": "Charmeleon",
       "ThumbnailAltText": "Charmeleon",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/005.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/5.png"),
       "id": 5,
       "type": [
          "fire"
@@ -169,7 +169,7 @@ export const Pokemon = [
       "slug": "charizard",
       "name": "Charizard",
       "ThumbnailAltText": "Charizard",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/006.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/6.png"),
       "id": 6,
       "type": [
          "fire",
@@ -194,7 +194,7 @@ export const Pokemon = [
       "slug": "charizard",
       "name": "Charizard",
       "ThumbnailAltText": "Charizard",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/006.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/6.png"),
       "id": 6,
       "type": [
          "fire",
@@ -219,7 +219,7 @@ export const Pokemon = [
       "slug": "charizard",
       "name": "Charizard",
       "ThumbnailAltText": "Charizard",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/006.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/6.png"),
       "id": 6,
       "type": [
          "fire",
@@ -243,7 +243,7 @@ export const Pokemon = [
       "slug": "squirtle",
       "name": "Squirtle",
       "ThumbnailAltText": "Squirtle",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/007.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/7.png"),
       "id": 7,
       "type": [
          "water"
@@ -266,7 +266,7 @@ export const Pokemon = [
       "slug": "wartortle",
       "name": "Wartortle",
       "ThumbnailAltText": "Wartortle",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/008.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/8.png"),
       "id": 8,
       "type": [
          "water"
@@ -289,7 +289,7 @@ export const Pokemon = [
       "slug": "blastoise",
       "name": "Blastoise",
       "ThumbnailAltText": "Blastoise",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/009.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/9.png"),
       "id": 9,
       "type": [
          "water"
@@ -312,7 +312,7 @@ export const Pokemon = [
       "slug": "blastoise",
       "name": "Blastoise",
       "ThumbnailAltText": "Blastoise",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/009.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/9.png"),
       "id": 9,
       "type": [
          "water"
@@ -336,7 +336,7 @@ export const Pokemon = [
       "slug": "caterpie",
       "name": "Caterpie",
       "ThumbnailAltText": "Caterpie",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/010.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/10.png"),
       "id": 10,
       "type": [
          "bug"
@@ -360,7 +360,7 @@ export const Pokemon = [
       "slug": "metapod",
       "name": "Metapod",
       "ThumbnailAltText": "Metapod",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/011.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/11.png"),
       "id": 11,
       "type": [
          "bug"
@@ -386,7 +386,7 @@ export const Pokemon = [
       "slug": "butterfree",
       "name": "Butterfree",
       "ThumbnailAltText": "Butterfree",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/012.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/12.png"),
       "id": 12,
       "type": [
          "bug",
@@ -412,7 +412,7 @@ export const Pokemon = [
       "slug": "weedle",
       "name": "Weedle",
       "ThumbnailAltText": "Weedle",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/013.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/13.png"),
       "id": 13,
       "type": [
          "bug",
@@ -438,7 +438,7 @@ export const Pokemon = [
       "slug": "kakuna",
       "name": "Kakuna",
       "ThumbnailAltText": "Kakuna",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/014.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/14.png"),
       "id": 14,
       "type": [
          "bug",
@@ -464,7 +464,7 @@ export const Pokemon = [
       "slug": "beedrill",
       "name": "Beedrill",
       "ThumbnailAltText": "Beedrill",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/015.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/15.png"),
       "id": 15,
       "type": [
          "bug",
@@ -490,7 +490,7 @@ export const Pokemon = [
       "slug": "beedrill",
       "name": "Beedrill",
       "ThumbnailAltText": "Beedrill",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/015.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/15.png"),
       "id": 15,
       "type": [
          "bug",
@@ -516,7 +516,7 @@ export const Pokemon = [
       "slug": "pidgey",
       "name": "Pidgey",
       "ThumbnailAltText": "Pidgey",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/016.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/16.png"),
       "id": 16,
       "type": [
          "normal",
@@ -542,7 +542,7 @@ export const Pokemon = [
       "slug": "pidgeotto",
       "name": "Pidgeotto",
       "ThumbnailAltText": "Pidgeotto",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/017.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/17.png"),
       "id": 17,
       "type": [
          "normal",
@@ -567,7 +567,7 @@ export const Pokemon = [
       "slug": "pidgeot",
       "name": "Pidgeot",
       "ThumbnailAltText": "Pidgeot",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/018.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/18.png"),
       "id": 18,
       "type": [
          "normal",
@@ -593,7 +593,7 @@ export const Pokemon = [
       "slug": "pidgeot",
       "name": "Pidgeot",
       "ThumbnailAltText": "Pidgeot",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/018.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/18.png"),
       "id": 18,
       "type": [
          "normal",
@@ -619,7 +619,7 @@ export const Pokemon = [
       "slug": "rattata",
       "name": "Rattata",
       "ThumbnailAltText": "Rattata",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/019.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/19.png"),
       "id": 19,
       "type": [
          "dark",
@@ -643,7 +643,7 @@ export const Pokemon = [
       "slug": "rattata",
       "name": "Rattata",
       "ThumbnailAltText": "Rattata",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/019.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/19.png"),
       "id": 19,
       "type": [
          "normal"
@@ -668,7 +668,7 @@ export const Pokemon = [
       "slug": "raticate",
       "name": "Raticate",
       "ThumbnailAltText": "Raticate",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/020.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/20.png"),
       "id": 20,
       "type": [
          "dark",
@@ -692,7 +692,7 @@ export const Pokemon = [
       "slug": "raticate",
       "name": "Raticate",
       "ThumbnailAltText": "Raticate",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/020.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/20.png"),
       "id": 20,
       "type": [
          "normal"
@@ -716,7 +716,7 @@ export const Pokemon = [
       "slug": "spearow",
       "name": "Spearow",
       "ThumbnailAltText": "Spearow",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/021.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/21.png"),
       "id": 21,
       "type": [
          "normal",
@@ -741,7 +741,7 @@ export const Pokemon = [
       "slug": "fearow",
       "name": "Fearow",
       "ThumbnailAltText": "Fearow",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/022.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/22.png"),
       "id": 22,
       "type": [
          "normal",
@@ -766,7 +766,7 @@ export const Pokemon = [
       "slug": "ekans",
       "name": "Ekans",
       "ThumbnailAltText": "Ekans",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/023.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/23.png"),
       "id": 23,
       "type": [
          "poison"
@@ -790,7 +790,7 @@ export const Pokemon = [
       "slug": "arbok",
       "name": "Arbok",
       "ThumbnailAltText": "Arbok",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/024.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/24.png"),
       "id": 24,
       "type": [
          "poison"
@@ -812,7 +812,7 @@ export const Pokemon = [
       "slug": "pikachu",
       "name": "Pikachu",
       "ThumbnailAltText": "Pikachu",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/025.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/25.png"),
       "id": 25,
       "type": [
          "electric"
@@ -837,7 +837,7 @@ export const Pokemon = [
       "slug": "raichu",
       "name": "Raichu",
       "ThumbnailAltText": "Raichu",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/026.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/26.png"),
       "id": 26,
       "type": [
          "electric",
@@ -860,7 +860,7 @@ export const Pokemon = [
       "slug": "raichu",
       "name": "Raichu",
       "ThumbnailAltText": "Raichu",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/026.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/26.png"),
       "id": 26,
       "type": [
          "electric"
@@ -884,7 +884,7 @@ export const Pokemon = [
       "slug": "sandshrew",
       "name": "Sandshrew",
       "ThumbnailAltText": "Sandshrew",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/027.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/27.png"),
       "id": 27,
       "type": [
          "ice",
@@ -909,7 +909,7 @@ export const Pokemon = [
       "slug": "sandshrew",
       "name": "Sandshrew",
       "ThumbnailAltText": "Sandshrew",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/027.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/27.png"),
       "id": 27,
       "type": [
          "ground"
@@ -933,7 +933,7 @@ export const Pokemon = [
       "slug": "sandslash",
       "name": "Sandslash",
       "ThumbnailAltText": "Sandslash",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/028.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/28.png"),
       "id": 28,
       "type": [
          "ice",
@@ -958,7 +958,7 @@ export const Pokemon = [
       "slug": "sandslash",
       "name": "Sandslash",
       "ThumbnailAltText": "Sandslash",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/028.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/28.png"),
       "id": 28,
       "type": [
          "ground"
@@ -982,7 +982,7 @@ export const Pokemon = [
       "slug": "nidoran-female",
       "name": "Nidoran♀",
       "ThumbnailAltText": "Nidoran♀",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/029.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/29.png"),
       "id": 29,
       "type": [
          "poison"
@@ -1006,7 +1006,7 @@ export const Pokemon = [
       "slug": "nidorina",
       "name": "Nidorina",
       "ThumbnailAltText": "Nidorina",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/030.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/30.png"),
       "id": 30,
       "type": [
          "poison"
@@ -1032,7 +1032,7 @@ export const Pokemon = [
       "slug": "nidoqueen",
       "name": "Nidoqueen",
       "ThumbnailAltText": "Nidoqueen",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/031.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/31.png"),
       "id": 31,
       "type": [
          "poison",
@@ -1057,7 +1057,7 @@ export const Pokemon = [
       "slug": "nidoran-male",
       "name": "Nidoran♂",
       "ThumbnailAltText": "Nidoran♂",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/032.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/32.png"),
       "id": 32,
       "type": [
          "poison"
@@ -1081,7 +1081,7 @@ export const Pokemon = [
       "slug": "nidorino",
       "name": "Nidorino",
       "ThumbnailAltText": "Nidorino",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/033.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/33.png"),
       "id": 33,
       "type": [
          "poison"
@@ -1107,7 +1107,7 @@ export const Pokemon = [
       "slug": "nidoking",
       "name": "Nidoking",
       "ThumbnailAltText": "Nidoking",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/034.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/34.png"),
       "id": 34,
       "type": [
          "poison",
@@ -1132,7 +1132,7 @@ export const Pokemon = [
       "slug": "clefairy",
       "name": "Clefairy",
       "ThumbnailAltText": "Clefairy",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/035.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/35.png"),
       "id": 35,
       "type": [
          "fairy"
@@ -1156,7 +1156,7 @@ export const Pokemon = [
       "slug": "clefable",
       "name": "Clefable",
       "ThumbnailAltText": "Clefable",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/036.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/36.png"),
       "id": 36,
       "type": [
          "fairy"
@@ -1181,7 +1181,7 @@ export const Pokemon = [
       "slug": "vulpix",
       "name": "Vulpix",
       "ThumbnailAltText": "Vulpix",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/037.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/37.png"),
       "id": 37,
       "type": [
          "ice"
@@ -1205,7 +1205,7 @@ export const Pokemon = [
       "slug": "vulpix",
       "name": "Vulpix",
       "ThumbnailAltText": "Vulpix",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/037.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/37.png"),
       "id": 37,
       "type": [
          "fire"
@@ -1230,7 +1230,7 @@ export const Pokemon = [
       "slug": "ninetales",
       "name": "Ninetales",
       "ThumbnailAltText": "Ninetales",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/038.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/38.png"),
       "id": 38,
       "type": [
          "ice",
@@ -1255,7 +1255,7 @@ export const Pokemon = [
       "slug": "ninetales",
       "name": "Ninetales",
       "ThumbnailAltText": "Ninetales",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/038.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/38.png"),
       "id": 38,
       "type": [
          "fire"
@@ -1279,7 +1279,7 @@ export const Pokemon = [
       "slug": "jigglypuff",
       "name": "Jigglypuff",
       "ThumbnailAltText": "Jigglypuff",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/039.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/39.png"),
       "id": 39,
       "type": [
          "normal",
@@ -1304,7 +1304,7 @@ export const Pokemon = [
       "slug": "wigglytuff",
       "name": "Wigglytuff",
       "ThumbnailAltText": "Wigglytuff",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/040.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/40.png"),
       "id": 40,
       "type": [
          "normal",
@@ -1330,7 +1330,7 @@ export const Pokemon = [
       "slug": "zubat",
       "name": "Zubat",
       "ThumbnailAltText": "Zubat",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/041.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/41.png"),
       "id": 41,
       "type": [
          "poison",
@@ -1356,7 +1356,7 @@ export const Pokemon = [
       "slug": "golbat",
       "name": "Golbat",
       "ThumbnailAltText": "Golbat",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/042.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/42.png"),
       "id": 42,
       "type": [
          "poison",
@@ -1382,7 +1382,7 @@ export const Pokemon = [
       "slug": "oddish",
       "name": "Oddish",
       "ThumbnailAltText": "Oddish",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/043.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/43.png"),
       "id": 43,
       "type": [
          "grass",
@@ -1408,7 +1408,7 @@ export const Pokemon = [
       "slug": "gloom",
       "name": "Gloom",
       "ThumbnailAltText": "Gloom",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/044.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/44.png"),
       "id": 44,
       "type": [
          "grass",
@@ -1434,7 +1434,7 @@ export const Pokemon = [
       "slug": "vileplume",
       "name": "Vileplume",
       "ThumbnailAltText": "Vileplume",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/045.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/45.png"),
       "id": 45,
       "type": [
          "grass",
@@ -1463,7 +1463,7 @@ export const Pokemon = [
       "slug": "paras",
       "name": "Paras",
       "ThumbnailAltText": "Paras",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/046.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/46.png"),
       "id": 46,
       "type": [
          "bug",
@@ -1492,7 +1492,7 @@ export const Pokemon = [
       "slug": "parasect",
       "name": "Parasect",
       "ThumbnailAltText": "Parasect",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/047.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/47.png"),
       "id": 47,
       "type": [
          "bug",
@@ -1519,7 +1519,7 @@ export const Pokemon = [
       "slug": "venonat",
       "name": "Venonat",
       "ThumbnailAltText": "Venonat",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/048.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/48.png"),
       "id": 48,
       "type": [
          "bug",
@@ -1546,7 +1546,7 @@ export const Pokemon = [
       "slug": "venomoth",
       "name": "Venomoth",
       "ThumbnailAltText": "Venomoth",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/049.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/49.png"),
       "id": 49,
       "type": [
          "bug",
@@ -1573,7 +1573,7 @@ export const Pokemon = [
       "slug": "diglett",
       "name": "Diglett",
       "ThumbnailAltText": "Diglett",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/050.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/50.png"),
       "id": 50,
       "type": [
          "ground",
@@ -1599,7 +1599,7 @@ export const Pokemon = [
       "slug": "diglett",
       "name": "Diglett",
       "ThumbnailAltText": "Diglett",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/050.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/50.png"),
       "id": 50,
       "type": [
          "ground"
@@ -1625,7 +1625,7 @@ export const Pokemon = [
       "slug": "dugtrio",
       "name": "Dugtrio",
       "ThumbnailAltText": "Dugtrio",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/051.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/51.png"),
       "id": 51,
       "type": [
          "ground",
@@ -1651,7 +1651,7 @@ export const Pokemon = [
       "slug": "dugtrio",
       "name": "Dugtrio",
       "ThumbnailAltText": "Dugtrio",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/051.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/51.png"),
       "id": 51,
       "type": [
          "ground"
@@ -1676,7 +1676,7 @@ export const Pokemon = [
       "slug": "meowth",
       "name": "Meowth",
       "ThumbnailAltText": "Meowth",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/052.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/52.png"),
       "id": 52,
       "type": [
          "dark"
@@ -1699,7 +1699,7 @@ export const Pokemon = [
       "slug": "meowth",
       "name": "Meowth",
       "ThumbnailAltText": "Meowth",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/052.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/52.png"),
       "id": 52,
       "type": [
          "normal"
@@ -1724,7 +1724,7 @@ export const Pokemon = [
       "slug": "persian",
       "name": "Persian",
       "ThumbnailAltText": "Persian",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/053.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/53.png"),
       "id": 53,
       "type": [
          "dark"
@@ -1747,7 +1747,7 @@ export const Pokemon = [
       "slug": "persian",
       "name": "Persian",
       "ThumbnailAltText": "Persian",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/053.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/53.png"),
       "id": 53,
       "type": [
          "normal"
@@ -1771,7 +1771,7 @@ export const Pokemon = [
       "slug": "psyduck",
       "name": "Psyduck",
       "ThumbnailAltText": "Psyduck",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/054.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/54.png"),
       "id": 54,
       "type": [
          "water"
@@ -1795,7 +1795,7 @@ export const Pokemon = [
       "slug": "golduck",
       "name": "Golduck",
       "ThumbnailAltText": "Golduck",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/055.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/55.png"),
       "id": 55,
       "type": [
          "water"
@@ -1820,7 +1820,7 @@ export const Pokemon = [
       "slug": "mankey",
       "name": "Mankey",
       "ThumbnailAltText": "Mankey",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/056.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/56.png"),
       "id": 56,
       "type": [
          "fighting"
@@ -1845,7 +1845,7 @@ export const Pokemon = [
       "slug": "primeape",
       "name": "Primeape",
       "ThumbnailAltText": "Primeape",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/057.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/57.png"),
       "id": 57,
       "type": [
          "fighting"
@@ -1870,7 +1870,7 @@ export const Pokemon = [
       "slug": "growlithe",
       "name": "Growlithe",
       "ThumbnailAltText": "Growlithe",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/058.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/58.png"),
       "id": 58,
       "type": [
          "fire"
@@ -1895,7 +1895,7 @@ export const Pokemon = [
       "slug": "arcanine",
       "name": "Arcanine",
       "ThumbnailAltText": "Arcanine",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/059.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/59.png"),
       "id": 59,
       "type": [
          "fire"
@@ -1919,7 +1919,7 @@ export const Pokemon = [
       "slug": "poliwag",
       "name": "Poliwag",
       "ThumbnailAltText": "Poliwag",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/060.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/60.png"),
       "id": 60,
       "type": [
          "water"
@@ -1943,7 +1943,7 @@ export const Pokemon = [
       "slug": "poliwhirl",
       "name": "Poliwhirl",
       "ThumbnailAltText": "Poliwhirl",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/061.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/61.png"),
       "id": 61,
       "type": [
          "water"
@@ -1970,7 +1970,7 @@ export const Pokemon = [
       "slug": "poliwrath",
       "name": "Poliwrath",
       "ThumbnailAltText": "Poliwrath",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/062.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/62.png"),
       "id": 62,
       "type": [
          "water",
@@ -1996,7 +1996,7 @@ export const Pokemon = [
       "slug": "abra",
       "name": "Abra",
       "ThumbnailAltText": "Abra",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/063.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/63.png"),
       "id": 63,
       "type": [
          "psychic"
@@ -2021,7 +2021,7 @@ export const Pokemon = [
       "slug": "kadabra",
       "name": "Kadabra",
       "ThumbnailAltText": "Kadabra",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/064.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/64.png"),
       "id": 64,
       "type": [
          "psychic"
@@ -2045,7 +2045,7 @@ export const Pokemon = [
       "slug": "alakazam",
       "name": "Alakazam",
       "ThumbnailAltText": "Alakazam",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/065.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/65.png"),
       "id": 65,
       "type": [
          "psychic"
@@ -2070,7 +2070,7 @@ export const Pokemon = [
       "slug": "alakazam",
       "name": "Alakazam",
       "ThumbnailAltText": "Alakazam",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/065.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/65.png"),
       "id": 65,
       "type": [
          "psychic"
@@ -2095,7 +2095,7 @@ export const Pokemon = [
       "slug": "machop",
       "name": "Machop",
       "ThumbnailAltText": "Machop",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/066.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/66.png"),
       "id": 66,
       "type": [
          "fighting"
@@ -2120,7 +2120,7 @@ export const Pokemon = [
       "slug": "machoke",
       "name": "Machoke",
       "ThumbnailAltText": "Machoke",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/067.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/67.png"),
       "id": 67,
       "type": [
          "fighting"
@@ -2145,7 +2145,7 @@ export const Pokemon = [
       "slug": "machamp",
       "name": "Machamp",
       "ThumbnailAltText": "Machamp",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/068.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/68.png"),
       "id": 68,
       "type": [
          "fighting"
@@ -2170,7 +2170,7 @@ export const Pokemon = [
       "slug": "bellsprout",
       "name": "Bellsprout",
       "ThumbnailAltText": "Bellsprout",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/069.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/69.png"),
       "id": 69,
       "type": [
          "grass",
@@ -2196,7 +2196,7 @@ export const Pokemon = [
       "slug": "weepinbell",
       "name": "Weepinbell",
       "ThumbnailAltText": "Weepinbell",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/070.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/70.png"),
       "id": 70,
       "type": [
          "grass",
@@ -2222,7 +2222,7 @@ export const Pokemon = [
       "slug": "victreebel",
       "name": "Victreebel",
       "ThumbnailAltText": "Victreebel",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/071.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/71.png"),
       "id": 71,
       "type": [
          "grass",
@@ -2248,7 +2248,7 @@ export const Pokemon = [
       "slug": "tentacool",
       "name": "Tentacool",
       "ThumbnailAltText": "Tentacool",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/072.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/72.png"),
       "id": 72,
       "type": [
          "water",
@@ -2274,7 +2274,7 @@ export const Pokemon = [
       "slug": "tentacruel",
       "name": "Tentacruel",
       "ThumbnailAltText": "Tentacruel",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/073.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/73.png"),
       "id": 73,
       "type": [
          "water",
@@ -2301,7 +2301,7 @@ export const Pokemon = [
       "slug": "geodude",
       "name": "Geodude",
       "ThumbnailAltText": "Geodude",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/074.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/74.png"),
       "id": 74,
       "type": [
          "rock",
@@ -2330,7 +2330,7 @@ export const Pokemon = [
       "slug": "geodude",
       "name": "Geodude",
       "ThumbnailAltText": "Geodude",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/074.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/74.png"),
       "id": 74,
       "type": [
          "rock",
@@ -2357,7 +2357,7 @@ export const Pokemon = [
       "slug": "graveler",
       "name": "Graveler",
       "ThumbnailAltText": "Graveler",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/075.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/75.png"),
       "id": 75,
       "type": [
          "rock",
@@ -2386,7 +2386,7 @@ export const Pokemon = [
       "slug": "graveler",
       "name": "Graveler",
       "ThumbnailAltText": "Graveler",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/075.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/75.png"),
       "id": 75,
       "type": [
          "rock",
@@ -2413,7 +2413,7 @@ export const Pokemon = [
       "slug": "golem",
       "name": "Golem",
       "ThumbnailAltText": "Golem",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/076.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/76.png"),
       "id": 76,
       "type": [
          "rock",
@@ -2442,7 +2442,7 @@ export const Pokemon = [
       "slug": "golem",
       "name": "Golem",
       "ThumbnailAltText": "Golem",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/076.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/76.png"),
       "id": 76,
       "type": [
          "rock",
@@ -2468,7 +2468,7 @@ export const Pokemon = [
       "slug": "ponyta",
       "name": "Ponyta",
       "ThumbnailAltText": "Ponyta",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/077.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/77.png"),
       "id": 77,
       "type": [
          "fire"
@@ -2493,7 +2493,7 @@ export const Pokemon = [
       "slug": "rapidash",
       "name": "Rapidash",
       "ThumbnailAltText": "Rapidash",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/078.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/78.png"),
       "id": 78,
       "type": [
          "fire"
@@ -2520,7 +2520,7 @@ export const Pokemon = [
       "slug": "slowpoke",
       "name": "Slowpoke",
       "ThumbnailAltText": "Slowpoke",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/079.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/79.png"),
       "id": 79,
       "type": [
          "water",
@@ -2547,7 +2547,7 @@ export const Pokemon = [
       "slug": "slowbro",
       "name": "Slowbro",
       "ThumbnailAltText": "Slowbro",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/080.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/80.png"),
       "id": 80,
       "type": [
          "water",
@@ -2575,7 +2575,7 @@ export const Pokemon = [
       "slug": "slowbro",
       "name": "Slowbro",
       "ThumbnailAltText": "Slowbro",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/080.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/80.png"),
       "id": 80,
       "type": [
          "water",
@@ -2601,7 +2601,7 @@ export const Pokemon = [
       "slug": "magnemite",
       "name": "Magnemite",
       "ThumbnailAltText": "Magnemite",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/081.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/81.png"),
       "id": 81,
       "type": [
          "electric",
@@ -2627,7 +2627,7 @@ export const Pokemon = [
       "slug": "magneton",
       "name": "Magneton",
       "ThumbnailAltText": "Magneton",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/082.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/82.png"),
       "id": 82,
       "type": [
          "electric",
@@ -2653,7 +2653,7 @@ export const Pokemon = [
       "slug": "farfetchd",
       "name": "Farfetch'd",
       "ThumbnailAltText": "Farfetch'd",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/083.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/83.png"),
       "id": 83,
       "type": [
          "normal",
@@ -2679,7 +2679,7 @@ export const Pokemon = [
       "slug": "doduo",
       "name": "Doduo",
       "ThumbnailAltText": "Doduo",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/084.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/84.png"),
       "id": 84,
       "type": [
          "normal",
@@ -2705,7 +2705,7 @@ export const Pokemon = [
       "slug": "dodrio",
       "name": "Dodrio",
       "ThumbnailAltText": "Dodrio",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/085.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/85.png"),
       "id": 85,
       "type": [
          "normal",
@@ -2730,7 +2730,7 @@ export const Pokemon = [
       "slug": "seel",
       "name": "Seel",
       "ThumbnailAltText": "Seel",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/086.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/86.png"),
       "id": 86,
       "type": [
          "water"
@@ -2756,7 +2756,7 @@ export const Pokemon = [
       "slug": "dewgong",
       "name": "Dewgong",
       "ThumbnailAltText": "Dewgong",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/087.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/87.png"),
       "id": 87,
       "type": [
          "water",
@@ -2780,7 +2780,7 @@ export const Pokemon = [
       "slug": "grimer",
       "name": "Grimer",
       "ThumbnailAltText": "Grimer",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/088.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/88.png"),
       "id": 88,
       "type": [
          "poison",
@@ -2805,7 +2805,7 @@ export const Pokemon = [
       "slug": "grimer",
       "name": "Grimer",
       "ThumbnailAltText": "Grimer",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/088.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/88.png"),
       "id": 88,
       "type": [
          "poison"
@@ -2828,7 +2828,7 @@ export const Pokemon = [
       "slug": "muk",
       "name": "Muk",
       "ThumbnailAltText": "Muk",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/089.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/89.png"),
       "id": 89,
       "type": [
          "poison",
@@ -2853,7 +2853,7 @@ export const Pokemon = [
       "slug": "muk",
       "name": "Muk",
       "ThumbnailAltText": "Muk",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/089.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/89.png"),
       "id": 89,
       "type": [
          "poison"
@@ -2877,7 +2877,7 @@ export const Pokemon = [
       "slug": "shellder",
       "name": "Shellder",
       "ThumbnailAltText": "Shellder",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/090.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/90.png"),
       "id": 90,
       "type": [
          "water"
@@ -2903,7 +2903,7 @@ export const Pokemon = [
       "slug": "cloyster",
       "name": "Cloyster",
       "ThumbnailAltText": "Cloyster",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/091.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/91.png"),
       "id": 91,
       "type": [
          "water",
@@ -2928,7 +2928,7 @@ export const Pokemon = [
       "slug": "gastly",
       "name": "Gastly",
       "ThumbnailAltText": "Gastly",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/092.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/92.png"),
       "id": 92,
       "type": [
          "ghost",
@@ -2953,7 +2953,7 @@ export const Pokemon = [
       "slug": "haunter",
       "name": "Haunter",
       "ThumbnailAltText": "Haunter",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/093.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/93.png"),
       "id": 93,
       "type": [
          "ghost",
@@ -2979,7 +2979,7 @@ export const Pokemon = [
       "slug": "gengar",
       "name": "Gengar",
       "ThumbnailAltText": "Gengar",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/094.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/94.png"),
       "id": 94,
       "type": [
          "ghost",
@@ -3004,7 +3004,7 @@ export const Pokemon = [
       "slug": "gengar",
       "name": "Gengar",
       "ThumbnailAltText": "Gengar",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/094.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/94.png"),
       "id": 94,
       "type": [
          "ghost",
@@ -3033,7 +3033,7 @@ export const Pokemon = [
       "slug": "onix",
       "name": "Onix",
       "ThumbnailAltText": "Onix",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/095.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/95.png"),
       "id": 95,
       "type": [
          "rock",
@@ -3059,7 +3059,7 @@ export const Pokemon = [
       "slug": "drowzee",
       "name": "Drowzee",
       "ThumbnailAltText": "Drowzee",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/096.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/96.png"),
       "id": 96,
       "type": [
          "psychic"
@@ -3084,7 +3084,7 @@ export const Pokemon = [
       "slug": "hypno",
       "name": "Hypno",
       "ThumbnailAltText": "Hypno",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/097.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/97.png"),
       "id": 97,
       "type": [
          "psychic"
@@ -3108,7 +3108,7 @@ export const Pokemon = [
       "slug": "krabby",
       "name": "Krabby",
       "ThumbnailAltText": "Krabby",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/098.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/98.png"),
       "id": 98,
       "type": [
          "water"
@@ -3132,7 +3132,7 @@ export const Pokemon = [
       "slug": "kingler",
       "name": "Kingler",
       "ThumbnailAltText": "Kingler",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/099.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/99.png"),
       "id": 99,
       "type": [
          "water"
@@ -3155,7 +3155,7 @@ export const Pokemon = [
       "slug": "voltorb",
       "name": "Voltorb",
       "ThumbnailAltText": "Voltorb",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/100.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/100.png"),
       "id": 100,
       "type": [
          "electric"
@@ -3178,7 +3178,7 @@ export const Pokemon = [
       "slug": "electrode",
       "name": "Electrode",
       "ThumbnailAltText": "Electrode",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/101.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/101.png"),
       "id": 101,
       "type": [
          "electric"
@@ -3206,7 +3206,7 @@ export const Pokemon = [
       "slug": "exeggcute",
       "name": "Exeggcute",
       "ThumbnailAltText": "Exeggcute",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/102.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/102.png"),
       "id": 102,
       "type": [
          "grass",
@@ -3234,7 +3234,7 @@ export const Pokemon = [
       "slug": "exeggutor",
       "name": "Exeggutor",
       "ThumbnailAltText": "Exeggutor",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/103.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/103.png"),
       "id": 103,
       "type": [
          "grass",
@@ -3263,7 +3263,7 @@ export const Pokemon = [
       "slug": "exeggutor",
       "name": "Exeggutor",
       "ThumbnailAltText": "Exeggutor",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/103.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/103.png"),
       "id": 103,
       "type": [
          "grass",
@@ -3289,7 +3289,7 @@ export const Pokemon = [
       "slug": "cubone",
       "name": "Cubone",
       "ThumbnailAltText": "Cubone",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/104.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/104.png"),
       "id": 104,
       "type": [
          "ground"
@@ -3316,7 +3316,7 @@ export const Pokemon = [
       "slug": "marowak",
       "name": "Marowak",
       "ThumbnailAltText": "Marowak",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/105.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/105.png"),
       "id": 105,
       "type": [
          "fire",
@@ -3342,7 +3342,7 @@ export const Pokemon = [
       "slug": "marowak",
       "name": "Marowak",
       "ThumbnailAltText": "Marowak",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/105.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/105.png"),
       "id": 105,
       "type": [
          "ground"
@@ -3367,7 +3367,7 @@ export const Pokemon = [
       "slug": "hitmonlee",
       "name": "Hitmonlee",
       "ThumbnailAltText": "Hitmonlee",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/106.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/106.png"),
       "id": 106,
       "type": [
          "fighting"
@@ -3392,7 +3392,7 @@ export const Pokemon = [
       "slug": "hitmonchan",
       "name": "Hitmonchan",
       "ThumbnailAltText": "Hitmonchan",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/107.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/107.png"),
       "id": 107,
       "type": [
          "fighting"
@@ -3415,7 +3415,7 @@ export const Pokemon = [
       "slug": "lickitung",
       "name": "Lickitung",
       "ThumbnailAltText": "Lickitung",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/108.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/108.png"),
       "id": 108,
       "type": [
          "normal"
@@ -3437,7 +3437,7 @@ export const Pokemon = [
       "slug": "koffing",
       "name": "Koffing",
       "ThumbnailAltText": "Koffing",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/109.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/109.png"),
       "id": 109,
       "type": [
          "poison"
@@ -3459,7 +3459,7 @@ export const Pokemon = [
       "slug": "weezing",
       "name": "Weezing",
       "ThumbnailAltText": "Weezing",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/110.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/110.png"),
       "id": 110,
       "type": [
          "poison"
@@ -3487,7 +3487,7 @@ export const Pokemon = [
       "slug": "rhyhorn",
       "name": "Rhyhorn",
       "ThumbnailAltText": "Rhyhorn",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/111.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/111.png"),
       "id": 111,
       "type": [
          "ground",
@@ -3516,7 +3516,7 @@ export const Pokemon = [
       "slug": "rhydon",
       "name": "Rhydon",
       "ThumbnailAltText": "Rhydon",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/112.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/112.png"),
       "id": 112,
       "type": [
          "ground",
@@ -3540,7 +3540,7 @@ export const Pokemon = [
       "slug": "chansey",
       "name": "Chansey",
       "ThumbnailAltText": "Chansey",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/113.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/113.png"),
       "id": 113,
       "type": [
          "normal"
@@ -3567,7 +3567,7 @@ export const Pokemon = [
       "slug": "tangela",
       "name": "Tangela",
       "ThumbnailAltText": "Tangela",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/114.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/114.png"),
       "id": 114,
       "type": [
          "grass"
@@ -3589,7 +3589,7 @@ export const Pokemon = [
       "slug": "kangaskhan",
       "name": "Kangaskhan",
       "ThumbnailAltText": "Kangaskhan",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/115.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/115.png"),
       "id": 115,
       "type": [
          "normal"
@@ -3612,7 +3612,7 @@ export const Pokemon = [
       "slug": "kangaskhan",
       "name": "Kangaskhan",
       "ThumbnailAltText": "Kangaskhan",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/115.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/115.png"),
       "id": 115,
       "type": [
          "normal"
@@ -3636,7 +3636,7 @@ export const Pokemon = [
       "slug": "horsea",
       "name": "Horsea",
       "ThumbnailAltText": "Horsea",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/116.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/116.png"),
       "id": 116,
       "type": [
          "water"
@@ -3660,7 +3660,7 @@ export const Pokemon = [
       "slug": "seadra",
       "name": "Seadra",
       "ThumbnailAltText": "Seadra",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/117.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/117.png"),
       "id": 117,
       "type": [
          "water"
@@ -3684,7 +3684,7 @@ export const Pokemon = [
       "slug": "goldeen",
       "name": "Goldeen",
       "ThumbnailAltText": "Goldeen",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/118.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/118.png"),
       "id": 118,
       "type": [
          "water"
@@ -3708,7 +3708,7 @@ export const Pokemon = [
       "slug": "seaking",
       "name": "Seaking",
       "ThumbnailAltText": "Seaking",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/119.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/119.png"),
       "id": 119,
       "type": [
          "water"
@@ -3732,7 +3732,7 @@ export const Pokemon = [
       "slug": "staryu",
       "name": "Staryu",
       "ThumbnailAltText": "Staryu",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/120.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/120.png"),
       "id": 120,
       "type": [
          "water"
@@ -3759,7 +3759,7 @@ export const Pokemon = [
       "slug": "starmie",
       "name": "Starmie",
       "ThumbnailAltText": "Starmie",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/121.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/121.png"),
       "id": 121,
       "type": [
          "water",
@@ -3785,7 +3785,7 @@ export const Pokemon = [
       "slug": "mr-mime",
       "name": "Mr. Mime",
       "ThumbnailAltText": "Mr. Mime",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/122.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/122.png"),
       "id": 122,
       "type": [
          "psychic",
@@ -3813,7 +3813,7 @@ export const Pokemon = [
       "slug": "scyther",
       "name": "Scyther",
       "ThumbnailAltText": "Scyther",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/123.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/123.png"),
       "id": 123,
       "type": [
          "bug",
@@ -3842,7 +3842,7 @@ export const Pokemon = [
       "slug": "jynx",
       "name": "Jynx",
       "ThumbnailAltText": "Jynx",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/124.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/124.png"),
       "id": 124,
       "type": [
          "ice",
@@ -3865,7 +3865,7 @@ export const Pokemon = [
       "slug": "electabuzz",
       "name": "Electabuzz",
       "ThumbnailAltText": "Electabuzz",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/125.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/125.png"),
       "id": 125,
       "type": [
          "electric"
@@ -3889,7 +3889,7 @@ export const Pokemon = [
       "slug": "magmar",
       "name": "Magmar",
       "ThumbnailAltText": "Magmar",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/126.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/126.png"),
       "id": 126,
       "type": [
          "fire"
@@ -3915,7 +3915,7 @@ export const Pokemon = [
       "slug": "pinsir",
       "name": "Pinsir",
       "ThumbnailAltText": "Pinsir",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/127.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/127.png"),
       "id": 127,
       "type": [
          "bug",
@@ -3941,7 +3941,7 @@ export const Pokemon = [
       "slug": "pinsir",
       "name": "Pinsir",
       "ThumbnailAltText": "Pinsir",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/127.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/127.png"),
       "id": 127,
       "type": [
          "bug"
@@ -3964,7 +3964,7 @@ export const Pokemon = [
       "slug": "tauros",
       "name": "Tauros",
       "ThumbnailAltText": "Tauros",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/128.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/128.png"),
       "id": 128,
       "type": [
          "normal"
@@ -3987,7 +3987,7 @@ export const Pokemon = [
       "slug": "magikarp",
       "name": "Magikarp",
       "ThumbnailAltText": "Magikarp",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/129.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/129.png"),
       "id": 129,
       "type": [
          "water"
@@ -4013,7 +4013,7 @@ export const Pokemon = [
       "slug": "gyarados",
       "name": "Gyarados",
       "ThumbnailAltText": "Gyarados",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/130.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/130.png"),
       "id": 130,
       "type": [
          "water",
@@ -4037,7 +4037,7 @@ export const Pokemon = [
       "slug": "gyarados",
       "name": "Gyarados",
       "ThumbnailAltText": "Gyarados",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/130.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/130.png"),
       "id": 130,
       "type": [
          "water",
@@ -4064,7 +4064,7 @@ export const Pokemon = [
       "slug": "lapras",
       "name": "Lapras",
       "ThumbnailAltText": "Lapras",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/131.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/131.png"),
       "id": 131,
       "type": [
          "water",
@@ -4087,7 +4087,7 @@ export const Pokemon = [
       "slug": "ditto",
       "name": "Ditto",
       "ThumbnailAltText": "Ditto",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/132.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/132.png"),
       "id": 132,
       "type": [
          "normal"
@@ -4110,7 +4110,7 @@ export const Pokemon = [
       "slug": "eevee",
       "name": "Eevee",
       "ThumbnailAltText": "Eevee",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/133.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/133.png"),
       "id": 133,
       "type": [
          "normal"
@@ -4133,7 +4133,7 @@ export const Pokemon = [
       "slug": "vaporeon",
       "name": "Vaporeon",
       "ThumbnailAltText": "Vaporeon",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/134.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/134.png"),
       "id": 134,
       "type": [
          "water"
@@ -4155,7 +4155,7 @@ export const Pokemon = [
       "slug": "jolteon",
       "name": "Jolteon",
       "ThumbnailAltText": "Jolteon",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/135.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/135.png"),
       "id": 135,
       "type": [
          "electric"
@@ -4179,7 +4179,7 @@ export const Pokemon = [
       "slug": "flareon",
       "name": "Flareon",
       "ThumbnailAltText": "Flareon",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/136.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/136.png"),
       "id": 136,
       "type": [
          "fire"
@@ -4202,7 +4202,7 @@ export const Pokemon = [
       "slug": "porygon",
       "name": "Porygon",
       "ThumbnailAltText": "Porygon",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/137.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/137.png"),
       "id": 137,
       "type": [
          "normal"
@@ -4228,7 +4228,7 @@ export const Pokemon = [
       "slug": "omanyte",
       "name": "Omanyte",
       "ThumbnailAltText": "Omanyte",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/138.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/138.png"),
       "id": 138,
       "type": [
          "rock",
@@ -4255,7 +4255,7 @@ export const Pokemon = [
       "slug": "omastar",
       "name": "Omastar",
       "ThumbnailAltText": "Omastar",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/139.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/139.png"),
       "id": 139,
       "type": [
          "rock",
@@ -4282,7 +4282,7 @@ export const Pokemon = [
       "slug": "kabuto",
       "name": "Kabuto",
       "ThumbnailAltText": "Kabuto",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/140.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/140.png"),
       "id": 140,
       "type": [
          "rock",
@@ -4309,7 +4309,7 @@ export const Pokemon = [
       "slug": "kabutops",
       "name": "Kabutops",
       "ThumbnailAltText": "Kabutops",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/141.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/141.png"),
       "id": 141,
       "type": [
          "rock",
@@ -4336,7 +4336,7 @@ export const Pokemon = [
       "slug": "aerodactyl",
       "name": "Aerodactyl",
       "ThumbnailAltText": "Aerodactyl",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/142.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/142.png"),
       "id": 142,
       "type": [
          "rock",
@@ -4364,7 +4364,7 @@ export const Pokemon = [
       "slug": "aerodactyl",
       "name": "Aerodactyl",
       "ThumbnailAltText": "Aerodactyl",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/142.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/142.png"),
       "id": 142,
       "type": [
          "rock",
@@ -4388,7 +4388,7 @@ export const Pokemon = [
       "slug": "snorlax",
       "name": "Snorlax",
       "ThumbnailAltText": "Snorlax",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/143.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/143.png"),
       "id": 143,
       "type": [
          "normal"
@@ -4413,7 +4413,7 @@ export const Pokemon = [
       "slug": "articuno",
       "name": "Articuno",
       "ThumbnailAltText": "Articuno",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/144.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/144.png"),
       "id": 144,
       "type": [
          "ice",
@@ -4437,7 +4437,7 @@ export const Pokemon = [
       "slug": "zapdos",
       "name": "Zapdos",
       "ThumbnailAltText": "Zapdos",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/145.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/145.png"),
       "id": 145,
       "type": [
          "electric",
@@ -4462,7 +4462,7 @@ export const Pokemon = [
       "slug": "moltres",
       "name": "Moltres",
       "ThumbnailAltText": "Moltres",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/146.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/146.png"),
       "id": 146,
       "type": [
          "fire",
@@ -4487,7 +4487,7 @@ export const Pokemon = [
       "slug": "dratini",
       "name": "Dratini",
       "ThumbnailAltText": "Dratini",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/147.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/147.png"),
       "id": 147,
       "type": [
          "dragon"
@@ -4511,7 +4511,7 @@ export const Pokemon = [
       "slug": "dragonair",
       "name": "Dragonair",
       "ThumbnailAltText": "Dragonair",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/148.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/148.png"),
       "id": 148,
       "type": [
          "dragon"
@@ -4536,7 +4536,7 @@ export const Pokemon = [
       "slug": "dragonite",
       "name": "Dragonite",
       "ThumbnailAltText": "Dragonite",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/149.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/149.png"),
       "id": 149,
       "type": [
          "dragon",
@@ -4561,7 +4561,7 @@ export const Pokemon = [
       "slug": "mewtwo",
       "name": "Mewtwo",
       "ThumbnailAltText": "Mewtwo",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/150.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/150.png"),
       "id": 150,
       "type": [
          "psychic"
@@ -4585,7 +4585,7 @@ export const Pokemon = [
       "slug": "mewtwo",
       "name": "Mewtwo",
       "ThumbnailAltText": "Mewtwo",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/150.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/150.png"),
       "id": 150,
       "type": [
          "psychic",
@@ -4610,7 +4610,7 @@ export const Pokemon = [
       "slug": "mewtwo",
       "name": "Mewtwo",
       "ThumbnailAltText": "Mewtwo",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/150.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/150.png"),
       "id": 150,
       "type": [
          "psychic"
@@ -4634,7 +4634,7 @@ export const Pokemon = [
       "slug": "mew",
       "name": "Mew",
       "ThumbnailAltText": "Mew",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/151.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/151.png"),
       "id": 151,
       "type": [
          "psychic"
@@ -4660,7 +4660,7 @@ export const Pokemon = [
       "slug": "chikorita",
       "name": "Chikorita",
       "ThumbnailAltText": "Chikorita",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/152.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/152.png"),
       "id": 152,
       "type": [
          "grass"
@@ -4686,7 +4686,7 @@ export const Pokemon = [
       "slug": "bayleef",
       "name": "Bayleef",
       "ThumbnailAltText": "Bayleef",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/153.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/153.png"),
       "id": 153,
       "type": [
          "grass"
@@ -4712,7 +4712,7 @@ export const Pokemon = [
       "slug": "meganium",
       "name": "Meganium",
       "ThumbnailAltText": "Meganium",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/154.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/154.png"),
       "id": 154,
       "type": [
          "grass"
@@ -4736,7 +4736,7 @@ export const Pokemon = [
       "slug": "cyndaquil",
       "name": "Cyndaquil",
       "ThumbnailAltText": "Cyndaquil",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/155.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/155.png"),
       "id": 155,
       "type": [
          "fire"
@@ -4760,7 +4760,7 @@ export const Pokemon = [
       "slug": "quilava",
       "name": "Quilava",
       "ThumbnailAltText": "Quilava",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/156.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/156.png"),
       "id": 156,
       "type": [
          "fire"
@@ -4784,7 +4784,7 @@ export const Pokemon = [
       "slug": "typhlosion",
       "name": "Typhlosion",
       "ThumbnailAltText": "Typhlosion",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/157.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/157.png"),
       "id": 157,
       "type": [
          "fire"
@@ -4807,7 +4807,7 @@ export const Pokemon = [
       "slug": "totodile",
       "name": "Totodile",
       "ThumbnailAltText": "Totodile",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/158.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/158.png"),
       "id": 158,
       "type": [
          "water"
@@ -4830,7 +4830,7 @@ export const Pokemon = [
       "slug": "croconaw",
       "name": "Croconaw",
       "ThumbnailAltText": "Croconaw",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/159.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/159.png"),
       "id": 159,
       "type": [
          "water"
@@ -4853,7 +4853,7 @@ export const Pokemon = [
       "slug": "feraligatr",
       "name": "Feraligatr",
       "ThumbnailAltText": "Feraligatr",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/160.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/160.png"),
       "id": 160,
       "type": [
          "water"
@@ -4876,7 +4876,7 @@ export const Pokemon = [
       "slug": "sentret",
       "name": "Sentret",
       "ThumbnailAltText": "Sentret",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/161.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/161.png"),
       "id": 161,
       "type": [
          "normal"
@@ -4899,7 +4899,7 @@ export const Pokemon = [
       "slug": "furret",
       "name": "Furret",
       "ThumbnailAltText": "Furret",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/162.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/162.png"),
       "id": 162,
       "type": [
          "normal"
@@ -4924,7 +4924,7 @@ export const Pokemon = [
       "slug": "hoothoot",
       "name": "Hoothoot",
       "ThumbnailAltText": "Hoothoot",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/163.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/163.png"),
       "id": 163,
       "type": [
          "normal",
@@ -4950,7 +4950,7 @@ export const Pokemon = [
       "slug": "noctowl",
       "name": "Noctowl",
       "ThumbnailAltText": "Noctowl",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/164.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/164.png"),
       "id": 164,
       "type": [
          "normal",
@@ -4978,7 +4978,7 @@ export const Pokemon = [
       "slug": "ledyba",
       "name": "Ledyba",
       "ThumbnailAltText": "Ledyba",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/165.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/165.png"),
       "id": 165,
       "type": [
          "bug",
@@ -5006,7 +5006,7 @@ export const Pokemon = [
       "slug": "ledian",
       "name": "Ledian",
       "ThumbnailAltText": "Ledian",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/166.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/166.png"),
       "id": 166,
       "type": [
          "bug",
@@ -5033,7 +5033,7 @@ export const Pokemon = [
       "slug": "spinarak",
       "name": "Spinarak",
       "ThumbnailAltText": "Spinarak",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/167.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/167.png"),
       "id": 167,
       "type": [
          "bug",
@@ -5060,7 +5060,7 @@ export const Pokemon = [
       "slug": "ariados",
       "name": "Ariados",
       "ThumbnailAltText": "Ariados",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/168.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/168.png"),
       "id": 168,
       "type": [
          "bug",
@@ -5086,7 +5086,7 @@ export const Pokemon = [
       "slug": "crobat",
       "name": "Crobat",
       "ThumbnailAltText": "Crobat",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/169.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/169.png"),
       "id": 169,
       "type": [
          "poison",
@@ -5111,7 +5111,7 @@ export const Pokemon = [
       "slug": "chinchou",
       "name": "Chinchou",
       "ThumbnailAltText": "Chinchou",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/170.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/170.png"),
       "id": 170,
       "type": [
          "water",
@@ -5136,7 +5136,7 @@ export const Pokemon = [
       "slug": "lanturn",
       "name": "Lanturn",
       "ThumbnailAltText": "Lanturn",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/171.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/171.png"),
       "id": 171,
       "type": [
          "water",
@@ -5159,7 +5159,7 @@ export const Pokemon = [
       "slug": "pichu",
       "name": "Pichu",
       "ThumbnailAltText": "Pichu",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/172.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/172.png"),
       "id": 172,
       "type": [
          "electric"
@@ -5183,7 +5183,7 @@ export const Pokemon = [
       "slug": "cleffa",
       "name": "Cleffa",
       "ThumbnailAltText": "Cleffa",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/173.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/173.png"),
       "id": 173,
       "type": [
          "fairy"
@@ -5207,7 +5207,7 @@ export const Pokemon = [
       "slug": "igglybuff",
       "name": "Igglybuff",
       "ThumbnailAltText": "Igglybuff",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/174.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/174.png"),
       "id": 174,
       "type": [
          "normal",
@@ -5232,7 +5232,7 @@ export const Pokemon = [
       "slug": "togepi",
       "name": "Togepi",
       "ThumbnailAltText": "Togepi",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/175.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/175.png"),
       "id": 175,
       "type": [
          "fairy"
@@ -5259,7 +5259,7 @@ export const Pokemon = [
       "slug": "togetic",
       "name": "Togetic",
       "ThumbnailAltText": "Togetic",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/176.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/176.png"),
       "id": 176,
       "type": [
          "fairy",
@@ -5287,7 +5287,7 @@ export const Pokemon = [
       "slug": "natu",
       "name": "Natu",
       "ThumbnailAltText": "Natu",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/177.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/177.png"),
       "id": 177,
       "type": [
          "psychic",
@@ -5315,7 +5315,7 @@ export const Pokemon = [
       "slug": "xatu",
       "name": "Xatu",
       "ThumbnailAltText": "Xatu",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/178.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/178.png"),
       "id": 178,
       "type": [
          "psychic",
@@ -5338,7 +5338,7 @@ export const Pokemon = [
       "slug": "mareep",
       "name": "Mareep",
       "ThumbnailAltText": "Mareep",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/179.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/179.png"),
       "id": 179,
       "type": [
          "electric"
@@ -5360,7 +5360,7 @@ export const Pokemon = [
       "slug": "flaaffy",
       "name": "Flaaffy",
       "ThumbnailAltText": "Flaaffy",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/180.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/180.png"),
       "id": 180,
       "type": [
          "electric"
@@ -5385,7 +5385,7 @@ export const Pokemon = [
       "slug": "ampharos",
       "name": "Ampharos",
       "ThumbnailAltText": "Ampharos",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/181.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/181.png"),
       "id": 181,
       "type": [
          "electric",
@@ -5408,7 +5408,7 @@ export const Pokemon = [
       "slug": "ampharos",
       "name": "Ampharos",
       "ThumbnailAltText": "Ampharos",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/181.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/181.png"),
       "id": 181,
       "type": [
          "electric"
@@ -5434,7 +5434,7 @@ export const Pokemon = [
       "slug": "bellossom",
       "name": "Bellossom",
       "ThumbnailAltText": "Bellossom",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/182.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/182.png"),
       "id": 182,
       "type": [
          "grass"
@@ -5459,7 +5459,7 @@ export const Pokemon = [
       "slug": "marill",
       "name": "Marill",
       "ThumbnailAltText": "Marill",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/183.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/183.png"),
       "id": 183,
       "type": [
          "water",
@@ -5485,7 +5485,7 @@ export const Pokemon = [
       "slug": "azumarill",
       "name": "Azumarill",
       "ThumbnailAltText": "Azumarill",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/184.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/184.png"),
       "id": 184,
       "type": [
          "water",
@@ -5513,7 +5513,7 @@ export const Pokemon = [
       "slug": "sudowoodo",
       "name": "Sudowoodo",
       "ThumbnailAltText": "Sudowoodo",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/185.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/185.png"),
       "id": 185,
       "type": [
          "rock"
@@ -5537,7 +5537,7 @@ export const Pokemon = [
       "slug": "politoed",
       "name": "Politoed",
       "ThumbnailAltText": "Politoed",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/186.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/186.png"),
       "id": 186,
       "type": [
          "water"
@@ -5564,7 +5564,7 @@ export const Pokemon = [
       "slug": "hoppip",
       "name": "Hoppip",
       "ThumbnailAltText": "Hoppip",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/187.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/187.png"),
       "id": 187,
       "type": [
          "grass",
@@ -5592,7 +5592,7 @@ export const Pokemon = [
       "slug": "skiploom",
       "name": "Skiploom",
       "ThumbnailAltText": "Skiploom",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/188.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/188.png"),
       "id": 188,
       "type": [
          "grass",
@@ -5620,7 +5620,7 @@ export const Pokemon = [
       "slug": "jumpluff",
       "name": "Jumpluff",
       "ThumbnailAltText": "Jumpluff",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/189.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/189.png"),
       "id": 189,
       "type": [
          "grass",
@@ -5644,7 +5644,7 @@ export const Pokemon = [
       "slug": "aipom",
       "name": "Aipom",
       "ThumbnailAltText": "Aipom",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/190.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/190.png"),
       "id": 190,
       "type": [
          "normal"
@@ -5671,7 +5671,7 @@ export const Pokemon = [
       "slug": "sunkern",
       "name": "Sunkern",
       "ThumbnailAltText": "Sunkern",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/191.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/191.png"),
       "id": 191,
       "type": [
          "grass"
@@ -5698,7 +5698,7 @@ export const Pokemon = [
       "slug": "sunflora",
       "name": "Sunflora",
       "ThumbnailAltText": "Sunflora",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/192.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/192.png"),
       "id": 192,
       "type": [
          "grass"
@@ -5725,7 +5725,7 @@ export const Pokemon = [
       "slug": "yanma",
       "name": "Yanma",
       "ThumbnailAltText": "Yanma",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/193.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/193.png"),
       "id": 193,
       "type": [
          "bug",
@@ -5749,7 +5749,7 @@ export const Pokemon = [
       "slug": "wooper",
       "name": "Wooper",
       "ThumbnailAltText": "Wooper",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/194.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/194.png"),
       "id": 194,
       "type": [
          "water",
@@ -5773,7 +5773,7 @@ export const Pokemon = [
       "slug": "quagsire",
       "name": "Quagsire",
       "ThumbnailAltText": "Quagsire",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/195.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/195.png"),
       "id": 195,
       "type": [
          "water",
@@ -5798,7 +5798,7 @@ export const Pokemon = [
       "slug": "espeon",
       "name": "Espeon",
       "ThumbnailAltText": "Espeon",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/196.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/196.png"),
       "id": 196,
       "type": [
          "psychic"
@@ -5822,7 +5822,7 @@ export const Pokemon = [
       "slug": "umbreon",
       "name": "Umbreon",
       "ThumbnailAltText": "Umbreon",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/197.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/197.png"),
       "id": 197,
       "type": [
          "dark"
@@ -5848,7 +5848,7 @@ export const Pokemon = [
       "slug": "murkrow",
       "name": "Murkrow",
       "ThumbnailAltText": "Murkrow",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/198.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/198.png"),
       "id": 198,
       "type": [
          "dark",
@@ -5876,7 +5876,7 @@ export const Pokemon = [
       "slug": "slowking",
       "name": "Slowking",
       "ThumbnailAltText": "Slowking",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/199.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/199.png"),
       "id": 199,
       "type": [
          "water",
@@ -5900,7 +5900,7 @@ export const Pokemon = [
       "slug": "misdreavus",
       "name": "Misdreavus",
       "ThumbnailAltText": "Misdreavus",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/200.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/200.png"),
       "id": 200,
       "type": [
          "ghost"
@@ -5924,7 +5924,7 @@ export const Pokemon = [
       "slug": "unown",
       "name": "Unown",
       "ThumbnailAltText": "Unown",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/201.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/201.png"),
       "id": 201,
       "type": [
          "psychic"
@@ -5948,7 +5948,7 @@ export const Pokemon = [
       "slug": "wobbuffet",
       "name": "Wobbuffet",
       "ThumbnailAltText": "Wobbuffet",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/202.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/202.png"),
       "id": 202,
       "type": [
          "psychic"
@@ -5972,7 +5972,7 @@ export const Pokemon = [
       "slug": "girafarig",
       "name": "Girafarig",
       "ThumbnailAltText": "Girafarig",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/203.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/203.png"),
       "id": 203,
       "type": [
          "normal",
@@ -5997,7 +5997,7 @@ export const Pokemon = [
       "slug": "pineco",
       "name": "Pineco",
       "ThumbnailAltText": "Pineco",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/204.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/204.png"),
       "id": 204,
       "type": [
          "bug"
@@ -6019,7 +6019,7 @@ export const Pokemon = [
       "slug": "forretress",
       "name": "Forretress",
       "ThumbnailAltText": "Forretress",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/205.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/205.png"),
       "id": 205,
       "type": [
          "bug",
@@ -6043,7 +6043,7 @@ export const Pokemon = [
       "slug": "dunsparce",
       "name": "Dunsparce",
       "ThumbnailAltText": "Dunsparce",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/206.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/206.png"),
       "id": 206,
       "type": [
          "normal"
@@ -6067,7 +6067,7 @@ export const Pokemon = [
       "slug": "gligar",
       "name": "Gligar",
       "ThumbnailAltText": "Gligar",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/207.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/207.png"),
       "id": 207,
       "type": [
          "ground",
@@ -6093,7 +6093,7 @@ export const Pokemon = [
       "slug": "steelix",
       "name": "Steelix",
       "ThumbnailAltText": "Steelix",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/208.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/208.png"),
       "id": 208,
       "type": [
          "steel",
@@ -6120,7 +6120,7 @@ export const Pokemon = [
       "slug": "steelix",
       "name": "Steelix",
       "ThumbnailAltText": "Steelix",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/208.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/208.png"),
       "id": 208,
       "type": [
          "steel",
@@ -6145,7 +6145,7 @@ export const Pokemon = [
       "slug": "snubbull",
       "name": "Snubbull",
       "ThumbnailAltText": "Snubbull",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/209.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/209.png"),
       "id": 209,
       "type": [
          "fairy"
@@ -6169,7 +6169,7 @@ export const Pokemon = [
       "slug": "granbull",
       "name": "Granbull",
       "ThumbnailAltText": "Granbull",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/210.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/210.png"),
       "id": 210,
       "type": [
          "fairy"
@@ -6194,7 +6194,7 @@ export const Pokemon = [
       "slug": "qwilfish",
       "name": "Qwilfish",
       "ThumbnailAltText": "Qwilfish",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/211.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/211.png"),
       "id": 211,
       "type": [
          "water",
@@ -6217,7 +6217,7 @@ export const Pokemon = [
       "slug": "scizor",
       "name": "Scizor",
       "ThumbnailAltText": "Scizor",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/212.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/212.png"),
       "id": 212,
       "type": [
          "bug",
@@ -6241,7 +6241,7 @@ export const Pokemon = [
       "slug": "scizor",
       "name": "Scizor",
       "ThumbnailAltText": "Scizor",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/212.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/212.png"),
       "id": 212,
       "type": [
          "bug",
@@ -6267,7 +6267,7 @@ export const Pokemon = [
       "slug": "shuckle",
       "name": "Shuckle",
       "ThumbnailAltText": "Shuckle",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/213.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/213.png"),
       "id": 213,
       "type": [
          "bug",
@@ -6293,7 +6293,7 @@ export const Pokemon = [
       "slug": "heracross",
       "name": "Heracross",
       "ThumbnailAltText": "Heracross",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/214.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/214.png"),
       "id": 214,
       "type": [
          "bug",
@@ -6320,7 +6320,7 @@ export const Pokemon = [
       "slug": "heracross",
       "name": "Heracross",
       "ThumbnailAltText": "Heracross",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/214.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/214.png"),
       "id": 214,
       "type": [
          "bug",
@@ -6349,7 +6349,7 @@ export const Pokemon = [
       "slug": "sneasel",
       "name": "Sneasel",
       "ThumbnailAltText": "Sneasel",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/215.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/215.png"),
       "id": 215,
       "type": [
          "dark",
@@ -6373,7 +6373,7 @@ export const Pokemon = [
       "slug": "teddiursa",
       "name": "Teddiursa",
       "ThumbnailAltText": "Teddiursa",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/216.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/216.png"),
       "id": 216,
       "type": [
          "normal"
@@ -6396,7 +6396,7 @@ export const Pokemon = [
       "slug": "ursaring",
       "name": "Ursaring",
       "ThumbnailAltText": "Ursaring",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/217.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/217.png"),
       "id": 217,
       "type": [
          "normal"
@@ -6421,7 +6421,7 @@ export const Pokemon = [
       "slug": "slugma",
       "name": "Slugma",
       "ThumbnailAltText": "Slugma",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/218.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/218.png"),
       "id": 218,
       "type": [
          "fire"
@@ -6447,7 +6447,7 @@ export const Pokemon = [
       "slug": "magcargo",
       "name": "Magcargo",
       "ThumbnailAltText": "Magcargo",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/219.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/219.png"),
       "id": 219,
       "type": [
          "fire",
@@ -6475,7 +6475,7 @@ export const Pokemon = [
       "slug": "swinub",
       "name": "Swinub",
       "ThumbnailAltText": "Swinub",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/220.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/220.png"),
       "id": 220,
       "type": [
          "ice",
@@ -6503,7 +6503,7 @@ export const Pokemon = [
       "slug": "piloswine",
       "name": "Piloswine",
       "ThumbnailAltText": "Piloswine",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/221.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/221.png"),
       "id": 221,
       "type": [
          "ice",
@@ -6530,7 +6530,7 @@ export const Pokemon = [
       "slug": "corsola",
       "name": "Corsola",
       "ThumbnailAltText": "Corsola",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/222.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/222.png"),
       "id": 222,
       "type": [
          "water",
@@ -6555,7 +6555,7 @@ export const Pokemon = [
       "slug": "remoraid",
       "name": "Remoraid",
       "ThumbnailAltText": "Remoraid",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/223.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/223.png"),
       "id": 223,
       "type": [
          "water"
@@ -6579,7 +6579,7 @@ export const Pokemon = [
       "slug": "octillery",
       "name": "Octillery",
       "ThumbnailAltText": "Octillery",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/224.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/224.png"),
       "id": 224,
       "type": [
          "water"
@@ -6605,7 +6605,7 @@ export const Pokemon = [
       "slug": "delibird",
       "name": "Delibird",
       "ThumbnailAltText": "Delibird",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/225.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/225.png"),
       "id": 225,
       "type": [
          "ice",
@@ -6630,7 +6630,7 @@ export const Pokemon = [
       "slug": "mantine",
       "name": "Mantine",
       "ThumbnailAltText": "Mantine",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/226.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/226.png"),
       "id": 226,
       "type": [
          "water",
@@ -6655,7 +6655,7 @@ export const Pokemon = [
       "slug": "skarmory",
       "name": "Skarmory",
       "ThumbnailAltText": "Skarmory",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/227.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/227.png"),
       "id": 227,
       "type": [
          "steel",
@@ -6682,7 +6682,7 @@ export const Pokemon = [
       "slug": "houndour",
       "name": "Houndour",
       "ThumbnailAltText": "Houndour",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/228.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/228.png"),
       "id": 228,
       "type": [
          "dark",
@@ -6708,7 +6708,7 @@ export const Pokemon = [
       "slug": "houndoom",
       "name": "Houndoom",
       "ThumbnailAltText": "Houndoom",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/229.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/229.png"),
       "id": 229,
       "type": [
          "dark",
@@ -6735,7 +6735,7 @@ export const Pokemon = [
       "slug": "houndoom",
       "name": "Houndoom",
       "ThumbnailAltText": "Houndoom",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/229.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/229.png"),
       "id": 229,
       "type": [
          "dark",
@@ -6760,7 +6760,7 @@ export const Pokemon = [
       "slug": "kingdra",
       "name": "Kingdra",
       "ThumbnailAltText": "Kingdra",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/230.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/230.png"),
       "id": 230,
       "type": [
          "water",
@@ -6785,7 +6785,7 @@ export const Pokemon = [
       "slug": "phanpy",
       "name": "Phanpy",
       "ThumbnailAltText": "Phanpy",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/231.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/231.png"),
       "id": 231,
       "type": [
          "ground"
@@ -6809,7 +6809,7 @@ export const Pokemon = [
       "slug": "donphan",
       "name": "Donphan",
       "ThumbnailAltText": "Donphan",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/232.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/232.png"),
       "id": 232,
       "type": [
          "ground"
@@ -6832,7 +6832,7 @@ export const Pokemon = [
       "slug": "porygon2",
       "name": "Porygon2",
       "ThumbnailAltText": "Porygon2",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/233.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/233.png"),
       "id": 233,
       "type": [
          "normal"
@@ -6855,7 +6855,7 @@ export const Pokemon = [
       "slug": "stantler",
       "name": "Stantler",
       "ThumbnailAltText": "Stantler",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/234.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/234.png"),
       "id": 234,
       "type": [
          "normal"
@@ -6878,7 +6878,7 @@ export const Pokemon = [
       "slug": "smeargle",
       "name": "Smeargle",
       "ThumbnailAltText": "Smeargle",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/235.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/235.png"),
       "id": 235,
       "type": [
          "normal"
@@ -6903,7 +6903,7 @@ export const Pokemon = [
       "slug": "tyrogue",
       "name": "Tyrogue",
       "ThumbnailAltText": "Tyrogue",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/236.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/236.png"),
       "id": 236,
       "type": [
          "fighting"
@@ -6928,7 +6928,7 @@ export const Pokemon = [
       "slug": "hitmontop",
       "name": "Hitmontop",
       "ThumbnailAltText": "Hitmontop",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/237.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/237.png"),
       "id": 237,
       "type": [
          "fighting"
@@ -6956,7 +6956,7 @@ export const Pokemon = [
       "slug": "smoochum",
       "name": "Smoochum",
       "ThumbnailAltText": "Smoochum",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/238.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/238.png"),
       "id": 238,
       "type": [
          "ice",
@@ -6979,7 +6979,7 @@ export const Pokemon = [
       "slug": "elekid",
       "name": "Elekid",
       "ThumbnailAltText": "Elekid",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/239.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/239.png"),
       "id": 239,
       "type": [
          "electric"
@@ -7003,7 +7003,7 @@ export const Pokemon = [
       "slug": "magby",
       "name": "Magby",
       "ThumbnailAltText": "Magby",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/240.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/240.png"),
       "id": 240,
       "type": [
          "fire"
@@ -7026,7 +7026,7 @@ export const Pokemon = [
       "slug": "miltank",
       "name": "Miltank",
       "ThumbnailAltText": "Miltank",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/241.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/241.png"),
       "id": 241,
       "type": [
          "normal"
@@ -7049,7 +7049,7 @@ export const Pokemon = [
       "slug": "blissey",
       "name": "Blissey",
       "ThumbnailAltText": "Blissey",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/242.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/242.png"),
       "id": 242,
       "type": [
          "normal"
@@ -7071,7 +7071,7 @@ export const Pokemon = [
       "slug": "raikou",
       "name": "Raikou",
       "ThumbnailAltText": "Raikou",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/243.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/243.png"),
       "id": 243,
       "type": [
          "electric"
@@ -7095,7 +7095,7 @@ export const Pokemon = [
       "slug": "entei",
       "name": "Entei",
       "ThumbnailAltText": "Entei",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/244.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/244.png"),
       "id": 244,
       "type": [
          "fire"
@@ -7118,7 +7118,7 @@ export const Pokemon = [
       "slug": "suicune",
       "name": "Suicune",
       "ThumbnailAltText": "Suicune",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/245.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/245.png"),
       "id": 245,
       "type": [
          "water"
@@ -7145,7 +7145,7 @@ export const Pokemon = [
       "slug": "larvitar",
       "name": "Larvitar",
       "ThumbnailAltText": "Larvitar",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/246.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/246.png"),
       "id": 246,
       "type": [
          "rock",
@@ -7173,7 +7173,7 @@ export const Pokemon = [
       "slug": "pupitar",
       "name": "Pupitar",
       "ThumbnailAltText": "Pupitar",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/247.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/247.png"),
       "id": 247,
       "type": [
          "rock",
@@ -7202,7 +7202,7 @@ export const Pokemon = [
       "slug": "tyranitar",
       "name": "Tyranitar",
       "ThumbnailAltText": "Tyranitar",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/248.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/248.png"),
       "id": 248,
       "type": [
          "rock",
@@ -7231,7 +7231,7 @@ export const Pokemon = [
       "slug": "tyranitar",
       "name": "Tyranitar",
       "ThumbnailAltText": "Tyranitar",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/248.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/248.png"),
       "id": 248,
       "type": [
          "rock",
@@ -7258,7 +7258,7 @@ export const Pokemon = [
       "slug": "lugia",
       "name": "Lugia",
       "ThumbnailAltText": "Lugia",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/249.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/249.png"),
       "id": 249,
       "type": [
          "psychic",
@@ -7283,7 +7283,7 @@ export const Pokemon = [
       "slug": "ho-oh",
       "name": "Ho-Oh",
       "ThumbnailAltText": "Ho-Oh",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/250.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/250.png"),
       "id": 250,
       "type": [
          "fire",
@@ -7312,7 +7312,7 @@ export const Pokemon = [
       "slug": "celebi",
       "name": "Celebi",
       "ThumbnailAltText": "Celebi",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/251.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/251.png"),
       "id": 251,
       "type": [
          "psychic",
@@ -7339,7 +7339,7 @@ export const Pokemon = [
       "slug": "treecko",
       "name": "Treecko",
       "ThumbnailAltText": "Treecko",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/252.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/252.png"),
       "id": 252,
       "type": [
          "grass"
@@ -7365,7 +7365,7 @@ export const Pokemon = [
       "slug": "grovyle",
       "name": "Grovyle",
       "ThumbnailAltText": "Grovyle",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/253.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/253.png"),
       "id": 253,
       "type": [
          "grass"
@@ -7392,7 +7392,7 @@ export const Pokemon = [
       "slug": "sceptile",
       "name": "Sceptile",
       "ThumbnailAltText": "Sceptile",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/254.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/254.png"),
       "id": 254,
       "type": [
          "grass",
@@ -7419,7 +7419,7 @@ export const Pokemon = [
       "slug": "sceptile",
       "name": "Sceptile",
       "ThumbnailAltText": "Sceptile",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/254.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/254.png"),
       "id": 254,
       "type": [
          "grass"
@@ -7443,7 +7443,7 @@ export const Pokemon = [
       "slug": "torchic",
       "name": "Torchic",
       "ThumbnailAltText": "Torchic",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/255.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/255.png"),
       "id": 255,
       "type": [
          "fire"
@@ -7468,7 +7468,7 @@ export const Pokemon = [
       "slug": "combusken",
       "name": "Combusken",
       "ThumbnailAltText": "Combusken",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/256.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/256.png"),
       "id": 256,
       "type": [
          "fire",
@@ -7494,7 +7494,7 @@ export const Pokemon = [
       "slug": "blaziken",
       "name": "Blaziken",
       "ThumbnailAltText": "Blaziken",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/257.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/257.png"),
       "id": 257,
       "type": [
          "fire",
@@ -7520,7 +7520,7 @@ export const Pokemon = [
       "slug": "blaziken",
       "name": "Blaziken",
       "ThumbnailAltText": "Blaziken",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/257.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/257.png"),
       "id": 257,
       "type": [
          "fire",
@@ -7544,7 +7544,7 @@ export const Pokemon = [
       "slug": "mudkip",
       "name": "Mudkip",
       "ThumbnailAltText": "Mudkip",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/258.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/258.png"),
       "id": 258,
       "type": [
          "water"
@@ -7566,7 +7566,7 @@ export const Pokemon = [
       "slug": "marshtomp",
       "name": "Marshtomp",
       "ThumbnailAltText": "Marshtomp",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/259.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/259.png"),
       "id": 259,
       "type": [
          "water",
@@ -7589,7 +7589,7 @@ export const Pokemon = [
       "slug": "swampert",
       "name": "Swampert",
       "ThumbnailAltText": "Swampert",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/260.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/260.png"),
       "id": 260,
       "type": [
          "water",
@@ -7612,7 +7612,7 @@ export const Pokemon = [
       "slug": "swampert",
       "name": "Swampert",
       "ThumbnailAltText": "Swampert",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/260.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/260.png"),
       "id": 260,
       "type": [
          "water",
@@ -7638,7 +7638,7 @@ export const Pokemon = [
       "slug": "poochyena",
       "name": "Poochyena",
       "ThumbnailAltText": "Poochyena",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/261.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/261.png"),
       "id": 261,
       "type": [
          "dark"
@@ -7663,7 +7663,7 @@ export const Pokemon = [
       "slug": "mightyena",
       "name": "Mightyena",
       "ThumbnailAltText": "Mightyena",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/262.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/262.png"),
       "id": 262,
       "type": [
          "dark"
@@ -7686,7 +7686,7 @@ export const Pokemon = [
       "slug": "zigzagoon",
       "name": "Zigzagoon",
       "ThumbnailAltText": "Zigzagoon",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/263.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/263.png"),
       "id": 263,
       "type": [
          "normal"
@@ -7709,7 +7709,7 @@ export const Pokemon = [
       "slug": "linoone",
       "name": "Linoone",
       "ThumbnailAltText": "Linoone",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/264.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/264.png"),
       "id": 264,
       "type": [
          "normal"
@@ -7733,7 +7733,7 @@ export const Pokemon = [
       "slug": "wurmple",
       "name": "Wurmple",
       "ThumbnailAltText": "Wurmple",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/265.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/265.png"),
       "id": 265,
       "type": [
          "bug"
@@ -7757,7 +7757,7 @@ export const Pokemon = [
       "slug": "silcoon",
       "name": "Silcoon",
       "ThumbnailAltText": "Silcoon",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/266.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/266.png"),
       "id": 266,
       "type": [
          "bug"
@@ -7783,7 +7783,7 @@ export const Pokemon = [
       "slug": "beautifly",
       "name": "Beautifly",
       "ThumbnailAltText": "Beautifly",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/267.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/267.png"),
       "id": 267,
       "type": [
          "bug",
@@ -7808,7 +7808,7 @@ export const Pokemon = [
       "slug": "cascoon",
       "name": "Cascoon",
       "ThumbnailAltText": "Cascoon",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/268.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/268.png"),
       "id": 268,
       "type": [
          "bug"
@@ -7833,7 +7833,7 @@ export const Pokemon = [
       "slug": "dustox",
       "name": "Dustox",
       "ThumbnailAltText": "Dustox",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/269.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/269.png"),
       "id": 269,
       "type": [
          "bug",
@@ -7859,7 +7859,7 @@ export const Pokemon = [
       "slug": "lotad",
       "name": "Lotad",
       "ThumbnailAltText": "Lotad",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/270.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/270.png"),
       "id": 270,
       "type": [
          "water",
@@ -7885,7 +7885,7 @@ export const Pokemon = [
       "slug": "lombre",
       "name": "Lombre",
       "ThumbnailAltText": "Lombre",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/271.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/271.png"),
       "id": 271,
       "type": [
          "water",
@@ -7911,7 +7911,7 @@ export const Pokemon = [
       "slug": "ludicolo",
       "name": "Ludicolo",
       "ThumbnailAltText": "Ludicolo",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/272.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/272.png"),
       "id": 272,
       "type": [
          "water",
@@ -7939,7 +7939,7 @@ export const Pokemon = [
       "slug": "seedot",
       "name": "Seedot",
       "ThumbnailAltText": "Seedot",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/273.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/273.png"),
       "id": 273,
       "type": [
          "grass"
@@ -7968,7 +7968,7 @@ export const Pokemon = [
       "slug": "nuzleaf",
       "name": "Nuzleaf",
       "ThumbnailAltText": "Nuzleaf",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/274.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/274.png"),
       "id": 274,
       "type": [
          "grass",
@@ -7998,7 +7998,7 @@ export const Pokemon = [
       "slug": "shiftry",
       "name": "Shiftry",
       "ThumbnailAltText": "Shiftry",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/275.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/275.png"),
       "id": 275,
       "type": [
          "grass",
@@ -8023,7 +8023,7 @@ export const Pokemon = [
       "slug": "taillow",
       "name": "Taillow",
       "ThumbnailAltText": "Taillow",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/276.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/276.png"),
       "id": 276,
       "type": [
          "normal",
@@ -8048,7 +8048,7 @@ export const Pokemon = [
       "slug": "swellow",
       "name": "Swellow",
       "ThumbnailAltText": "Swellow",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/277.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/277.png"),
       "id": 277,
       "type": [
          "normal",
@@ -8072,7 +8072,7 @@ export const Pokemon = [
       "slug": "wingull",
       "name": "Wingull",
       "ThumbnailAltText": "Wingull",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/278.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/278.png"),
       "id": 278,
       "type": [
          "water",
@@ -8096,7 +8096,7 @@ export const Pokemon = [
       "slug": "pelipper",
       "name": "Pelipper",
       "ThumbnailAltText": "Pelipper",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/279.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/279.png"),
       "id": 279,
       "type": [
          "water",
@@ -8122,7 +8122,7 @@ export const Pokemon = [
       "slug": "ralts",
       "name": "Ralts",
       "ThumbnailAltText": "Ralts",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/280.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/280.png"),
       "id": 280,
       "type": [
          "psychic",
@@ -8148,7 +8148,7 @@ export const Pokemon = [
       "slug": "kirlia",
       "name": "Kirlia",
       "ThumbnailAltText": "Kirlia",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/281.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/281.png"),
       "id": 281,
       "type": [
          "psychic",
@@ -8173,7 +8173,7 @@ export const Pokemon = [
       "slug": "gardevoir",
       "name": "Gardevoir",
       "ThumbnailAltText": "Gardevoir",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/282.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/282.png"),
       "id": 282,
       "type": [
          "psychic",
@@ -8199,7 +8199,7 @@ export const Pokemon = [
       "slug": "gardevoir",
       "name": "Gardevoir",
       "ThumbnailAltText": "Gardevoir",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/282.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/282.png"),
       "id": 282,
       "type": [
          "psychic",
@@ -8224,7 +8224,7 @@ export const Pokemon = [
       "slug": "surskit",
       "name": "Surskit",
       "ThumbnailAltText": "Surskit",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/283.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/283.png"),
       "id": 283,
       "type": [
          "bug",
@@ -8251,7 +8251,7 @@ export const Pokemon = [
       "slug": "masquerain",
       "name": "Masquerain",
       "ThumbnailAltText": "Masquerain",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/284.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/284.png"),
       "id": 284,
       "type": [
          "bug",
@@ -8279,7 +8279,7 @@ export const Pokemon = [
       "slug": "shroomish",
       "name": "Shroomish",
       "ThumbnailAltText": "Shroomish",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/285.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/285.png"),
       "id": 285,
       "type": [
          "grass"
@@ -8307,7 +8307,7 @@ export const Pokemon = [
       "slug": "breloom",
       "name": "Breloom",
       "ThumbnailAltText": "Breloom",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/286.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/286.png"),
       "id": 286,
       "type": [
          "grass",
@@ -8330,7 +8330,7 @@ export const Pokemon = [
       "slug": "slakoth",
       "name": "Slakoth",
       "ThumbnailAltText": "Slakoth",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/287.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/287.png"),
       "id": 287,
       "type": [
          "normal"
@@ -8352,7 +8352,7 @@ export const Pokemon = [
       "slug": "vigoroth",
       "name": "Vigoroth",
       "ThumbnailAltText": "Vigoroth",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/288.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/288.png"),
       "id": 288,
       "type": [
          "normal"
@@ -8374,7 +8374,7 @@ export const Pokemon = [
       "slug": "slaking",
       "name": "Slaking",
       "ThumbnailAltText": "Slaking",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/289.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/289.png"),
       "id": 289,
       "type": [
          "normal"
@@ -8399,7 +8399,7 @@ export const Pokemon = [
       "slug": "nincada",
       "name": "Nincada",
       "ThumbnailAltText": "Nincada",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/290.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/290.png"),
       "id": 290,
       "type": [
          "bug",
@@ -8426,7 +8426,7 @@ export const Pokemon = [
       "slug": "ninjask",
       "name": "Ninjask",
       "ThumbnailAltText": "Ninjask",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/291.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/291.png"),
       "id": 291,
       "type": [
          "bug",
@@ -8453,7 +8453,7 @@ export const Pokemon = [
       "slug": "shedinja",
       "name": "Shedinja",
       "ThumbnailAltText": "Shedinja",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/292.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/292.png"),
       "id": 292,
       "type": [
          "bug",
@@ -8476,7 +8476,7 @@ export const Pokemon = [
       "slug": "whismur",
       "name": "Whismur",
       "ThumbnailAltText": "Whismur",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/293.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/293.png"),
       "id": 293,
       "type": [
          "normal"
@@ -8498,7 +8498,7 @@ export const Pokemon = [
       "slug": "loudred",
       "name": "Loudred",
       "ThumbnailAltText": "Loudred",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/294.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/294.png"),
       "id": 294,
       "type": [
          "normal"
@@ -8520,7 +8520,7 @@ export const Pokemon = [
       "slug": "exploud",
       "name": "Exploud",
       "ThumbnailAltText": "Exploud",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/295.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/295.png"),
       "id": 295,
       "type": [
          "normal"
@@ -8545,7 +8545,7 @@ export const Pokemon = [
       "slug": "makuhita",
       "name": "Makuhita",
       "ThumbnailAltText": "Makuhita",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/296.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/296.png"),
       "id": 296,
       "type": [
          "fighting"
@@ -8570,7 +8570,7 @@ export const Pokemon = [
       "slug": "hariyama",
       "name": "Hariyama",
       "ThumbnailAltText": "Hariyama",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/297.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/297.png"),
       "id": 297,
       "type": [
          "fighting"
@@ -8594,7 +8594,7 @@ export const Pokemon = [
       "slug": "azurill",
       "name": "Azurill",
       "ThumbnailAltText": "Azurill",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/298.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/298.png"),
       "id": 298,
       "type": [
          "normal",
@@ -8622,7 +8622,7 @@ export const Pokemon = [
       "slug": "nosepass",
       "name": "Nosepass",
       "ThumbnailAltText": "Nosepass",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/299.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/299.png"),
       "id": 299,
       "type": [
          "rock"
@@ -8645,7 +8645,7 @@ export const Pokemon = [
       "slug": "skitty",
       "name": "Skitty",
       "ThumbnailAltText": "Skitty",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/300.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/300.png"),
       "id": 300,
       "type": [
          "normal"
@@ -8668,7 +8668,7 @@ export const Pokemon = [
       "slug": "delcatty",
       "name": "Delcatty",
       "ThumbnailAltText": "Delcatty",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/301.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/301.png"),
       "id": 301,
       "type": [
          "normal"
@@ -8690,7 +8690,7 @@ export const Pokemon = [
       "slug": "sableye",
       "name": "Sableye",
       "ThumbnailAltText": "Sableye",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/302.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/302.png"),
       "id": 302,
       "type": [
          "dark",
@@ -8714,7 +8714,7 @@ export const Pokemon = [
       "slug": "sableye",
       "name": "Sableye",
       "ThumbnailAltText": "Sableye",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/302.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/302.png"),
       "id": 302,
       "type": [
          "dark",
@@ -8738,7 +8738,7 @@ export const Pokemon = [
       "slug": "mawile",
       "name": "Mawile",
       "ThumbnailAltText": "Mawile",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/303.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/303.png"),
       "id": 303,
       "type": [
          "steel",
@@ -8763,7 +8763,7 @@ export const Pokemon = [
       "slug": "mawile",
       "name": "Mawile",
       "ThumbnailAltText": "Mawile",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/303.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/303.png"),
       "id": 303,
       "type": [
          "steel",
@@ -8789,7 +8789,7 @@ export const Pokemon = [
       "slug": "aron",
       "name": "Aron",
       "ThumbnailAltText": "Aron",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/304.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/304.png"),
       "id": 304,
       "type": [
          "steel",
@@ -8815,7 +8815,7 @@ export const Pokemon = [
       "slug": "lairon",
       "name": "Lairon",
       "ThumbnailAltText": "Lairon",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/305.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/305.png"),
       "id": 305,
       "type": [
          "steel",
@@ -8840,7 +8840,7 @@ export const Pokemon = [
       "slug": "aggron",
       "name": "Aggron",
       "ThumbnailAltText": "Aggron",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/306.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/306.png"),
       "id": 306,
       "type": [
          "steel"
@@ -8865,7 +8865,7 @@ export const Pokemon = [
       "slug": "aggron",
       "name": "Aggron",
       "ThumbnailAltText": "Aggron",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/306.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/306.png"),
       "id": 306,
       "type": [
          "steel",
@@ -8890,7 +8890,7 @@ export const Pokemon = [
       "slug": "meditite",
       "name": "Meditite",
       "ThumbnailAltText": "Meditite",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/307.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/307.png"),
       "id": 307,
       "type": [
          "fighting",
@@ -8915,7 +8915,7 @@ export const Pokemon = [
       "slug": "medicham",
       "name": "Medicham",
       "ThumbnailAltText": "Medicham",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/308.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/308.png"),
       "id": 308,
       "type": [
          "fighting",
@@ -8940,7 +8940,7 @@ export const Pokemon = [
       "slug": "medicham",
       "name": "Medicham",
       "ThumbnailAltText": "Medicham",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/308.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/308.png"),
       "id": 308,
       "type": [
          "fighting",
@@ -8964,7 +8964,7 @@ export const Pokemon = [
       "slug": "electrike",
       "name": "Electrike",
       "ThumbnailAltText": "Electrike",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/309.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/309.png"),
       "id": 309,
       "type": [
          "electric"
@@ -8986,7 +8986,7 @@ export const Pokemon = [
       "slug": "manectric",
       "name": "Manectric",
       "ThumbnailAltText": "Manectric",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/310.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/310.png"),
       "id": 310,
       "type": [
          "electric"
@@ -9009,7 +9009,7 @@ export const Pokemon = [
       "slug": "manectric",
       "name": "Manectric",
       "ThumbnailAltText": "Manectric",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/310.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/310.png"),
       "id": 310,
       "type": [
          "electric"
@@ -9031,7 +9031,7 @@ export const Pokemon = [
       "slug": "plusle",
       "name": "Plusle",
       "ThumbnailAltText": "Plusle",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/311.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/311.png"),
       "id": 311,
       "type": [
          "electric"
@@ -9053,7 +9053,7 @@ export const Pokemon = [
       "slug": "minun",
       "name": "Minun",
       "ThumbnailAltText": "Minun",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/312.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/312.png"),
       "id": 312,
       "type": [
          "electric"
@@ -9078,7 +9078,7 @@ export const Pokemon = [
       "slug": "volbeat",
       "name": "Volbeat",
       "ThumbnailAltText": "Volbeat",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/313.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/313.png"),
       "id": 313,
       "type": [
          "bug"
@@ -9103,7 +9103,7 @@ export const Pokemon = [
       "slug": "illumise",
       "name": "Illumise",
       "ThumbnailAltText": "Illumise",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/314.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/314.png"),
       "id": 314,
       "type": [
          "bug"
@@ -9129,7 +9129,7 @@ export const Pokemon = [
       "slug": "roselia",
       "name": "Roselia",
       "ThumbnailAltText": "Roselia",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/315.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/315.png"),
       "id": 315,
       "type": [
          "grass",
@@ -9154,7 +9154,7 @@ export const Pokemon = [
       "slug": "gulpin",
       "name": "Gulpin",
       "ThumbnailAltText": "Gulpin",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/316.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/316.png"),
       "id": 316,
       "type": [
          "poison"
@@ -9178,7 +9178,7 @@ export const Pokemon = [
       "slug": "swalot",
       "name": "Swalot",
       "ThumbnailAltText": "Swalot",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/317.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/317.png"),
       "id": 317,
       "type": [
          "poison"
@@ -9204,7 +9204,7 @@ export const Pokemon = [
       "slug": "carvanha",
       "name": "Carvanha",
       "ThumbnailAltText": "Carvanha",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/318.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/318.png"),
       "id": 318,
       "type": [
          "water",
@@ -9231,7 +9231,7 @@ export const Pokemon = [
       "slug": "sharpedo",
       "name": "Sharpedo",
       "ThumbnailAltText": "Sharpedo",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/319.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/319.png"),
       "id": 319,
       "type": [
          "water",
@@ -9258,7 +9258,7 @@ export const Pokemon = [
       "slug": "sharpedo",
       "name": "Sharpedo",
       "ThumbnailAltText": "Sharpedo",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/319.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/319.png"),
       "id": 319,
       "type": [
          "water",
@@ -9283,7 +9283,7 @@ export const Pokemon = [
       "slug": "wailmer",
       "name": "Wailmer",
       "ThumbnailAltText": "Wailmer",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/320.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/320.png"),
       "id": 320,
       "type": [
          "water"
@@ -9307,7 +9307,7 @@ export const Pokemon = [
       "slug": "wailord",
       "name": "Wailord",
       "ThumbnailAltText": "Wailord",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/321.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/321.png"),
       "id": 321,
       "type": [
          "water"
@@ -9331,7 +9331,7 @@ export const Pokemon = [
       "slug": "numel",
       "name": "Numel",
       "ThumbnailAltText": "Numel",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/322.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/322.png"),
       "id": 322,
       "type": [
          "fire",
@@ -9355,7 +9355,7 @@ export const Pokemon = [
       "slug": "camerupt",
       "name": "Camerupt",
       "ThumbnailAltText": "Camerupt",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/323.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/323.png"),
       "id": 323,
       "type": [
          "fire",
@@ -9380,7 +9380,7 @@ export const Pokemon = [
       "slug": "camerupt",
       "name": "Camerupt",
       "ThumbnailAltText": "Camerupt",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/323.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/323.png"),
       "id": 323,
       "type": [
          "fire",
@@ -9405,7 +9405,7 @@ export const Pokemon = [
       "slug": "torkoal",
       "name": "Torkoal",
       "ThumbnailAltText": "Torkoal",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/324.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/324.png"),
       "id": 324,
       "type": [
          "fire"
@@ -9430,7 +9430,7 @@ export const Pokemon = [
       "slug": "spoink",
       "name": "Spoink",
       "ThumbnailAltText": "Spoink",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/325.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/325.png"),
       "id": 325,
       "type": [
          "psychic"
@@ -9455,7 +9455,7 @@ export const Pokemon = [
       "slug": "grumpig",
       "name": "Grumpig",
       "ThumbnailAltText": "Grumpig",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/326.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/326.png"),
       "id": 326,
       "type": [
          "psychic"
@@ -9478,7 +9478,7 @@ export const Pokemon = [
       "slug": "spinda",
       "name": "Spinda",
       "ThumbnailAltText": "Spinda",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/327.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/327.png"),
       "id": 327,
       "type": [
          "normal"
@@ -9503,7 +9503,7 @@ export const Pokemon = [
       "slug": "trapinch",
       "name": "Trapinch",
       "ThumbnailAltText": "Trapinch",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/328.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/328.png"),
       "id": 328,
       "type": [
          "ground"
@@ -9527,7 +9527,7 @@ export const Pokemon = [
       "slug": "vibrava",
       "name": "Vibrava",
       "ThumbnailAltText": "Vibrava",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/329.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/329.png"),
       "id": 329,
       "type": [
          "ground",
@@ -9552,7 +9552,7 @@ export const Pokemon = [
       "slug": "flygon",
       "name": "Flygon",
       "ThumbnailAltText": "Flygon",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/330.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/330.png"),
       "id": 330,
       "type": [
          "ground",
@@ -9579,7 +9579,7 @@ export const Pokemon = [
       "slug": "cacnea",
       "name": "Cacnea",
       "ThumbnailAltText": "Cacnea",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/331.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/331.png"),
       "id": 331,
       "type": [
          "grass"
@@ -9607,7 +9607,7 @@ export const Pokemon = [
       "slug": "cacturne",
       "name": "Cacturne",
       "ThumbnailAltText": "Cacturne",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/332.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/332.png"),
       "id": 332,
       "type": [
          "grass",
@@ -9632,7 +9632,7 @@ export const Pokemon = [
       "slug": "swablu",
       "name": "Swablu",
       "ThumbnailAltText": "Swablu",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/333.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/333.png"),
       "id": 333,
       "type": [
          "normal",
@@ -9658,7 +9658,7 @@ export const Pokemon = [
       "slug": "altaria",
       "name": "Altaria",
       "ThumbnailAltText": "Altaria",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/334.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/334.png"),
       "id": 334,
       "type": [
          "dragon",
@@ -9684,7 +9684,7 @@ export const Pokemon = [
       "slug": "altaria",
       "name": "Altaria",
       "ThumbnailAltText": "Altaria",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/334.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/334.png"),
       "id": 334,
       "type": [
          "dragon",
@@ -9707,7 +9707,7 @@ export const Pokemon = [
       "slug": "zangoose",
       "name": "Zangoose",
       "ThumbnailAltText": "Zangoose",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/335.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/335.png"),
       "id": 335,
       "type": [
          "normal"
@@ -9730,7 +9730,7 @@ export const Pokemon = [
       "slug": "seviper",
       "name": "Seviper",
       "ThumbnailAltText": "Seviper",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/336.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/336.png"),
       "id": 336,
       "type": [
          "poison"
@@ -9757,7 +9757,7 @@ export const Pokemon = [
       "slug": "lunatone",
       "name": "Lunatone",
       "ThumbnailAltText": "Lunatone",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/337.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/337.png"),
       "id": 337,
       "type": [
          "rock",
@@ -9785,7 +9785,7 @@ export const Pokemon = [
       "slug": "solrock",
       "name": "Solrock",
       "ThumbnailAltText": "Solrock",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/338.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/338.png"),
       "id": 338,
       "type": [
          "rock",
@@ -9809,7 +9809,7 @@ export const Pokemon = [
       "slug": "barboach",
       "name": "Barboach",
       "ThumbnailAltText": "Barboach",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/339.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/339.png"),
       "id": 339,
       "type": [
          "water",
@@ -9833,7 +9833,7 @@ export const Pokemon = [
       "slug": "whiscash",
       "name": "Whiscash",
       "ThumbnailAltText": "Whiscash",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/340.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/340.png"),
       "id": 340,
       "type": [
          "water",
@@ -9858,7 +9858,7 @@ export const Pokemon = [
       "slug": "corphish",
       "name": "Corphish",
       "ThumbnailAltText": "Corphish",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/341.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/341.png"),
       "id": 341,
       "type": [
          "water"
@@ -9885,7 +9885,7 @@ export const Pokemon = [
       "slug": "crawdaunt",
       "name": "Crawdaunt",
       "ThumbnailAltText": "Crawdaunt",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/342.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/342.png"),
       "id": 342,
       "type": [
          "water",
@@ -9913,7 +9913,7 @@ export const Pokemon = [
       "slug": "baltoy",
       "name": "Baltoy",
       "ThumbnailAltText": "Baltoy",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/343.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/343.png"),
       "id": 343,
       "type": [
          "ground",
@@ -9941,7 +9941,7 @@ export const Pokemon = [
       "slug": "claydol",
       "name": "Claydol",
       "ThumbnailAltText": "Claydol",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/344.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/344.png"),
       "id": 344,
       "type": [
          "ground",
@@ -9967,7 +9967,7 @@ export const Pokemon = [
       "slug": "lileep",
       "name": "Lileep",
       "ThumbnailAltText": "Lileep",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/345.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/345.png"),
       "id": 345,
       "type": [
          "rock",
@@ -9993,7 +9993,7 @@ export const Pokemon = [
       "slug": "cradily",
       "name": "Cradily",
       "ThumbnailAltText": "Cradily",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/346.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/346.png"),
       "id": 346,
       "type": [
          "rock",
@@ -10018,7 +10018,7 @@ export const Pokemon = [
       "slug": "anorith",
       "name": "Anorith",
       "ThumbnailAltText": "Anorith",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/347.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/347.png"),
       "id": 347,
       "type": [
          "rock",
@@ -10043,7 +10043,7 @@ export const Pokemon = [
       "slug": "armaldo",
       "name": "Armaldo",
       "ThumbnailAltText": "Armaldo",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/348.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/348.png"),
       "id": 348,
       "type": [
          "rock",
@@ -10068,7 +10068,7 @@ export const Pokemon = [
       "slug": "feebas",
       "name": "Feebas",
       "ThumbnailAltText": "Feebas",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/349.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/349.png"),
       "id": 349,
       "type": [
          "water"
@@ -10092,7 +10092,7 @@ export const Pokemon = [
       "slug": "milotic",
       "name": "Milotic",
       "ThumbnailAltText": "Milotic",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/350.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/350.png"),
       "id": 350,
       "type": [
          "water"
@@ -10117,7 +10117,7 @@ export const Pokemon = [
       "slug": "castform",
       "name": "Castform",
       "ThumbnailAltText": "Castform",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/351.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/351.png"),
       "id": 351,
       "type": [
          "ice"
@@ -10140,7 +10140,7 @@ export const Pokemon = [
       "slug": "castform",
       "name": "Castform",
       "ThumbnailAltText": "Castform",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/351.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/351.png"),
       "id": 351,
       "type": [
          "water"
@@ -10164,7 +10164,7 @@ export const Pokemon = [
       "slug": "castform",
       "name": "Castform",
       "ThumbnailAltText": "Castform",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/351.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/351.png"),
       "id": 351,
       "type": [
          "fire"
@@ -10186,7 +10186,7 @@ export const Pokemon = [
       "slug": "castform",
       "name": "Castform",
       "ThumbnailAltText": "Castform",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/351.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/351.png"),
       "id": 351,
       "type": [
          "normal"
@@ -10208,7 +10208,7 @@ export const Pokemon = [
       "slug": "kecleon",
       "name": "Kecleon",
       "ThumbnailAltText": "Kecleon",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/352.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/352.png"),
       "id": 352,
       "type": [
          "normal"
@@ -10232,7 +10232,7 @@ export const Pokemon = [
       "slug": "shuppet",
       "name": "Shuppet",
       "ThumbnailAltText": "Shuppet",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/353.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/353.png"),
       "id": 353,
       "type": [
          "ghost"
@@ -10255,7 +10255,7 @@ export const Pokemon = [
       "slug": "banette",
       "name": "Banette",
       "ThumbnailAltText": "Banette",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/354.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/354.png"),
       "id": 354,
       "type": [
          "ghost"
@@ -10279,7 +10279,7 @@ export const Pokemon = [
       "slug": "banette",
       "name": "Banette",
       "ThumbnailAltText": "Banette",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/354.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/354.png"),
       "id": 354,
       "type": [
          "ghost"
@@ -10302,7 +10302,7 @@ export const Pokemon = [
       "slug": "duskull",
       "name": "Duskull",
       "ThumbnailAltText": "Duskull",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/355.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/355.png"),
       "id": 355,
       "type": [
          "ghost"
@@ -10325,7 +10325,7 @@ export const Pokemon = [
       "slug": "dusclops",
       "name": "Dusclops",
       "ThumbnailAltText": "Dusclops",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/356.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/356.png"),
       "id": 356,
       "type": [
          "ghost"
@@ -10352,7 +10352,7 @@ export const Pokemon = [
       "slug": "tropius",
       "name": "Tropius",
       "ThumbnailAltText": "Tropius",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/357.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/357.png"),
       "id": 357,
       "type": [
          "grass",
@@ -10377,7 +10377,7 @@ export const Pokemon = [
       "slug": "chimecho",
       "name": "Chimecho",
       "ThumbnailAltText": "Chimecho",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/358.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/358.png"),
       "id": 358,
       "type": [
          "psychic"
@@ -10401,7 +10401,7 @@ export const Pokemon = [
       "slug": "absol",
       "name": "Absol",
       "ThumbnailAltText": "Absol",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/359.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/359.png"),
       "id": 359,
       "type": [
          "dark"
@@ -10426,7 +10426,7 @@ export const Pokemon = [
       "slug": "absol",
       "name": "Absol",
       "ThumbnailAltText": "Absol",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/359.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/359.png"),
       "id": 359,
       "type": [
          "dark"
@@ -10450,7 +10450,7 @@ export const Pokemon = [
       "slug": "wynaut",
       "name": "Wynaut",
       "ThumbnailAltText": "Wynaut",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/360.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/360.png"),
       "id": 360,
       "type": [
          "psychic"
@@ -10476,7 +10476,7 @@ export const Pokemon = [
       "slug": "snorunt",
       "name": "Snorunt",
       "ThumbnailAltText": "Snorunt",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/361.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/361.png"),
       "id": 361,
       "type": [
          "ice"
@@ -10501,7 +10501,7 @@ export const Pokemon = [
       "slug": "glalie",
       "name": "Glalie",
       "ThumbnailAltText": "Glalie",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/362.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/362.png"),
       "id": 362,
       "type": [
          "ice"
@@ -10527,7 +10527,7 @@ export const Pokemon = [
       "slug": "glalie",
       "name": "Glalie",
       "ThumbnailAltText": "Glalie",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/362.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/362.png"),
       "id": 362,
       "type": [
          "ice"
@@ -10553,7 +10553,7 @@ export const Pokemon = [
       "slug": "spheal",
       "name": "Spheal",
       "ThumbnailAltText": "Spheal",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/363.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/363.png"),
       "id": 363,
       "type": [
          "ice",
@@ -10580,7 +10580,7 @@ export const Pokemon = [
       "slug": "sealeo",
       "name": "Sealeo",
       "ThumbnailAltText": "Sealeo",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/364.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/364.png"),
       "id": 364,
       "type": [
          "ice",
@@ -10607,7 +10607,7 @@ export const Pokemon = [
       "slug": "walrein",
       "name": "Walrein",
       "ThumbnailAltText": "Walrein",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/365.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/365.png"),
       "id": 365,
       "type": [
          "ice",
@@ -10631,7 +10631,7 @@ export const Pokemon = [
       "slug": "clamperl",
       "name": "Clamperl",
       "ThumbnailAltText": "Clamperl",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/366.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/366.png"),
       "id": 366,
       "type": [
          "water"
@@ -10654,7 +10654,7 @@ export const Pokemon = [
       "slug": "huntail",
       "name": "Huntail",
       "ThumbnailAltText": "Huntail",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/367.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/367.png"),
       "id": 367,
       "type": [
          "water"
@@ -10677,7 +10677,7 @@ export const Pokemon = [
       "slug": "gorebyss",
       "name": "Gorebyss",
       "ThumbnailAltText": "Gorebyss",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/368.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/368.png"),
       "id": 368,
       "type": [
          "water"
@@ -10703,7 +10703,7 @@ export const Pokemon = [
       "slug": "relicanth",
       "name": "Relicanth",
       "ThumbnailAltText": "Relicanth",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/369.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/369.png"),
       "id": 369,
       "type": [
          "water",
@@ -10727,7 +10727,7 @@ export const Pokemon = [
       "slug": "luvdisc",
       "name": "Luvdisc",
       "ThumbnailAltText": "Luvdisc",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/370.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/370.png"),
       "id": 370,
       "type": [
          "water"
@@ -10751,7 +10751,7 @@ export const Pokemon = [
       "slug": "bagon",
       "name": "Bagon",
       "ThumbnailAltText": "Bagon",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/371.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/371.png"),
       "id": 371,
       "type": [
          "dragon"
@@ -10775,7 +10775,7 @@ export const Pokemon = [
       "slug": "shelgon",
       "name": "Shelgon",
       "ThumbnailAltText": "Shelgon",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/372.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/372.png"),
       "id": 372,
       "type": [
          "dragon"
@@ -10800,7 +10800,7 @@ export const Pokemon = [
       "slug": "salamence",
       "name": "Salamence",
       "ThumbnailAltText": "Salamence",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/373.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/373.png"),
       "id": 373,
       "type": [
          "dragon",
@@ -10826,7 +10826,7 @@ export const Pokemon = [
       "slug": "salamence",
       "name": "Salamence",
       "ThumbnailAltText": "Salamence",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/373.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/373.png"),
       "id": 373,
       "type": [
          "dragon",
@@ -10852,7 +10852,7 @@ export const Pokemon = [
       "slug": "beldum",
       "name": "Beldum",
       "ThumbnailAltText": "Beldum",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/374.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/374.png"),
       "id": 374,
       "type": [
          "steel",
@@ -10878,7 +10878,7 @@ export const Pokemon = [
       "slug": "metang",
       "name": "Metang",
       "ThumbnailAltText": "Metang",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/375.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/375.png"),
       "id": 375,
       "type": [
          "steel",
@@ -10904,7 +10904,7 @@ export const Pokemon = [
       "slug": "metagross",
       "name": "Metagross",
       "ThumbnailAltText": "Metagross",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/376.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/376.png"),
       "id": 376,
       "type": [
          "steel",
@@ -10930,7 +10930,7 @@ export const Pokemon = [
       "slug": "metagross",
       "name": "Metagross",
       "ThumbnailAltText": "Metagross",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/376.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/376.png"),
       "id": 376,
       "type": [
          "steel",
@@ -10957,7 +10957,7 @@ export const Pokemon = [
       "slug": "regirock",
       "name": "Regirock",
       "ThumbnailAltText": "Regirock",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/377.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/377.png"),
       "id": 377,
       "type": [
          "rock"
@@ -10982,7 +10982,7 @@ export const Pokemon = [
       "slug": "regice",
       "name": "Regice",
       "ThumbnailAltText": "Regice",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/378.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/378.png"),
       "id": 378,
       "type": [
          "ice"
@@ -11006,7 +11006,7 @@ export const Pokemon = [
       "slug": "registeel",
       "name": "Registeel",
       "ThumbnailAltText": "Registeel",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/379.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/379.png"),
       "id": 379,
       "type": [
          "steel"
@@ -11033,7 +11033,7 @@ export const Pokemon = [
       "slug": "latias",
       "name": "Latias",
       "ThumbnailAltText": "Latias",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/380.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/380.png"),
       "id": 380,
       "type": [
          "dragon",
@@ -11061,7 +11061,7 @@ export const Pokemon = [
       "slug": "latias",
       "name": "Latias",
       "ThumbnailAltText": "Latias",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/380.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/380.png"),
       "id": 380,
       "type": [
          "dragon",
@@ -11089,7 +11089,7 @@ export const Pokemon = [
       "slug": "latios",
       "name": "Latios",
       "ThumbnailAltText": "Latios",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/381.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/381.png"),
       "id": 381,
       "type": [
          "dragon",
@@ -11117,7 +11117,7 @@ export const Pokemon = [
       "slug": "latios",
       "name": "Latios",
       "ThumbnailAltText": "Latios",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/381.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/381.png"),
       "id": 381,
       "type": [
          "dragon",
@@ -11141,7 +11141,7 @@ export const Pokemon = [
       "slug": "kyogre",
       "name": "Kyogre",
       "ThumbnailAltText": "Kyogre",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/382.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/382.png"),
       "id": 382,
       "type": [
          "water"
@@ -11164,7 +11164,7 @@ export const Pokemon = [
       "slug": "kyogre",
       "name": "Kyogre",
       "ThumbnailAltText": "Kyogre",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/382.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/382.png"),
       "id": 382,
       "type": [
          "water"
@@ -11187,7 +11187,7 @@ export const Pokemon = [
       "slug": "groudon",
       "name": "Groudon",
       "ThumbnailAltText": "Groudon",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/383.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/383.png"),
       "id": 383,
       "type": [
          "ground",
@@ -11212,7 +11212,7 @@ export const Pokemon = [
       "slug": "groudon",
       "name": "Groudon",
       "ThumbnailAltText": "Groudon",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/383.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/383.png"),
       "id": 383,
       "type": [
          "ground"
@@ -11237,7 +11237,7 @@ export const Pokemon = [
       "slug": "rayquaza",
       "name": "Rayquaza",
       "ThumbnailAltText": "Rayquaza",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/384.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/384.png"),
       "id": 384,
       "type": [
          "dragon",
@@ -11263,7 +11263,7 @@ export const Pokemon = [
       "slug": "rayquaza",
       "name": "Rayquaza",
       "ThumbnailAltText": "Rayquaza",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/384.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/384.png"),
       "id": 384,
       "type": [
          "dragon",
@@ -11289,7 +11289,7 @@ export const Pokemon = [
       "slug": "jirachi",
       "name": "Jirachi",
       "ThumbnailAltText": "Jirachi",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/385.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/385.png"),
       "id": 385,
       "type": [
          "steel",
@@ -11314,7 +11314,7 @@ export const Pokemon = [
       "slug": "deoxys",
       "name": "Deoxys",
       "ThumbnailAltText": "Deoxys",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/386.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/386.png"),
       "id": 386,
       "type": [
          "psychic"
@@ -11338,7 +11338,7 @@ export const Pokemon = [
       "slug": "deoxys",
       "name": "Deoxys",
       "ThumbnailAltText": "Deoxys",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/386.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/386.png"),
       "id": 386,
       "type": [
          "psychic"
@@ -11362,7 +11362,7 @@ export const Pokemon = [
       "slug": "deoxys",
       "name": "Deoxys",
       "ThumbnailAltText": "Deoxys",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/386.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/386.png"),
       "id": 386,
       "type": [
          "psychic"
@@ -11386,7 +11386,7 @@ export const Pokemon = [
       "slug": "deoxys",
       "name": "Deoxys",
       "ThumbnailAltText": "Deoxys",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/386.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/386.png"),
       "id": 386,
       "type": [
          "psychic"
@@ -11412,7 +11412,7 @@ export const Pokemon = [
       "slug": "turtwig",
       "name": "Turtwig",
       "ThumbnailAltText": "Turtwig",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/387.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/387.png"),
       "id": 387,
       "type": [
          "grass"
@@ -11438,7 +11438,7 @@ export const Pokemon = [
       "slug": "grotle",
       "name": "Grotle",
       "ThumbnailAltText": "Grotle",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/388.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/388.png"),
       "id": 388,
       "type": [
          "grass"
@@ -11463,7 +11463,7 @@ export const Pokemon = [
       "slug": "torterra",
       "name": "Torterra",
       "ThumbnailAltText": "Torterra",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/389.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/389.png"),
       "id": 389,
       "type": [
          "grass",
@@ -11488,7 +11488,7 @@ export const Pokemon = [
       "slug": "chimchar",
       "name": "Chimchar",
       "ThumbnailAltText": "Chimchar",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/390.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/390.png"),
       "id": 390,
       "type": [
          "fire"
@@ -11513,7 +11513,7 @@ export const Pokemon = [
       "slug": "monferno",
       "name": "Monferno",
       "ThumbnailAltText": "Monferno",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/391.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/391.png"),
       "id": 391,
       "type": [
          "fire",
@@ -11539,7 +11539,7 @@ export const Pokemon = [
       "slug": "infernape",
       "name": "Infernape",
       "ThumbnailAltText": "Infernape",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/392.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/392.png"),
       "id": 392,
       "type": [
          "fire",
@@ -11563,7 +11563,7 @@ export const Pokemon = [
       "slug": "piplup",
       "name": "Piplup",
       "ThumbnailAltText": "Piplup",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/393.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/393.png"),
       "id": 393,
       "type": [
          "water"
@@ -11586,7 +11586,7 @@ export const Pokemon = [
       "slug": "prinplup",
       "name": "Prinplup",
       "ThumbnailAltText": "Prinplup",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/394.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/394.png"),
       "id": 394,
       "type": [
          "water"
@@ -11610,7 +11610,7 @@ export const Pokemon = [
       "slug": "empoleon",
       "name": "Empoleon",
       "ThumbnailAltText": "Empoleon",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/395.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/395.png"),
       "id": 395,
       "type": [
          "water",
@@ -11635,7 +11635,7 @@ export const Pokemon = [
       "slug": "starly",
       "name": "Starly",
       "ThumbnailAltText": "Starly",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/396.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/396.png"),
       "id": 396,
       "type": [
          "normal",
@@ -11660,7 +11660,7 @@ export const Pokemon = [
       "slug": "staravia",
       "name": "Staravia",
       "ThumbnailAltText": "Staravia",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/397.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/397.png"),
       "id": 397,
       "type": [
          "normal",
@@ -11685,7 +11685,7 @@ export const Pokemon = [
       "slug": "staraptor",
       "name": "Staraptor",
       "ThumbnailAltText": "Staraptor",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/398.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/398.png"),
       "id": 398,
       "type": [
          "normal",
@@ -11709,7 +11709,7 @@ export const Pokemon = [
       "slug": "bidoof",
       "name": "Bidoof",
       "ThumbnailAltText": "Bidoof",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/399.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/399.png"),
       "id": 399,
       "type": [
          "normal"
@@ -11734,7 +11734,7 @@ export const Pokemon = [
       "slug": "bibarel",
       "name": "Bibarel",
       "ThumbnailAltText": "Bibarel",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/400.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/400.png"),
       "id": 400,
       "type": [
          "normal",
@@ -11759,7 +11759,7 @@ export const Pokemon = [
       "slug": "kricketot",
       "name": "Kricketot",
       "ThumbnailAltText": "Kricketot",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/401.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/401.png"),
       "id": 401,
       "type": [
          "bug"
@@ -11783,7 +11783,7 @@ export const Pokemon = [
       "slug": "kricketune",
       "name": "Kricketune",
       "ThumbnailAltText": "Kricketune",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/402.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/402.png"),
       "id": 402,
       "type": [
          "bug"
@@ -11806,7 +11806,7 @@ export const Pokemon = [
       "slug": "shinx",
       "name": "Shinx",
       "ThumbnailAltText": "Shinx",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/403.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/403.png"),
       "id": 403,
       "type": [
          "electric"
@@ -11829,7 +11829,7 @@ export const Pokemon = [
       "slug": "luxio",
       "name": "Luxio",
       "ThumbnailAltText": "Luxio",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/404.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/404.png"),
       "id": 404,
       "type": [
          "electric"
@@ -11852,7 +11852,7 @@ export const Pokemon = [
       "slug": "luxray",
       "name": "Luxray",
       "ThumbnailAltText": "Luxray",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/405.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/405.png"),
       "id": 405,
       "type": [
          "electric"
@@ -11878,7 +11878,7 @@ export const Pokemon = [
       "slug": "budew",
       "name": "Budew",
       "ThumbnailAltText": "Budew",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/406.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/406.png"),
       "id": 406,
       "type": [
          "grass",
@@ -11905,7 +11905,7 @@ export const Pokemon = [
       "slug": "roserade",
       "name": "Roserade",
       "ThumbnailAltText": "Roserade",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/407.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/407.png"),
       "id": 407,
       "type": [
          "grass",
@@ -11932,7 +11932,7 @@ export const Pokemon = [
       "slug": "cranidos",
       "name": "Cranidos",
       "ThumbnailAltText": "Cranidos",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/408.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/408.png"),
       "id": 408,
       "type": [
          "rock"
@@ -11958,7 +11958,7 @@ export const Pokemon = [
       "slug": "rampardos",
       "name": "Rampardos",
       "ThumbnailAltText": "Rampardos",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/409.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/409.png"),
       "id": 409,
       "type": [
          "rock"
@@ -11982,7 +11982,7 @@ export const Pokemon = [
       "slug": "shieldon",
       "name": "Shieldon",
       "ThumbnailAltText": "Shieldon",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/410.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/410.png"),
       "id": 410,
       "type": [
          "rock",
@@ -12007,7 +12007,7 @@ export const Pokemon = [
       "slug": "bastiodon",
       "name": "Bastiodon",
       "ThumbnailAltText": "Bastiodon",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/411.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/411.png"),
       "id": 411,
       "type": [
          "rock",
@@ -12032,7 +12032,7 @@ export const Pokemon = [
       "slug": "burmy",
       "name": "Burmy",
       "ThumbnailAltText": "Burmy",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/412.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/412.png"),
       "id": 412,
       "type": [
          "bug"
@@ -12056,7 +12056,7 @@ export const Pokemon = [
       "slug": "burmy",
       "name": "Burmy",
       "ThumbnailAltText": "Burmy",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/412.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/412.png"),
       "id": 412,
       "type": [
          "bug"
@@ -12080,7 +12080,7 @@ export const Pokemon = [
       "slug": "burmy",
       "name": "Burmy",
       "ThumbnailAltText": "Burmy",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/412.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/412.png"),
       "id": 412,
       "type": [
          "bug"
@@ -12102,7 +12102,7 @@ export const Pokemon = [
       "slug": "wormadam",
       "name": "Wormadam",
       "ThumbnailAltText": "Wormadam",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/413.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/413.png"),
       "id": 413,
       "type": [
          "bug",
@@ -12128,7 +12128,7 @@ export const Pokemon = [
       "slug": "wormadam",
       "name": "Wormadam",
       "ThumbnailAltText": "Wormadam",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/413.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/413.png"),
       "id": 413,
       "type": [
          "bug",
@@ -12156,7 +12156,7 @@ export const Pokemon = [
       "slug": "wormadam",
       "name": "Wormadam",
       "ThumbnailAltText": "Wormadam",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/413.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/413.png"),
       "id": 413,
       "type": [
          "bug",
@@ -12183,7 +12183,7 @@ export const Pokemon = [
       "slug": "mothim",
       "name": "Mothim",
       "ThumbnailAltText": "Mothim",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/414.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/414.png"),
       "id": 414,
       "type": [
          "bug",
@@ -12210,7 +12210,7 @@ export const Pokemon = [
       "slug": "combee",
       "name": "Combee",
       "ThumbnailAltText": "Combee",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/415.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/415.png"),
       "id": 415,
       "type": [
          "bug",
@@ -12237,7 +12237,7 @@ export const Pokemon = [
       "slug": "vespiquen",
       "name": "Vespiquen",
       "ThumbnailAltText": "Vespiquen",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/416.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/416.png"),
       "id": 416,
       "type": [
          "bug",
@@ -12261,7 +12261,7 @@ export const Pokemon = [
       "slug": "pachirisu",
       "name": "Pachirisu",
       "ThumbnailAltText": "Pachirisu",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/417.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/417.png"),
       "id": 417,
       "type": [
          "electric"
@@ -12284,7 +12284,7 @@ export const Pokemon = [
       "slug": "buizel",
       "name": "Buizel",
       "ThumbnailAltText": "Buizel",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/418.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/418.png"),
       "id": 418,
       "type": [
          "water"
@@ -12307,7 +12307,7 @@ export const Pokemon = [
       "slug": "floatzel",
       "name": "Floatzel",
       "ThumbnailAltText": "Floatzel",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/419.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/419.png"),
       "id": 419,
       "type": [
          "water"
@@ -12333,7 +12333,7 @@ export const Pokemon = [
       "slug": "cherubi",
       "name": "Cherubi",
       "ThumbnailAltText": "Cherubi",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/420.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/420.png"),
       "id": 420,
       "type": [
          "grass"
@@ -12359,7 +12359,7 @@ export const Pokemon = [
       "slug": "cherrim",
       "name": "Cherrim",
       "ThumbnailAltText": "Cherrim",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/421.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/421.png"),
       "id": 421,
       "type": [
          "grass"
@@ -12385,7 +12385,7 @@ export const Pokemon = [
       "slug": "cherrim",
       "name": "Cherrim",
       "ThumbnailAltText": "Cherrim",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/421.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/421.png"),
       "id": 421,
       "type": [
          "grass"
@@ -12409,7 +12409,7 @@ export const Pokemon = [
       "slug": "shellos",
       "name": "Shellos",
       "ThumbnailAltText": "Shellos",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/422.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/422.png"),
       "id": 422,
       "type": [
          "water"
@@ -12433,7 +12433,7 @@ export const Pokemon = [
       "slug": "shellos",
       "name": "Shellos",
       "ThumbnailAltText": "Shellos",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/422.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/422.png"),
       "id": 422,
       "type": [
          "water"
@@ -12456,7 +12456,7 @@ export const Pokemon = [
       "slug": "gastrodon",
       "name": "Gastrodon",
       "ThumbnailAltText": "Gastrodon",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/423.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/423.png"),
       "id": 423,
       "type": [
          "water",
@@ -12480,7 +12480,7 @@ export const Pokemon = [
       "slug": "gastrodon",
       "name": "Gastrodon",
       "ThumbnailAltText": "Gastrodon",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/423.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/423.png"),
       "id": 423,
       "type": [
          "water",
@@ -12504,7 +12504,7 @@ export const Pokemon = [
       "slug": "ambipom",
       "name": "Ambipom",
       "ThumbnailAltText": "Ambipom",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/424.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/424.png"),
       "id": 424,
       "type": [
          "normal"
@@ -12531,7 +12531,7 @@ export const Pokemon = [
       "slug": "drifloon",
       "name": "Drifloon",
       "ThumbnailAltText": "Drifloon",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/425.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/425.png"),
       "id": 425,
       "type": [
          "ghost",
@@ -12559,7 +12559,7 @@ export const Pokemon = [
       "slug": "drifblim",
       "name": "Drifblim",
       "ThumbnailAltText": "Drifblim",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/426.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/426.png"),
       "id": 426,
       "type": [
          "ghost",
@@ -12583,7 +12583,7 @@ export const Pokemon = [
       "slug": "buneary",
       "name": "Buneary",
       "ThumbnailAltText": "Buneary",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/427.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/427.png"),
       "id": 427,
       "type": [
          "normal"
@@ -12608,7 +12608,7 @@ export const Pokemon = [
       "slug": "lopunny",
       "name": "Lopunny",
       "ThumbnailAltText": "Lopunny",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/428.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/428.png"),
       "id": 428,
       "type": [
          "normal",
@@ -12632,7 +12632,7 @@ export const Pokemon = [
       "slug": "lopunny",
       "name": "Lopunny",
       "ThumbnailAltText": "Lopunny",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/428.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/428.png"),
       "id": 428,
       "type": [
          "normal"
@@ -12655,7 +12655,7 @@ export const Pokemon = [
       "slug": "mismagius",
       "name": "Mismagius",
       "ThumbnailAltText": "Mismagius",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/429.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/429.png"),
       "id": 429,
       "type": [
          "ghost"
@@ -12681,7 +12681,7 @@ export const Pokemon = [
       "slug": "honchkrow",
       "name": "Honchkrow",
       "ThumbnailAltText": "Honchkrow",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/430.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/430.png"),
       "id": 430,
       "type": [
          "dark",
@@ -12705,7 +12705,7 @@ export const Pokemon = [
       "slug": "glameow",
       "name": "Glameow",
       "ThumbnailAltText": "Glameow",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/431.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/431.png"),
       "id": 431,
       "type": [
          "normal"
@@ -12728,7 +12728,7 @@ export const Pokemon = [
       "slug": "purugly",
       "name": "Purugly",
       "ThumbnailAltText": "Purugly",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/432.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/432.png"),
       "id": 432,
       "type": [
          "normal"
@@ -12752,7 +12752,7 @@ export const Pokemon = [
       "slug": "chingling",
       "name": "Chingling",
       "ThumbnailAltText": "Chingling",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/433.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/433.png"),
       "id": 433,
       "type": [
          "psychic"
@@ -12775,7 +12775,7 @@ export const Pokemon = [
       "slug": "stunky",
       "name": "Stunky",
       "ThumbnailAltText": "Stunky",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/434.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/434.png"),
       "id": 434,
       "type": [
          "poison",
@@ -12799,7 +12799,7 @@ export const Pokemon = [
       "slug": "skuntank",
       "name": "Skuntank",
       "ThumbnailAltText": "Skuntank",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/435.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/435.png"),
       "id": 435,
       "type": [
          "poison",
@@ -12826,7 +12826,7 @@ export const Pokemon = [
       "slug": "bronzor",
       "name": "Bronzor",
       "ThumbnailAltText": "Bronzor",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/436.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/436.png"),
       "id": 436,
       "type": [
          "steel",
@@ -12853,7 +12853,7 @@ export const Pokemon = [
       "slug": "bronzong",
       "name": "Bronzong",
       "ThumbnailAltText": "Bronzong",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/437.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/437.png"),
       "id": 437,
       "type": [
          "steel",
@@ -12881,7 +12881,7 @@ export const Pokemon = [
       "slug": "bonsly",
       "name": "Bonsly",
       "ThumbnailAltText": "Bonsly",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/438.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/438.png"),
       "id": 438,
       "type": [
          "rock"
@@ -12906,7 +12906,7 @@ export const Pokemon = [
       "slug": "mime-jr",
       "name": "Mime Jr.",
       "ThumbnailAltText": "Mime Jr.",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/439.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/439.png"),
       "id": 439,
       "type": [
          "psychic",
@@ -12930,7 +12930,7 @@ export const Pokemon = [
       "slug": "happiny",
       "name": "Happiny",
       "ThumbnailAltText": "Happiny",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/440.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/440.png"),
       "id": 440,
       "type": [
          "normal"
@@ -12955,7 +12955,7 @@ export const Pokemon = [
       "slug": "chatot",
       "name": "Chatot",
       "ThumbnailAltText": "Chatot",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/441.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/441.png"),
       "id": 441,
       "type": [
          "normal",
@@ -12978,7 +12978,7 @@ export const Pokemon = [
       "slug": "spiritomb",
       "name": "Spiritomb",
       "ThumbnailAltText": "Spiritomb",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/442.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/442.png"),
       "id": 442,
       "type": [
          "ghost",
@@ -13003,7 +13003,7 @@ export const Pokemon = [
       "slug": "gible",
       "name": "Gible",
       "ThumbnailAltText": "Gible",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/443.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/443.png"),
       "id": 443,
       "type": [
          "dragon",
@@ -13028,7 +13028,7 @@ export const Pokemon = [
       "slug": "gabite",
       "name": "Gabite",
       "ThumbnailAltText": "Gabite",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/444.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/444.png"),
       "id": 444,
       "type": [
          "dragon",
@@ -13053,7 +13053,7 @@ export const Pokemon = [
       "slug": "garchomp",
       "name": "Garchomp",
       "ThumbnailAltText": "Garchomp",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/445.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/445.png"),
       "id": 445,
       "type": [
          "dragon",
@@ -13078,7 +13078,7 @@ export const Pokemon = [
       "slug": "garchomp",
       "name": "Garchomp",
       "ThumbnailAltText": "Garchomp",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/445.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/445.png"),
       "id": 445,
       "type": [
          "dragon",
@@ -13102,7 +13102,7 @@ export const Pokemon = [
       "slug": "munchlax",
       "name": "Munchlax",
       "ThumbnailAltText": "Munchlax",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/446.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/446.png"),
       "id": 446,
       "type": [
          "normal"
@@ -13127,7 +13127,7 @@ export const Pokemon = [
       "slug": "riolu",
       "name": "Riolu",
       "ThumbnailAltText": "Riolu",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/447.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/447.png"),
       "id": 447,
       "type": [
          "fighting"
@@ -13151,7 +13151,7 @@ export const Pokemon = [
       "slug": "lucario",
       "name": "Lucario",
       "ThumbnailAltText": "Lucario",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/448.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/448.png"),
       "id": 448,
       "type": [
          "fighting",
@@ -13177,7 +13177,7 @@ export const Pokemon = [
       "slug": "lucario",
       "name": "Lucario",
       "ThumbnailAltText": "Lucario",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/448.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/448.png"),
       "id": 448,
       "type": [
          "fighting",
@@ -13202,7 +13202,7 @@ export const Pokemon = [
       "slug": "hippopotas",
       "name": "Hippopotas",
       "ThumbnailAltText": "Hippopotas",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/449.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/449.png"),
       "id": 449,
       "type": [
          "ground"
@@ -13226,7 +13226,7 @@ export const Pokemon = [
       "slug": "hippowdon",
       "name": "Hippowdon",
       "ThumbnailAltText": "Hippowdon",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/450.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/450.png"),
       "id": 450,
       "type": [
          "ground"
@@ -13252,7 +13252,7 @@ export const Pokemon = [
       "slug": "skorupi",
       "name": "Skorupi",
       "ThumbnailAltText": "Skorupi",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/451.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/451.png"),
       "id": 451,
       "type": [
          "poison",
@@ -13276,7 +13276,7 @@ export const Pokemon = [
       "slug": "drapion",
       "name": "Drapion",
       "ThumbnailAltText": "Drapion",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/452.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/452.png"),
       "id": 452,
       "type": [
          "poison",
@@ -13302,7 +13302,7 @@ export const Pokemon = [
       "slug": "croagunk",
       "name": "Croagunk",
       "ThumbnailAltText": "Croagunk",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/453.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/453.png"),
       "id": 453,
       "type": [
          "poison",
@@ -13328,7 +13328,7 @@ export const Pokemon = [
       "slug": "toxicroak",
       "name": "Toxicroak",
       "ThumbnailAltText": "Toxicroak",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/454.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/454.png"),
       "id": 454,
       "type": [
          "poison",
@@ -13355,7 +13355,7 @@ export const Pokemon = [
       "slug": "carnivine",
       "name": "Carnivine",
       "ThumbnailAltText": "Carnivine",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/455.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/455.png"),
       "id": 455,
       "type": [
          "grass"
@@ -13379,7 +13379,7 @@ export const Pokemon = [
       "slug": "finneon",
       "name": "Finneon",
       "ThumbnailAltText": "Finneon",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/456.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/456.png"),
       "id": 456,
       "type": [
          "water"
@@ -13403,7 +13403,7 @@ export const Pokemon = [
       "slug": "lumineon",
       "name": "Lumineon",
       "ThumbnailAltText": "Lumineon",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/457.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/457.png"),
       "id": 457,
       "type": [
          "water"
@@ -13427,7 +13427,7 @@ export const Pokemon = [
       "slug": "mantyke",
       "name": "Mantyke",
       "ThumbnailAltText": "Mantyke",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/458.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/458.png"),
       "id": 458,
       "type": [
          "water",
@@ -13456,7 +13456,7 @@ export const Pokemon = [
       "slug": "snover",
       "name": "Snover",
       "ThumbnailAltText": "Snover",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/459.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/459.png"),
       "id": 459,
       "type": [
          "grass",
@@ -13485,7 +13485,7 @@ export const Pokemon = [
       "slug": "abomasnow",
       "name": "Abomasnow",
       "ThumbnailAltText": "Abomasnow",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/460.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/460.png"),
       "id": 460,
       "type": [
          "grass",
@@ -13514,7 +13514,7 @@ export const Pokemon = [
       "slug": "abomasnow",
       "name": "Abomasnow",
       "ThumbnailAltText": "Abomasnow",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/460.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/460.png"),
       "id": 460,
       "type": [
          "grass",
@@ -13542,7 +13542,7 @@ export const Pokemon = [
       "slug": "weavile",
       "name": "Weavile",
       "ThumbnailAltText": "Weavile",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/461.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/461.png"),
       "id": 461,
       "type": [
          "dark",
@@ -13568,7 +13568,7 @@ export const Pokemon = [
       "slug": "magnezone",
       "name": "Magnezone",
       "ThumbnailAltText": "Magnezone",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/462.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/462.png"),
       "id": 462,
       "type": [
          "electric",
@@ -13592,7 +13592,7 @@ export const Pokemon = [
       "slug": "lickilicky",
       "name": "Lickilicky",
       "ThumbnailAltText": "Lickilicky",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/463.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/463.png"),
       "id": 463,
       "type": [
          "normal"
@@ -13620,7 +13620,7 @@ export const Pokemon = [
       "slug": "rhyperior",
       "name": "Rhyperior",
       "ThumbnailAltText": "Rhyperior",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/464.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/464.png"),
       "id": 464,
       "type": [
          "ground",
@@ -13648,7 +13648,7 @@ export const Pokemon = [
       "slug": "tangrowth",
       "name": "Tangrowth",
       "ThumbnailAltText": "Tangrowth",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/465.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/465.png"),
       "id": 465,
       "type": [
          "grass"
@@ -13670,7 +13670,7 @@ export const Pokemon = [
       "slug": "electivire",
       "name": "Electivire",
       "ThumbnailAltText": "Electivire",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/466.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/466.png"),
       "id": 466,
       "type": [
          "electric"
@@ -13694,7 +13694,7 @@ export const Pokemon = [
       "slug": "magmortar",
       "name": "Magmortar",
       "ThumbnailAltText": "Magmortar",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/467.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/467.png"),
       "id": 467,
       "type": [
          "fire"
@@ -13721,7 +13721,7 @@ export const Pokemon = [
       "slug": "togekiss",
       "name": "Togekiss",
       "ThumbnailAltText": "Togekiss",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/468.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/468.png"),
       "id": 468,
       "type": [
          "fairy",
@@ -13749,7 +13749,7 @@ export const Pokemon = [
       "slug": "yanmega",
       "name": "Yanmega",
       "ThumbnailAltText": "Yanmega",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/469.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/469.png"),
       "id": 469,
       "type": [
          "bug",
@@ -13776,7 +13776,7 @@ export const Pokemon = [
       "slug": "leafeon",
       "name": "Leafeon",
       "ThumbnailAltText": "Leafeon",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/470.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/470.png"),
       "id": 470,
       "type": [
          "grass"
@@ -13801,7 +13801,7 @@ export const Pokemon = [
       "slug": "glaceon",
       "name": "Glaceon",
       "ThumbnailAltText": "Glaceon",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/471.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/471.png"),
       "id": 471,
       "type": [
          "ice"
@@ -13825,7 +13825,7 @@ export const Pokemon = [
       "slug": "gliscor",
       "name": "Gliscor",
       "ThumbnailAltText": "Gliscor",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/472.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/472.png"),
       "id": 472,
       "type": [
          "ground",
@@ -13853,7 +13853,7 @@ export const Pokemon = [
       "slug": "mamoswine",
       "name": "Mamoswine",
       "ThumbnailAltText": "Mamoswine",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/473.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/473.png"),
       "id": 473,
       "type": [
          "ice",
@@ -13877,7 +13877,7 @@ export const Pokemon = [
       "slug": "porygon-z",
       "name": "Porygon-Z",
       "ThumbnailAltText": "Porygon-Z",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/474.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/474.png"),
       "id": 474,
       "type": [
          "normal"
@@ -13901,7 +13901,7 @@ export const Pokemon = [
       "slug": "gallade",
       "name": "Gallade",
       "ThumbnailAltText": "Gallade",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/475.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/475.png"),
       "id": 475,
       "type": [
          "psychic",
@@ -13926,7 +13926,7 @@ export const Pokemon = [
       "slug": "gallade",
       "name": "Gallade",
       "ThumbnailAltText": "Gallade",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/475.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/475.png"),
       "id": 475,
       "type": [
          "psychic",
@@ -13952,7 +13952,7 @@ export const Pokemon = [
       "slug": "probopass",
       "name": "Probopass",
       "ThumbnailAltText": "Probopass",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/476.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/476.png"),
       "id": 476,
       "type": [
          "rock",
@@ -13976,7 +13976,7 @@ export const Pokemon = [
       "slug": "dusknoir",
       "name": "Dusknoir",
       "ThumbnailAltText": "Dusknoir",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/477.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/477.png"),
       "id": 477,
       "type": [
          "ghost"
@@ -14002,7 +14002,7 @@ export const Pokemon = [
       "slug": "froslass",
       "name": "Froslass",
       "ThumbnailAltText": "Froslass",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/478.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/478.png"),
       "id": 478,
       "type": [
          "ice",
@@ -14028,7 +14028,7 @@ export const Pokemon = [
       "slug": "rotom",
       "name": "Rotom",
       "ThumbnailAltText": "Rotom",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/479.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/479.png"),
       "id": 479,
       "type": [
          "electric",
@@ -14052,7 +14052,7 @@ export const Pokemon = [
       "slug": "rotom",
       "name": "Rotom",
       "ThumbnailAltText": "Rotom",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/479.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/479.png"),
       "id": 479,
       "type": [
          "electric",
@@ -14077,7 +14077,7 @@ export const Pokemon = [
       "slug": "rotom",
       "name": "Rotom",
       "ThumbnailAltText": "Rotom",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/479.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/479.png"),
       "id": 479,
       "type": [
          "electric",
@@ -14100,7 +14100,7 @@ export const Pokemon = [
       "slug": "rotom",
       "name": "Rotom",
       "ThumbnailAltText": "Rotom",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/479.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/479.png"),
       "id": 479,
       "type": [
          "electric",
@@ -14124,7 +14124,7 @@ export const Pokemon = [
       "slug": "rotom",
       "name": "Rotom",
       "ThumbnailAltText": "Rotom",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/479.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/479.png"),
       "id": 479,
       "type": [
          "electric",
@@ -14148,7 +14148,7 @@ export const Pokemon = [
       "slug": "rotom",
       "name": "Rotom",
       "ThumbnailAltText": "Rotom",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/479.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/479.png"),
       "id": 479,
       "type": [
          "electric",
@@ -14173,7 +14173,7 @@ export const Pokemon = [
       "slug": "uxie",
       "name": "Uxie",
       "ThumbnailAltText": "Uxie",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/480.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/480.png"),
       "id": 480,
       "type": [
          "psychic"
@@ -14197,7 +14197,7 @@ export const Pokemon = [
       "slug": "mesprit",
       "name": "Mesprit",
       "ThumbnailAltText": "Mesprit",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/481.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/481.png"),
       "id": 481,
       "type": [
          "psychic"
@@ -14221,7 +14221,7 @@ export const Pokemon = [
       "slug": "azelf",
       "name": "Azelf",
       "ThumbnailAltText": "Azelf",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/482.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/482.png"),
       "id": 482,
       "type": [
          "psychic"
@@ -14244,7 +14244,7 @@ export const Pokemon = [
       "slug": "dialga",
       "name": "Dialga",
       "ThumbnailAltText": "Dialga",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/483.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/483.png"),
       "id": 483,
       "type": [
          "steel",
@@ -14268,7 +14268,7 @@ export const Pokemon = [
       "slug": "palkia",
       "name": "Palkia",
       "ThumbnailAltText": "Palkia",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/484.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/484.png"),
       "id": 484,
       "type": [
          "water",
@@ -14293,7 +14293,7 @@ export const Pokemon = [
       "slug": "heatran",
       "name": "Heatran",
       "ThumbnailAltText": "Heatran",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/485.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/485.png"),
       "id": 485,
       "type": [
          "fire",
@@ -14316,7 +14316,7 @@ export const Pokemon = [
       "slug": "regigigas",
       "name": "Regigigas",
       "ThumbnailAltText": "Regigigas",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/486.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/486.png"),
       "id": 486,
       "type": [
          "normal"
@@ -14342,7 +14342,7 @@ export const Pokemon = [
       "slug": "giratina",
       "name": "Giratina",
       "ThumbnailAltText": "Giratina",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/487.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/487.png"),
       "id": 487,
       "type": [
          "ghost",
@@ -14369,7 +14369,7 @@ export const Pokemon = [
       "slug": "giratina",
       "name": "Giratina",
       "ThumbnailAltText": "Giratina",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/487.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/487.png"),
       "id": 487,
       "type": [
          "ghost",
@@ -14394,7 +14394,7 @@ export const Pokemon = [
       "slug": "cresselia",
       "name": "Cresselia",
       "ThumbnailAltText": "Cresselia",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/488.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/488.png"),
       "id": 488,
       "type": [
          "psychic"
@@ -14417,7 +14417,7 @@ export const Pokemon = [
       "slug": "phione",
       "name": "Phione",
       "ThumbnailAltText": "Phione",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/489.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/489.png"),
       "id": 489,
       "type": [
          "water"
@@ -14440,7 +14440,7 @@ export const Pokemon = [
       "slug": "manaphy",
       "name": "Manaphy",
       "ThumbnailAltText": "Manaphy",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/490.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/490.png"),
       "id": 490,
       "type": [
          "water"
@@ -14464,7 +14464,7 @@ export const Pokemon = [
       "slug": "darkrai",
       "name": "Darkrai",
       "ThumbnailAltText": "Darkrai",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/491.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/491.png"),
       "id": 491,
       "type": [
          "dark"
@@ -14490,7 +14490,7 @@ export const Pokemon = [
       "slug": "shaymin",
       "name": "Shaymin",
       "ThumbnailAltText": "Shaymin",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/492.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/492.png"),
       "id": 492,
       "type": [
          "grass",
@@ -14517,7 +14517,7 @@ export const Pokemon = [
       "slug": "shaymin",
       "name": "Shaymin",
       "ThumbnailAltText": "Shaymin",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/492.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/492.png"),
       "id": 492,
       "type": [
          "grass"
@@ -14540,7 +14540,7 @@ export const Pokemon = [
       "slug": "arceus",
       "name": "Arceus",
       "ThumbnailAltText": "Arceus",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/493.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/493.png"),
       "id": 493,
       "type": [
          "fairy"
@@ -14564,7 +14564,7 @@ export const Pokemon = [
       "slug": "arceus",
       "name": "Arceus",
       "ThumbnailAltText": "Arceus",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/493.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/493.png"),
       "id": 493,
       "type": [
          "dark"
@@ -14588,7 +14588,7 @@ export const Pokemon = [
       "slug": "arceus",
       "name": "Arceus",
       "ThumbnailAltText": "Arceus",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/493.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/493.png"),
       "id": 493,
       "type": [
          "dragon"
@@ -14613,7 +14613,7 @@ export const Pokemon = [
       "slug": "arceus",
       "name": "Arceus",
       "ThumbnailAltText": "Arceus",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/493.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/493.png"),
       "id": 493,
       "type": [
          "ice"
@@ -14637,7 +14637,7 @@ export const Pokemon = [
       "slug": "arceus",
       "name": "Arceus",
       "ThumbnailAltText": "Arceus",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/493.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/493.png"),
       "id": 493,
       "type": [
          "psychic"
@@ -14659,7 +14659,7 @@ export const Pokemon = [
       "slug": "arceus",
       "name": "Arceus",
       "ThumbnailAltText": "Arceus",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/493.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/493.png"),
       "id": 493,
       "type": [
          "electric"
@@ -14685,7 +14685,7 @@ export const Pokemon = [
       "slug": "arceus",
       "name": "Arceus",
       "ThumbnailAltText": "Arceus",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/493.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/493.png"),
       "id": 493,
       "type": [
          "grass"
@@ -14708,7 +14708,7 @@ export const Pokemon = [
       "slug": "arceus",
       "name": "Arceus",
       "ThumbnailAltText": "Arceus",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/493.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/493.png"),
       "id": 493,
       "type": [
          "water"
@@ -14732,7 +14732,7 @@ export const Pokemon = [
       "slug": "arceus",
       "name": "Arceus",
       "ThumbnailAltText": "Arceus",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/493.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/493.png"),
       "id": 493,
       "type": [
          "fire"
@@ -14756,7 +14756,7 @@ export const Pokemon = [
       "slug": "arceus",
       "name": "Arceus",
       "ThumbnailAltText": "Arceus",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/493.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/493.png"),
       "id": 493,
       "type": [
          "steel"
@@ -14779,7 +14779,7 @@ export const Pokemon = [
       "slug": "arceus",
       "name": "Arceus",
       "ThumbnailAltText": "Arceus",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/493.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/493.png"),
       "id": 493,
       "type": [
          "ghost"
@@ -14803,7 +14803,7 @@ export const Pokemon = [
       "slug": "arceus",
       "name": "Arceus",
       "ThumbnailAltText": "Arceus",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/493.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/493.png"),
       "id": 493,
       "type": [
          "bug"
@@ -14829,7 +14829,7 @@ export const Pokemon = [
       "slug": "arceus",
       "name": "Arceus",
       "ThumbnailAltText": "Arceus",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/493.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/493.png"),
       "id": 493,
       "type": [
          "rock"
@@ -14853,7 +14853,7 @@ export const Pokemon = [
       "slug": "arceus",
       "name": "Arceus",
       "ThumbnailAltText": "Arceus",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/493.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/493.png"),
       "id": 493,
       "type": [
          "ground"
@@ -14876,7 +14876,7 @@ export const Pokemon = [
       "slug": "arceus",
       "name": "Arceus",
       "ThumbnailAltText": "Arceus",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/493.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/493.png"),
       "id": 493,
       "type": [
          "poison"
@@ -14900,7 +14900,7 @@ export const Pokemon = [
       "slug": "arceus",
       "name": "Arceus",
       "ThumbnailAltText": "Arceus",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/493.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/493.png"),
       "id": 493,
       "type": [
          "flying"
@@ -14924,7 +14924,7 @@ export const Pokemon = [
       "slug": "arceus",
       "name": "Arceus",
       "ThumbnailAltText": "Arceus",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/493.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/493.png"),
       "id": 493,
       "type": [
          "fighting"
@@ -14946,7 +14946,7 @@ export const Pokemon = [
       "slug": "arceus",
       "name": "Arceus",
       "ThumbnailAltText": "Arceus",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/493.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/493.png"),
       "id": 493,
       "type": [
          "normal"
@@ -14972,7 +14972,7 @@ export const Pokemon = [
       "slug": "victini",
       "name": "Victini",
       "ThumbnailAltText": "Victini",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/494.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/494.png"),
       "id": 494,
       "type": [
          "psychic",
@@ -14999,7 +14999,7 @@ export const Pokemon = [
       "slug": "snivy",
       "name": "Snivy",
       "ThumbnailAltText": "Snivy",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/495.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/495.png"),
       "id": 495,
       "type": [
          "grass"
@@ -15025,7 +15025,7 @@ export const Pokemon = [
       "slug": "servine",
       "name": "Servine",
       "ThumbnailAltText": "Servine",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/496.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/496.png"),
       "id": 496,
       "type": [
          "grass"
@@ -15051,7 +15051,7 @@ export const Pokemon = [
       "slug": "serperior",
       "name": "Serperior",
       "ThumbnailAltText": "Serperior",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/497.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/497.png"),
       "id": 497,
       "type": [
          "grass"
@@ -15075,7 +15075,7 @@ export const Pokemon = [
       "slug": "tepig",
       "name": "Tepig",
       "ThumbnailAltText": "Tepig",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/498.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/498.png"),
       "id": 498,
       "type": [
          "fire"
@@ -15100,7 +15100,7 @@ export const Pokemon = [
       "slug": "pignite",
       "name": "Pignite",
       "ThumbnailAltText": "Pignite",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/499.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/499.png"),
       "id": 499,
       "type": [
          "fire",
@@ -15126,7 +15126,7 @@ export const Pokemon = [
       "slug": "emboar",
       "name": "Emboar",
       "ThumbnailAltText": "Emboar",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/500.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/500.png"),
       "id": 500,
       "type": [
          "fire",
@@ -15150,7 +15150,7 @@ export const Pokemon = [
       "slug": "oshawott",
       "name": "Oshawott",
       "ThumbnailAltText": "Oshawott",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/501.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/501.png"),
       "id": 501,
       "type": [
          "water"
@@ -15173,7 +15173,7 @@ export const Pokemon = [
       "slug": "dewott",
       "name": "Dewott",
       "ThumbnailAltText": "Dewott",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/502.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/502.png"),
       "id": 502,
       "type": [
          "water"
@@ -15196,7 +15196,7 @@ export const Pokemon = [
       "slug": "samurott",
       "name": "Samurott",
       "ThumbnailAltText": "Samurott",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/503.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/503.png"),
       "id": 503,
       "type": [
          "water"
@@ -15219,7 +15219,7 @@ export const Pokemon = [
       "slug": "patrat",
       "name": "Patrat",
       "ThumbnailAltText": "Patrat",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/504.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/504.png"),
       "id": 504,
       "type": [
          "normal"
@@ -15242,7 +15242,7 @@ export const Pokemon = [
       "slug": "watchog",
       "name": "Watchog",
       "ThumbnailAltText": "Watchog",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/505.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/505.png"),
       "id": 505,
       "type": [
          "normal"
@@ -15265,7 +15265,7 @@ export const Pokemon = [
       "slug": "lillipup",
       "name": "Lillipup",
       "ThumbnailAltText": "Lillipup",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/506.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/506.png"),
       "id": 506,
       "type": [
          "normal"
@@ -15288,7 +15288,7 @@ export const Pokemon = [
       "slug": "herdier",
       "name": "Herdier",
       "ThumbnailAltText": "Herdier",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/507.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/507.png"),
       "id": 507,
       "type": [
          "normal"
@@ -15311,7 +15311,7 @@ export const Pokemon = [
       "slug": "stoutland",
       "name": "Stoutland",
       "ThumbnailAltText": "Stoutland",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/508.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/508.png"),
       "id": 508,
       "type": [
          "normal"
@@ -15336,7 +15336,7 @@ export const Pokemon = [
       "slug": "purrloin",
       "name": "Purrloin",
       "ThumbnailAltText": "Purrloin",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/509.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/509.png"),
       "id": 509,
       "type": [
          "dark"
@@ -15361,7 +15361,7 @@ export const Pokemon = [
       "slug": "liepard",
       "name": "Liepard",
       "ThumbnailAltText": "Liepard",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/510.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/510.png"),
       "id": 510,
       "type": [
          "dark"
@@ -15387,7 +15387,7 @@ export const Pokemon = [
       "slug": "pansage",
       "name": "Pansage",
       "ThumbnailAltText": "Pansage",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/511.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/511.png"),
       "id": 511,
       "type": [
          "grass"
@@ -15413,7 +15413,7 @@ export const Pokemon = [
       "slug": "simisage",
       "name": "Simisage",
       "ThumbnailAltText": "Simisage",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/512.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/512.png"),
       "id": 512,
       "type": [
          "grass"
@@ -15437,7 +15437,7 @@ export const Pokemon = [
       "slug": "pansear",
       "name": "Pansear",
       "ThumbnailAltText": "Pansear",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/513.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/513.png"),
       "id": 513,
       "type": [
          "fire"
@@ -15461,7 +15461,7 @@ export const Pokemon = [
       "slug": "simisear",
       "name": "Simisear",
       "ThumbnailAltText": "Simisear",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/514.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/514.png"),
       "id": 514,
       "type": [
          "fire"
@@ -15484,7 +15484,7 @@ export const Pokemon = [
       "slug": "panpour",
       "name": "Panpour",
       "ThumbnailAltText": "Panpour",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/515.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/515.png"),
       "id": 515,
       "type": [
          "water"
@@ -15507,7 +15507,7 @@ export const Pokemon = [
       "slug": "simipour",
       "name": "Simipour",
       "ThumbnailAltText": "Simipour",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/516.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/516.png"),
       "id": 516,
       "type": [
          "water"
@@ -15532,7 +15532,7 @@ export const Pokemon = [
       "slug": "munna",
       "name": "Munna",
       "ThumbnailAltText": "Munna",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/517.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/517.png"),
       "id": 517,
       "type": [
          "psychic"
@@ -15557,7 +15557,7 @@ export const Pokemon = [
       "slug": "musharna",
       "name": "Musharna",
       "ThumbnailAltText": "Musharna",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/518.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/518.png"),
       "id": 518,
       "type": [
          "psychic"
@@ -15582,7 +15582,7 @@ export const Pokemon = [
       "slug": "pidove",
       "name": "Pidove",
       "ThumbnailAltText": "Pidove",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/519.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/519.png"),
       "id": 519,
       "type": [
          "normal",
@@ -15608,7 +15608,7 @@ export const Pokemon = [
       "slug": "tranquill",
       "name": "Tranquill",
       "ThumbnailAltText": "Tranquill",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/520.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/520.png"),
       "id": 520,
       "type": [
          "normal",
@@ -15634,7 +15634,7 @@ export const Pokemon = [
       "slug": "unfezant",
       "name": "Unfezant",
       "ThumbnailAltText": "Unfezant",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/521.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/521.png"),
       "id": 521,
       "type": [
          "normal",
@@ -15658,7 +15658,7 @@ export const Pokemon = [
       "slug": "blitzle",
       "name": "Blitzle",
       "ThumbnailAltText": "Blitzle",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/522.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/522.png"),
       "id": 522,
       "type": [
          "electric"
@@ -15681,7 +15681,7 @@ export const Pokemon = [
       "slug": "zebstrika",
       "name": "Zebstrika",
       "ThumbnailAltText": "Zebstrika",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/523.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/523.png"),
       "id": 523,
       "type": [
          "electric"
@@ -15707,7 +15707,7 @@ export const Pokemon = [
       "slug": "roggenrola",
       "name": "Roggenrola",
       "ThumbnailAltText": "Roggenrola",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/524.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/524.png"),
       "id": 524,
       "type": [
          "rock"
@@ -15733,7 +15733,7 @@ export const Pokemon = [
       "slug": "boldore",
       "name": "Boldore",
       "ThumbnailAltText": "Boldore",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/525.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/525.png"),
       "id": 525,
       "type": [
          "rock"
@@ -15759,7 +15759,7 @@ export const Pokemon = [
       "slug": "gigalith",
       "name": "Gigalith",
       "ThumbnailAltText": "Gigalith",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/526.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/526.png"),
       "id": 526,
       "type": [
          "rock"
@@ -15786,7 +15786,7 @@ export const Pokemon = [
       "slug": "woobat",
       "name": "Woobat",
       "ThumbnailAltText": "Woobat",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/527.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/527.png"),
       "id": 527,
       "type": [
          "psychic",
@@ -15814,7 +15814,7 @@ export const Pokemon = [
       "slug": "swoobat",
       "name": "Swoobat",
       "ThumbnailAltText": "Swoobat",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/528.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/528.png"),
       "id": 528,
       "type": [
          "psychic",
@@ -15840,7 +15840,7 @@ export const Pokemon = [
       "slug": "drilbur",
       "name": "Drilbur",
       "ThumbnailAltText": "Drilbur",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/529.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/529.png"),
       "id": 529,
       "type": [
          "ground"
@@ -15866,7 +15866,7 @@ export const Pokemon = [
       "slug": "excadrill",
       "name": "Excadrill",
       "ThumbnailAltText": "Excadrill",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/530.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/530.png"),
       "id": 530,
       "type": [
          "ground",
@@ -15890,7 +15890,7 @@ export const Pokemon = [
       "slug": "audino",
       "name": "Audino",
       "ThumbnailAltText": "Audino",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/531.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/531.png"),
       "id": 531,
       "type": [
          "normal",
@@ -15914,7 +15914,7 @@ export const Pokemon = [
       "slug": "audino",
       "name": "Audino",
       "ThumbnailAltText": "Audino",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/531.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/531.png"),
       "id": 531,
       "type": [
          "normal"
@@ -15939,7 +15939,7 @@ export const Pokemon = [
       "slug": "timburr",
       "name": "Timburr",
       "ThumbnailAltText": "Timburr",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/532.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/532.png"),
       "id": 532,
       "type": [
          "fighting"
@@ -15964,7 +15964,7 @@ export const Pokemon = [
       "slug": "gurdurr",
       "name": "Gurdurr",
       "ThumbnailAltText": "Gurdurr",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/533.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/533.png"),
       "id": 533,
       "type": [
          "fighting"
@@ -15989,7 +15989,7 @@ export const Pokemon = [
       "slug": "conkeldurr",
       "name": "Conkeldurr",
       "ThumbnailAltText": "Conkeldurr",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/534.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/534.png"),
       "id": 534,
       "type": [
          "fighting"
@@ -16013,7 +16013,7 @@ export const Pokemon = [
       "slug": "tympole",
       "name": "Tympole",
       "ThumbnailAltText": "Tympole",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/535.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/535.png"),
       "id": 535,
       "type": [
          "water"
@@ -16036,7 +16036,7 @@ export const Pokemon = [
       "slug": "palpitoad",
       "name": "Palpitoad",
       "ThumbnailAltText": "Palpitoad",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/536.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/536.png"),
       "id": 536,
       "type": [
          "water",
@@ -16060,7 +16060,7 @@ export const Pokemon = [
       "slug": "seismitoad",
       "name": "Seismitoad",
       "ThumbnailAltText": "Seismitoad",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/537.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/537.png"),
       "id": 537,
       "type": [
          "water",
@@ -16086,7 +16086,7 @@ export const Pokemon = [
       "slug": "throh",
       "name": "Throh",
       "ThumbnailAltText": "Throh",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/538.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/538.png"),
       "id": 538,
       "type": [
          "fighting"
@@ -16111,7 +16111,7 @@ export const Pokemon = [
       "slug": "sawk",
       "name": "Sawk",
       "ThumbnailAltText": "Sawk",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/539.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/539.png"),
       "id": 539,
       "type": [
          "fighting"
@@ -16139,7 +16139,7 @@ export const Pokemon = [
       "slug": "sewaddle",
       "name": "Sewaddle",
       "ThumbnailAltText": "Sewaddle",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/540.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/540.png"),
       "id": 540,
       "type": [
          "bug",
@@ -16168,7 +16168,7 @@ export const Pokemon = [
       "slug": "swadloon",
       "name": "Swadloon",
       "ThumbnailAltText": "Swadloon",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/541.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/541.png"),
       "id": 541,
       "type": [
          "bug",
@@ -16197,7 +16197,7 @@ export const Pokemon = [
       "slug": "leavanny",
       "name": "Leavanny",
       "ThumbnailAltText": "Leavanny",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/542.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/542.png"),
       "id": 542,
       "type": [
          "bug",
@@ -16224,7 +16224,7 @@ export const Pokemon = [
       "slug": "venipede",
       "name": "Venipede",
       "ThumbnailAltText": "Venipede",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/543.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/543.png"),
       "id": 543,
       "type": [
          "bug",
@@ -16251,7 +16251,7 @@ export const Pokemon = [
       "slug": "whirlipede",
       "name": "Whirlipede",
       "ThumbnailAltText": "Whirlipede",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/544.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/544.png"),
       "id": 544,
       "type": [
          "bug",
@@ -16278,7 +16278,7 @@ export const Pokemon = [
       "slug": "scolipede",
       "name": "Scolipede",
       "ThumbnailAltText": "Scolipede",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/545.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/545.png"),
       "id": 545,
       "type": [
          "bug",
@@ -16306,7 +16306,7 @@ export const Pokemon = [
       "slug": "cottonee",
       "name": "Cottonee",
       "ThumbnailAltText": "Cottonee",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/546.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/546.png"),
       "id": 546,
       "type": [
          "grass",
@@ -16334,7 +16334,7 @@ export const Pokemon = [
       "slug": "whimsicott",
       "name": "Whimsicott",
       "ThumbnailAltText": "Whimsicott",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/547.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/547.png"),
       "id": 547,
       "type": [
          "grass",
@@ -16362,7 +16362,7 @@ export const Pokemon = [
       "slug": "petilil",
       "name": "Petilil",
       "ThumbnailAltText": "Petilil",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/548.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/548.png"),
       "id": 548,
       "type": [
          "grass"
@@ -16389,7 +16389,7 @@ export const Pokemon = [
       "slug": "lilligant",
       "name": "Lilligant",
       "ThumbnailAltText": "Lilligant",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/549.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/549.png"),
       "id": 549,
       "type": [
          "grass"
@@ -16413,7 +16413,7 @@ export const Pokemon = [
       "slug": "basculin",
       "name": "Basculin",
       "ThumbnailAltText": "Basculin",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/550.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/550.png"),
       "id": 550,
       "type": [
          "water"
@@ -16437,7 +16437,7 @@ export const Pokemon = [
       "slug": "basculin",
       "name": "Basculin",
       "ThumbnailAltText": "Basculin",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/550.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/550.png"),
       "id": 550,
       "type": [
          "water"
@@ -16465,7 +16465,7 @@ export const Pokemon = [
       "slug": "sandile",
       "name": "Sandile",
       "ThumbnailAltText": "Sandile",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/551.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/551.png"),
       "id": 551,
       "type": [
          "ground",
@@ -16494,7 +16494,7 @@ export const Pokemon = [
       "slug": "krokorok",
       "name": "Krokorok",
       "ThumbnailAltText": "Krokorok",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/552.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/552.png"),
       "id": 552,
       "type": [
          "ground",
@@ -16523,7 +16523,7 @@ export const Pokemon = [
       "slug": "krookodile",
       "name": "Krookodile",
       "ThumbnailAltText": "Krookodile",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/553.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/553.png"),
       "id": 553,
       "type": [
          "ground",
@@ -16548,7 +16548,7 @@ export const Pokemon = [
       "slug": "darumaka",
       "name": "Darumaka",
       "ThumbnailAltText": "Darumaka",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/554.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/554.png"),
       "id": 554,
       "type": [
          "fire"
@@ -16574,7 +16574,7 @@ export const Pokemon = [
       "slug": "darmanitan",
       "name": "Darmanitan",
       "ThumbnailAltText": "Darmanitan",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/555.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/555.png"),
       "id": 555,
       "type": [
          "fire",
@@ -16599,7 +16599,7 @@ export const Pokemon = [
       "slug": "darmanitan",
       "name": "Darmanitan",
       "ThumbnailAltText": "Darmanitan",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/555.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/555.png"),
       "id": 555,
       "type": [
          "fire"
@@ -16626,7 +16626,7 @@ export const Pokemon = [
       "slug": "maractus",
       "name": "Maractus",
       "ThumbnailAltText": "Maractus",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/556.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/556.png"),
       "id": 556,
       "type": [
          "grass"
@@ -16651,7 +16651,7 @@ export const Pokemon = [
       "slug": "dwebble",
       "name": "Dwebble",
       "ThumbnailAltText": "Dwebble",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/557.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/557.png"),
       "id": 557,
       "type": [
          "bug",
@@ -16677,7 +16677,7 @@ export const Pokemon = [
       "slug": "crustle",
       "name": "Crustle",
       "ThumbnailAltText": "Crustle",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/558.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/558.png"),
       "id": 558,
       "type": [
          "bug",
@@ -16703,7 +16703,7 @@ export const Pokemon = [
       "slug": "scraggy",
       "name": "Scraggy",
       "ThumbnailAltText": "Scraggy",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/559.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/559.png"),
       "id": 559,
       "type": [
          "dark",
@@ -16729,7 +16729,7 @@ export const Pokemon = [
       "slug": "scrafty",
       "name": "Scrafty",
       "ThumbnailAltText": "Scrafty",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/560.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/560.png"),
       "id": 560,
       "type": [
          "dark",
@@ -16757,7 +16757,7 @@ export const Pokemon = [
       "slug": "sigilyph",
       "name": "Sigilyph",
       "ThumbnailAltText": "Sigilyph",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/561.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/561.png"),
       "id": 561,
       "type": [
          "psychic",
@@ -16781,7 +16781,7 @@ export const Pokemon = [
       "slug": "yamask",
       "name": "Yamask",
       "ThumbnailAltText": "Yamask",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/562.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/562.png"),
       "id": 562,
       "type": [
          "ghost"
@@ -16804,7 +16804,7 @@ export const Pokemon = [
       "slug": "cofagrigus",
       "name": "Cofagrigus",
       "ThumbnailAltText": "Cofagrigus",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/563.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/563.png"),
       "id": 563,
       "type": [
          "ghost"
@@ -16830,7 +16830,7 @@ export const Pokemon = [
       "slug": "tirtouga",
       "name": "Tirtouga",
       "ThumbnailAltText": "Tirtouga",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/564.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/564.png"),
       "id": 564,
       "type": [
          "water",
@@ -16857,7 +16857,7 @@ export const Pokemon = [
       "slug": "carracosta",
       "name": "Carracosta",
       "ThumbnailAltText": "Carracosta",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/565.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/565.png"),
       "id": 565,
       "type": [
          "water",
@@ -16884,7 +16884,7 @@ export const Pokemon = [
       "slug": "archen",
       "name": "Archen",
       "ThumbnailAltText": "Archen",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/566.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/566.png"),
       "id": 566,
       "type": [
          "rock",
@@ -16911,7 +16911,7 @@ export const Pokemon = [
       "slug": "archeops",
       "name": "Archeops",
       "ThumbnailAltText": "Archeops",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/567.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/567.png"),
       "id": 567,
       "type": [
          "rock",
@@ -16936,7 +16936,7 @@ export const Pokemon = [
       "slug": "trubbish",
       "name": "Trubbish",
       "ThumbnailAltText": "Trubbish",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/568.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/568.png"),
       "id": 568,
       "type": [
          "poison"
@@ -16960,7 +16960,7 @@ export const Pokemon = [
       "slug": "garbodor",
       "name": "Garbodor",
       "ThumbnailAltText": "Garbodor",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/569.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/569.png"),
       "id": 569,
       "type": [
          "poison"
@@ -16984,7 +16984,7 @@ export const Pokemon = [
       "slug": "zorua",
       "name": "Zorua",
       "ThumbnailAltText": "Zorua",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/570.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/570.png"),
       "id": 570,
       "type": [
          "dark"
@@ -17008,7 +17008,7 @@ export const Pokemon = [
       "slug": "zoroark",
       "name": "Zoroark",
       "ThumbnailAltText": "Zoroark",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/571.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/571.png"),
       "id": 571,
       "type": [
          "dark"
@@ -17031,7 +17031,7 @@ export const Pokemon = [
       "slug": "minccino",
       "name": "Minccino",
       "ThumbnailAltText": "Minccino",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/572.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/572.png"),
       "id": 572,
       "type": [
          "normal"
@@ -17054,7 +17054,7 @@ export const Pokemon = [
       "slug": "cinccino",
       "name": "Cinccino",
       "ThumbnailAltText": "Cinccino",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/573.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/573.png"),
       "id": 573,
       "type": [
          "normal"
@@ -17079,7 +17079,7 @@ export const Pokemon = [
       "slug": "gothita",
       "name": "Gothita",
       "ThumbnailAltText": "Gothita",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/574.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/574.png"),
       "id": 574,
       "type": [
          "psychic"
@@ -17104,7 +17104,7 @@ export const Pokemon = [
       "slug": "gothorita",
       "name": "Gothorita",
       "ThumbnailAltText": "Gothorita",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/575.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/575.png"),
       "id": 575,
       "type": [
          "psychic"
@@ -17129,7 +17129,7 @@ export const Pokemon = [
       "slug": "gothitelle",
       "name": "Gothitelle",
       "ThumbnailAltText": "Gothitelle",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/576.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/576.png"),
       "id": 576,
       "type": [
          "psychic"
@@ -17154,7 +17154,7 @@ export const Pokemon = [
       "slug": "solosis",
       "name": "Solosis ",
       "ThumbnailAltText": "Solosis ",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/577.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/577.png"),
       "id": 577,
       "type": [
          "psychic"
@@ -17179,7 +17179,7 @@ export const Pokemon = [
       "slug": "duosion",
       "name": "Duosion",
       "ThumbnailAltText": "Duosion",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/578.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/578.png"),
       "id": 578,
       "type": [
          "psychic"
@@ -17204,7 +17204,7 @@ export const Pokemon = [
       "slug": "reuniclus",
       "name": "Reuniclus",
       "ThumbnailAltText": "Reuniclus",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/579.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/579.png"),
       "id": 579,
       "type": [
          "psychic"
@@ -17228,7 +17228,7 @@ export const Pokemon = [
       "slug": "ducklett",
       "name": "Ducklett",
       "ThumbnailAltText": "Ducklett",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/580.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/580.png"),
       "id": 580,
       "type": [
          "water",
@@ -17253,7 +17253,7 @@ export const Pokemon = [
       "slug": "swanna",
       "name": "Swanna",
       "ThumbnailAltText": "Swanna",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/581.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/581.png"),
       "id": 581,
       "type": [
          "water",
@@ -17279,7 +17279,7 @@ export const Pokemon = [
       "slug": "vanillite",
       "name": "Vanillite",
       "ThumbnailAltText": "Vanillite",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/582.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/582.png"),
       "id": 582,
       "type": [
          "ice"
@@ -17304,7 +17304,7 @@ export const Pokemon = [
       "slug": "vanillish",
       "name": "Vanillish",
       "ThumbnailAltText": "Vanillish",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/583.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/583.png"),
       "id": 583,
       "type": [
          "ice"
@@ -17329,7 +17329,7 @@ export const Pokemon = [
       "slug": "vanilluxe",
       "name": "Vanilluxe",
       "ThumbnailAltText": "Vanilluxe",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/584.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/584.png"),
       "id": 584,
       "type": [
          "ice"
@@ -17357,7 +17357,7 @@ export const Pokemon = [
       "slug": "deerling",
       "name": "Deerling",
       "ThumbnailAltText": "Deerling",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/585.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/585.png"),
       "id": 585,
       "type": [
          "normal",
@@ -17386,7 +17386,7 @@ export const Pokemon = [
       "slug": "deerling",
       "name": "Deerling",
       "ThumbnailAltText": "Deerling",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/585.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/585.png"),
       "id": 585,
       "type": [
          "normal",
@@ -17415,7 +17415,7 @@ export const Pokemon = [
       "slug": "deerling",
       "name": "Deerling",
       "ThumbnailAltText": "Deerling",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/585.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/585.png"),
       "id": 585,
       "type": [
          "normal",
@@ -17444,7 +17444,7 @@ export const Pokemon = [
       "slug": "deerling",
       "name": "Deerling",
       "ThumbnailAltText": "Deerling",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/585.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/585.png"),
       "id": 585,
       "type": [
          "normal",
@@ -17473,7 +17473,7 @@ export const Pokemon = [
       "slug": "sawsbuck",
       "name": "Sawsbuck",
       "ThumbnailAltText": "Sawsbuck",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/586.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/586.png"),
       "id": 586,
       "type": [
          "normal",
@@ -17502,7 +17502,7 @@ export const Pokemon = [
       "slug": "sawsbuck",
       "name": "Sawsbuck",
       "ThumbnailAltText": "Sawsbuck",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/586.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/586.png"),
       "id": 586,
       "type": [
          "normal",
@@ -17531,7 +17531,7 @@ export const Pokemon = [
       "slug": "sawsbuck",
       "name": "Sawsbuck",
       "ThumbnailAltText": "Sawsbuck",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/586.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/586.png"),
       "id": 586,
       "type": [
          "normal",
@@ -17560,7 +17560,7 @@ export const Pokemon = [
       "slug": "sawsbuck",
       "name": "Sawsbuck",
       "ThumbnailAltText": "Sawsbuck",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/586.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/586.png"),
       "id": 586,
       "type": [
          "normal",
@@ -17584,7 +17584,7 @@ export const Pokemon = [
       "slug": "emolga",
       "name": "Emolga",
       "ThumbnailAltText": "Emolga",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/587.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/587.png"),
       "id": 587,
       "type": [
          "electric",
@@ -17610,7 +17610,7 @@ export const Pokemon = [
       "slug": "karrablast",
       "name": "Karrablast",
       "ThumbnailAltText": "Karrablast",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/588.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/588.png"),
       "id": 588,
       "type": [
          "bug"
@@ -17633,7 +17633,7 @@ export const Pokemon = [
       "slug": "escavalier",
       "name": "Escavalier",
       "ThumbnailAltText": "Escavalier",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/589.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/589.png"),
       "id": 589,
       "type": [
          "bug",
@@ -17659,7 +17659,7 @@ export const Pokemon = [
       "slug": "foongus",
       "name": "Foongus",
       "ThumbnailAltText": "Foongus",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/590.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/590.png"),
       "id": 590,
       "type": [
          "grass",
@@ -17685,7 +17685,7 @@ export const Pokemon = [
       "slug": "amoonguss",
       "name": "Amoonguss",
       "ThumbnailAltText": "Amoonguss",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/591.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/591.png"),
       "id": 591,
       "type": [
          "grass",
@@ -17712,7 +17712,7 @@ export const Pokemon = [
       "slug": "frillish",
       "name": "Frillish",
       "ThumbnailAltText": "Frillish",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/592.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/592.png"),
       "id": 592,
       "type": [
          "water",
@@ -17739,7 +17739,7 @@ export const Pokemon = [
       "slug": "jellicent",
       "name": "Jellicent",
       "ThumbnailAltText": "Jellicent",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/593.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/593.png"),
       "id": 593,
       "type": [
          "water",
@@ -17764,7 +17764,7 @@ export const Pokemon = [
       "slug": "alomomola",
       "name": "Alomomola",
       "ThumbnailAltText": "Alomomola",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/594.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/594.png"),
       "id": 594,
       "type": [
          "water"
@@ -17788,7 +17788,7 @@ export const Pokemon = [
       "slug": "joltik",
       "name": "Joltik",
       "ThumbnailAltText": "Joltik",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/595.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/595.png"),
       "id": 595,
       "type": [
          "bug",
@@ -17813,7 +17813,7 @@ export const Pokemon = [
       "slug": "galvantula",
       "name": "Galvantula",
       "ThumbnailAltText": "Galvantula",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/596.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/596.png"),
       "id": 596,
       "type": [
          "bug",
@@ -17837,7 +17837,7 @@ export const Pokemon = [
       "slug": "ferroseed",
       "name": "Ferroseed",
       "ThumbnailAltText": "Ferroseed",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/597.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/597.png"),
       "id": 597,
       "type": [
          "grass",
@@ -17861,7 +17861,7 @@ export const Pokemon = [
       "slug": "ferrothorn",
       "name": "Ferrothorn",
       "ThumbnailAltText": "Ferrothorn",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/598.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/598.png"),
       "id": 598,
       "type": [
          "grass",
@@ -17887,7 +17887,7 @@ export const Pokemon = [
       "slug": "klink",
       "name": "Klink",
       "ThumbnailAltText": "Klink",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/599.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/599.png"),
       "id": 599,
       "type": [
          "steel"
@@ -17912,7 +17912,7 @@ export const Pokemon = [
       "slug": "klang",
       "name": "Klang",
       "ThumbnailAltText": "Klang",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/600.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/600.png"),
       "id": 600,
       "type": [
          "steel"
@@ -17937,7 +17937,7 @@ export const Pokemon = [
       "slug": "klinklang",
       "name": "Klinklang",
       "ThumbnailAltText": "Klinklang",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/601.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/601.png"),
       "id": 601,
       "type": [
          "steel"
@@ -17957,7 +17957,7 @@ export const Pokemon = [
       "slug": "tynamo",
       "name": "Tynamo",
       "ThumbnailAltText": "Tynamo",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/602.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/602.png"),
       "id": 602,
       "type": [
          "electric"
@@ -17977,7 +17977,7 @@ export const Pokemon = [
       "slug": "eelektrik",
       "name": "Eelektrik",
       "ThumbnailAltText": "Eelektrik",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/603.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/603.png"),
       "id": 603,
       "type": [
          "electric"
@@ -17997,7 +17997,7 @@ export const Pokemon = [
       "slug": "eelektross",
       "name": "Eelektross",
       "ThumbnailAltText": "Eelektross",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/604.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/604.png"),
       "id": 604,
       "type": [
          "electric"
@@ -18022,7 +18022,7 @@ export const Pokemon = [
       "slug": "elgyem",
       "name": "Elgyem",
       "ThumbnailAltText": "Elgyem",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/605.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/605.png"),
       "id": 605,
       "type": [
          "psychic"
@@ -18047,7 +18047,7 @@ export const Pokemon = [
       "slug": "beheeyem",
       "name": "Beheeyem",
       "ThumbnailAltText": "Beheeyem",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/606.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/606.png"),
       "id": 606,
       "type": [
          "psychic"
@@ -18074,7 +18074,7 @@ export const Pokemon = [
       "slug": "litwick",
       "name": "Litwick",
       "ThumbnailAltText": "Litwick",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/607.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/607.png"),
       "id": 607,
       "type": [
          "ghost",
@@ -18102,7 +18102,7 @@ export const Pokemon = [
       "slug": "lampent",
       "name": "Lampent",
       "ThumbnailAltText": "Lampent",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/608.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/608.png"),
       "id": 608,
       "type": [
          "ghost",
@@ -18130,7 +18130,7 @@ export const Pokemon = [
       "slug": "chandelure",
       "name": "Chandelure",
       "ThumbnailAltText": "Chandelure",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/609.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/609.png"),
       "id": 609,
       "type": [
          "ghost",
@@ -18156,7 +18156,7 @@ export const Pokemon = [
       "slug": "axew",
       "name": "Axew",
       "ThumbnailAltText": "Axew",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/610.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/610.png"),
       "id": 610,
       "type": [
          "dragon"
@@ -18181,7 +18181,7 @@ export const Pokemon = [
       "slug": "fraxure",
       "name": "Fraxure",
       "ThumbnailAltText": "Fraxure",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/611.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/611.png"),
       "id": 611,
       "type": [
          "dragon"
@@ -18206,7 +18206,7 @@ export const Pokemon = [
       "slug": "haxorus",
       "name": "Haxorus",
       "ThumbnailAltText": "Haxorus",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/612.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/612.png"),
       "id": 612,
       "type": [
          "dragon"
@@ -18231,7 +18231,7 @@ export const Pokemon = [
       "slug": "cubchoo",
       "name": "Cubchoo",
       "ThumbnailAltText": "Cubchoo",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/613.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/613.png"),
       "id": 613,
       "type": [
          "ice"
@@ -18256,7 +18256,7 @@ export const Pokemon = [
       "slug": "beartic",
       "name": "Beartic",
       "ThumbnailAltText": "Beartic",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/614.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/614.png"),
       "id": 614,
       "type": [
          "ice"
@@ -18281,7 +18281,7 @@ export const Pokemon = [
       "slug": "cryogonal",
       "name": "Cryogonal",
       "ThumbnailAltText": "Cryogonal",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/615.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/615.png"),
       "id": 615,
       "type": [
          "ice"
@@ -18306,7 +18306,7 @@ export const Pokemon = [
       "slug": "shelmet",
       "name": "Shelmet",
       "ThumbnailAltText": "Shelmet",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/616.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/616.png"),
       "id": 616,
       "type": [
          "bug"
@@ -18331,7 +18331,7 @@ export const Pokemon = [
       "slug": "accelgor",
       "name": "Accelgor",
       "ThumbnailAltText": "Accelgor",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/617.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/617.png"),
       "id": 617,
       "type": [
          "bug"
@@ -18357,7 +18357,7 @@ export const Pokemon = [
       "slug": "stunfisk",
       "name": "Stunfisk",
       "ThumbnailAltText": "Stunfisk",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/618.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/618.png"),
       "id": 618,
       "type": [
          "ground",
@@ -18383,7 +18383,7 @@ export const Pokemon = [
       "slug": "mienfoo",
       "name": "Mienfoo",
       "ThumbnailAltText": "Mienfoo",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/619.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/619.png"),
       "id": 619,
       "type": [
          "fighting"
@@ -18408,7 +18408,7 @@ export const Pokemon = [
       "slug": "mienshao",
       "name": "Mienshao",
       "ThumbnailAltText": "Mienshao",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/620.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/620.png"),
       "id": 620,
       "type": [
          "fighting"
@@ -18433,7 +18433,7 @@ export const Pokemon = [
       "slug": "druddigon",
       "name": "Druddigon",
       "ThumbnailAltText": "Druddigon",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/621.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/621.png"),
       "id": 621,
       "type": [
          "dragon"
@@ -18460,7 +18460,7 @@ export const Pokemon = [
       "slug": "golett",
       "name": "Golett",
       "ThumbnailAltText": "Golett",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/622.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/622.png"),
       "id": 622,
       "type": [
          "ground",
@@ -18488,7 +18488,7 @@ export const Pokemon = [
       "slug": "golurk",
       "name": "Golurk",
       "ThumbnailAltText": "Golurk",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/623.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/623.png"),
       "id": 623,
       "type": [
          "ground",
@@ -18514,7 +18514,7 @@ export const Pokemon = [
       "slug": "pawniard",
       "name": "Pawniard",
       "ThumbnailAltText": "Pawniard",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/624.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/624.png"),
       "id": 624,
       "type": [
          "dark",
@@ -18540,7 +18540,7 @@ export const Pokemon = [
       "slug": "bisharp",
       "name": "Bisharp",
       "ThumbnailAltText": "Bisharp",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/625.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/625.png"),
       "id": 625,
       "type": [
          "dark",
@@ -18564,7 +18564,7 @@ export const Pokemon = [
       "slug": "bouffalant",
       "name": "Bouffalant",
       "ThumbnailAltText": "Bouffalant",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/626.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/626.png"),
       "id": 626,
       "type": [
          "normal"
@@ -18589,7 +18589,7 @@ export const Pokemon = [
       "slug": "rufflet",
       "name": "Rufflet",
       "ThumbnailAltText": "Rufflet",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/627.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/627.png"),
       "id": 627,
       "type": [
          "normal",
@@ -18615,7 +18615,7 @@ export const Pokemon = [
       "slug": "braviary",
       "name": "Braviary",
       "ThumbnailAltText": "Braviary",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/628.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/628.png"),
       "id": 628,
       "type": [
          "normal",
@@ -18642,7 +18642,7 @@ export const Pokemon = [
       "slug": "vullaby",
       "name": "Vullaby",
       "ThumbnailAltText": "Vullaby",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/629.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/629.png"),
       "id": 629,
       "type": [
          "dark",
@@ -18669,7 +18669,7 @@ export const Pokemon = [
       "slug": "mandibuzz",
       "name": "Mandibuzz",
       "ThumbnailAltText": "Mandibuzz",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/630.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/630.png"),
       "id": 630,
       "type": [
          "dark",
@@ -18695,7 +18695,7 @@ export const Pokemon = [
       "slug": "heatmor",
       "name": "Heatmor",
       "ThumbnailAltText": "Heatmor",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/631.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/631.png"),
       "id": 631,
       "type": [
          "fire"
@@ -18718,7 +18718,7 @@ export const Pokemon = [
       "slug": "durant",
       "name": "Durant",
       "ThumbnailAltText": "Durant",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/632.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/632.png"),
       "id": 632,
       "type": [
          "bug",
@@ -18745,7 +18745,7 @@ export const Pokemon = [
       "slug": "deino",
       "name": "Deino",
       "ThumbnailAltText": "Deino",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/633.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/633.png"),
       "id": 633,
       "type": [
          "dark",
@@ -18772,7 +18772,7 @@ export const Pokemon = [
       "slug": "zweilous",
       "name": "Zweilous",
       "ThumbnailAltText": "Zweilous",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/634.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/634.png"),
       "id": 634,
       "type": [
          "dark",
@@ -18799,7 +18799,7 @@ export const Pokemon = [
       "slug": "hydreigon",
       "name": "Hydreigon",
       "ThumbnailAltText": "Hydreigon",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/635.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/635.png"),
       "id": 635,
       "type": [
          "dark",
@@ -18824,7 +18824,7 @@ export const Pokemon = [
       "slug": "larvesta",
       "name": "Larvesta",
       "ThumbnailAltText": "Larvesta",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/636.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/636.png"),
       "id": 636,
       "type": [
          "bug",
@@ -18849,7 +18849,7 @@ export const Pokemon = [
       "slug": "volcarona",
       "name": "Volcarona",
       "ThumbnailAltText": "Volcarona",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/637.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/637.png"),
       "id": 637,
       "type": [
          "bug",
@@ -18874,7 +18874,7 @@ export const Pokemon = [
       "slug": "cobalion",
       "name": "Cobalion",
       "ThumbnailAltText": "Cobalion",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/638.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/638.png"),
       "id": 638,
       "type": [
          "steel",
@@ -18903,7 +18903,7 @@ export const Pokemon = [
       "slug": "terrakion",
       "name": "Terrakion",
       "ThumbnailAltText": "Terrakion",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/639.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/639.png"),
       "id": 639,
       "type": [
          "rock",
@@ -18931,7 +18931,7 @@ export const Pokemon = [
       "slug": "virizion",
       "name": "Virizion",
       "ThumbnailAltText": "Virizion",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/640.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/640.png"),
       "id": 640,
       "type": [
          "grass",
@@ -18956,7 +18956,7 @@ export const Pokemon = [
       "slug": "tornadus",
       "name": "Tornadus",
       "ThumbnailAltText": "Tornadus",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/641.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/641.png"),
       "id": 641,
       "type": [
          "flying"
@@ -18980,7 +18980,7 @@ export const Pokemon = [
       "slug": "tornadus",
       "name": "Tornadus",
       "ThumbnailAltText": "Tornadus",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/641.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/641.png"),
       "id": 641,
       "type": [
          "flying"
@@ -19003,7 +19003,7 @@ export const Pokemon = [
       "slug": "thundurus",
       "name": "Thundurus",
       "ThumbnailAltText": "Thundurus",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/642.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/642.png"),
       "id": 642,
       "type": [
          "electric",
@@ -19027,7 +19027,7 @@ export const Pokemon = [
       "slug": "thundurus",
       "name": "Thundurus",
       "ThumbnailAltText": "Thundurus",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/642.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/642.png"),
       "id": 642,
       "type": [
          "electric",
@@ -19052,7 +19052,7 @@ export const Pokemon = [
       "slug": "reshiram",
       "name": "Reshiram",
       "ThumbnailAltText": "Reshiram",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/643.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/643.png"),
       "id": 643,
       "type": [
          "dragon",
@@ -19078,7 +19078,7 @@ export const Pokemon = [
       "slug": "zekrom",
       "name": "Zekrom",
       "ThumbnailAltText": "Zekrom",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/644.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/644.png"),
       "id": 644,
       "type": [
          "dragon",
@@ -19102,7 +19102,7 @@ export const Pokemon = [
       "slug": "landorus",
       "name": "Landorus",
       "ThumbnailAltText": "Landorus",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/645.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/645.png"),
       "id": 645,
       "type": [
          "ground",
@@ -19126,7 +19126,7 @@ export const Pokemon = [
       "slug": "landorus",
       "name": "Landorus",
       "ThumbnailAltText": "Landorus",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/645.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/645.png"),
       "id": 645,
       "type": [
          "ground",
@@ -19153,7 +19153,7 @@ export const Pokemon = [
       "slug": "kyurem",
       "name": "Kyurem",
       "ThumbnailAltText": "Kyurem",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/646.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/646.png"),
       "id": 646,
       "type": [
          "dragon",
@@ -19180,7 +19180,7 @@ export const Pokemon = [
       "slug": "kyurem",
       "name": "Kyurem",
       "ThumbnailAltText": "Kyurem",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/646.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/646.png"),
       "id": 646,
       "type": [
          "dragon",
@@ -19207,7 +19207,7 @@ export const Pokemon = [
       "slug": "kyurem",
       "name": "Kyurem",
       "ThumbnailAltText": "Kyurem",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/646.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/646.png"),
       "id": 646,
       "type": [
          "dragon",
@@ -19234,7 +19234,7 @@ export const Pokemon = [
       "slug": "keldeo",
       "name": "Keldeo",
       "ThumbnailAltText": "Keldeo",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/647.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/647.png"),
       "id": 647,
       "type": [
          "water",
@@ -19261,7 +19261,7 @@ export const Pokemon = [
       "slug": "keldeo",
       "name": "Keldeo",
       "ThumbnailAltText": "Keldeo",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/647.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/647.png"),
       "id": 647,
       "type": [
          "water",
@@ -19287,7 +19287,7 @@ export const Pokemon = [
       "slug": "meloetta",
       "name": "Meloetta",
       "ThumbnailAltText": "Meloetta",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/648.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/648.png"),
       "id": 648,
       "type": [
          "normal",
@@ -19311,7 +19311,7 @@ export const Pokemon = [
       "slug": "meloetta",
       "name": "Meloetta",
       "ThumbnailAltText": "Meloetta",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/648.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/648.png"),
       "id": 648,
       "type": [
          "normal",
@@ -19334,7 +19334,7 @@ export const Pokemon = [
       "slug": "genesect",
       "name": "Genesect",
       "ThumbnailAltText": "Genesect",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/649.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/649.png"),
       "id": 649,
       "type": [
          "bug",
@@ -19361,7 +19361,7 @@ export const Pokemon = [
       "slug": "chespin",
       "name": "Chespin",
       "ThumbnailAltText": "Chespin",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/650.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/650.png"),
       "id": 650,
       "type": [
          "grass"
@@ -19387,7 +19387,7 @@ export const Pokemon = [
       "slug": "quilladin",
       "name": "Quilladin",
       "ThumbnailAltText": "Quilladin",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/651.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/651.png"),
       "id": 651,
       "type": [
          "grass"
@@ -19414,7 +19414,7 @@ export const Pokemon = [
       "slug": "chesnaught",
       "name": "Chesnaught",
       "ThumbnailAltText": "Chesnaught",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/652.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/652.png"),
       "id": 652,
       "type": [
          "grass",
@@ -19439,7 +19439,7 @@ export const Pokemon = [
       "slug": "fennekin",
       "name": "Fennekin",
       "ThumbnailAltText": "Fennekin",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/653.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/653.png"),
       "id": 653,
       "type": [
          "fire"
@@ -19463,7 +19463,7 @@ export const Pokemon = [
       "slug": "braixen",
       "name": "Braixen",
       "ThumbnailAltText": "Braixen",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/654.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/654.png"),
       "id": 654,
       "type": [
          "fire"
@@ -19489,7 +19489,7 @@ export const Pokemon = [
       "slug": "delphox",
       "name": "Delphox",
       "ThumbnailAltText": "Delphox",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/655.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/655.png"),
       "id": 655,
       "type": [
          "fire",
@@ -19513,7 +19513,7 @@ export const Pokemon = [
       "slug": "froakie",
       "name": "Froakie",
       "ThumbnailAltText": "Froakie",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/656.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/656.png"),
       "id": 656,
       "type": [
          "water"
@@ -19536,7 +19536,7 @@ export const Pokemon = [
       "slug": "frogadier",
       "name": "Frogadier",
       "ThumbnailAltText": "Frogadier",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/657.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/657.png"),
       "id": 657,
       "type": [
          "water"
@@ -19562,7 +19562,7 @@ export const Pokemon = [
       "slug": "greninja",
       "name": "Greninja",
       "ThumbnailAltText": "Greninja",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/658.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/658.png"),
       "id": 658,
       "type": [
          "water",
@@ -19589,7 +19589,7 @@ export const Pokemon = [
       "slug": "greninja",
       "name": "Greninja",
       "ThumbnailAltText": "Greninja",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/658.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/658.png"),
       "id": 658,
       "type": [
          "water",
@@ -19613,7 +19613,7 @@ export const Pokemon = [
       "slug": "bunnelby",
       "name": "Bunnelby",
       "ThumbnailAltText": "Bunnelby",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/659.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/659.png"),
       "id": 659,
       "type": [
          "normal"
@@ -19639,7 +19639,7 @@ export const Pokemon = [
       "slug": "diggersby",
       "name": "Diggersby",
       "ThumbnailAltText": "Diggersby",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/660.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/660.png"),
       "id": 660,
       "type": [
          "normal",
@@ -19664,7 +19664,7 @@ export const Pokemon = [
       "slug": "fletchling",
       "name": "Fletchling",
       "ThumbnailAltText": "Fletchling",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/661.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/661.png"),
       "id": 661,
       "type": [
          "normal",
@@ -19689,7 +19689,7 @@ export const Pokemon = [
       "slug": "fletchinder",
       "name": "Fletchinder",
       "ThumbnailAltText": "Fletchinder",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/662.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/662.png"),
       "id": 662,
       "type": [
          "fire",
@@ -19714,7 +19714,7 @@ export const Pokemon = [
       "slug": "talonflame",
       "name": "Talonflame",
       "ThumbnailAltText": "Talonflame",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/663.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/663.png"),
       "id": 663,
       "type": [
          "fire",
@@ -19740,7 +19740,7 @@ export const Pokemon = [
       "slug": "scatterbug",
       "name": "Scatterbug",
       "ThumbnailAltText": "Scatterbug",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/664.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/664.png"),
       "id": 664,
       "type": [
          "bug"
@@ -19764,7 +19764,7 @@ export const Pokemon = [
       "slug": "spewpa",
       "name": "Spewpa",
       "ThumbnailAltText": "Spewpa",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/665.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/665.png"),
       "id": 665,
       "type": [
          "bug"
@@ -19791,7 +19791,7 @@ export const Pokemon = [
       "slug": "vivillon",
       "name": "Vivillon",
       "ThumbnailAltText": "Vivillon",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/666.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/666.png"),
       "id": 666,
       "type": [
          "bug",
@@ -19818,7 +19818,7 @@ export const Pokemon = [
       "slug": "litleo",
       "name": "Litleo",
       "ThumbnailAltText": "Litleo",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/667.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/667.png"),
       "id": 667,
       "type": [
          "fire",
@@ -19845,7 +19845,7 @@ export const Pokemon = [
       "slug": "pyroar",
       "name": "Pyroar",
       "ThumbnailAltText": "Pyroar",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/668.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/668.png"),
       "id": 668,
       "type": [
          "fire",
@@ -19872,7 +19872,7 @@ export const Pokemon = [
       "slug": "pyroar",
       "name": "Pyroar",
       "ThumbnailAltText": "Pyroar",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/668.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/668.png"),
       "id": 668,
       "type": [
          "fire",
@@ -19896,7 +19896,7 @@ export const Pokemon = [
       "slug": "flabebe",
       "name": "Flabébé",
       "ThumbnailAltText": "Flabébé",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/669.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/669.png"),
       "id": 669,
       "type": [
          "fairy"
@@ -19919,7 +19919,7 @@ export const Pokemon = [
       "slug": "floette",
       "name": "Floette",
       "ThumbnailAltText": "Floette",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/670.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/670.png"),
       "id": 670,
       "type": [
          "fairy"
@@ -19942,7 +19942,7 @@ export const Pokemon = [
       "slug": "florges",
       "name": "Florges",
       "ThumbnailAltText": "Florges",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/671.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/671.png"),
       "id": 671,
       "type": [
          "fairy"
@@ -19968,7 +19968,7 @@ export const Pokemon = [
       "slug": "skiddo",
       "name": "Skiddo",
       "ThumbnailAltText": "Skiddo",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/672.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/672.png"),
       "id": 672,
       "type": [
          "grass"
@@ -19994,7 +19994,7 @@ export const Pokemon = [
       "slug": "gogoat",
       "name": "Gogoat",
       "ThumbnailAltText": "Gogoat",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/673.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/673.png"),
       "id": 673,
       "type": [
          "grass"
@@ -20019,7 +20019,7 @@ export const Pokemon = [
       "slug": "pancham",
       "name": "Pancham",
       "ThumbnailAltText": "Pancham",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/674.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/674.png"),
       "id": 674,
       "type": [
          "fighting"
@@ -20044,7 +20044,7 @@ export const Pokemon = [
       "slug": "pangoro",
       "name": "Pangoro",
       "ThumbnailAltText": "Pangoro",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/675.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/675.png"),
       "id": 675,
       "type": [
          "fighting",
@@ -20067,7 +20067,7 @@ export const Pokemon = [
       "slug": "furfrou",
       "name": "Furfrou",
       "ThumbnailAltText": "Furfrou",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/676.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/676.png"),
       "id": 676,
       "type": [
          "normal"
@@ -20089,7 +20089,7 @@ export const Pokemon = [
       "slug": "furfrou",
       "name": "Furfrou",
       "ThumbnailAltText": "Furfrou",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/676.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/676.png"),
       "id": 676,
       "type": [
          "normal"
@@ -20111,7 +20111,7 @@ export const Pokemon = [
       "slug": "furfrou",
       "name": "Furfrou",
       "ThumbnailAltText": "Furfrou",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/676.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/676.png"),
       "id": 676,
       "type": [
          "normal"
@@ -20133,7 +20133,7 @@ export const Pokemon = [
       "slug": "furfrou",
       "name": "Furfrou",
       "ThumbnailAltText": "Furfrou",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/676.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/676.png"),
       "id": 676,
       "type": [
          "normal"
@@ -20158,7 +20158,7 @@ export const Pokemon = [
       "slug": "espurr",
       "name": "Espurr",
       "ThumbnailAltText": "Espurr",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/677.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/677.png"),
       "id": 677,
       "type": [
          "psychic"
@@ -20183,7 +20183,7 @@ export const Pokemon = [
       "slug": "meowstic",
       "name": "Meowstic",
       "ThumbnailAltText": "Meowstic",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/678.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/678.png"),
       "id": 678,
       "type": [
          "psychic"
@@ -20208,7 +20208,7 @@ export const Pokemon = [
       "slug": "meowstic",
       "name": "Meowstic",
       "ThumbnailAltText": "Meowstic",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/678.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/678.png"),
       "id": 678,
       "type": [
          "psychic"
@@ -20233,7 +20233,7 @@ export const Pokemon = [
       "slug": "honedge",
       "name": "Honedge",
       "ThumbnailAltText": "Honedge",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/679.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/679.png"),
       "id": 679,
       "type": [
          "steel",
@@ -20259,7 +20259,7 @@ export const Pokemon = [
       "slug": "doublade",
       "name": "Doublade",
       "ThumbnailAltText": "Doublade",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/680.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/680.png"),
       "id": 680,
       "type": [
          "steel",
@@ -20285,7 +20285,7 @@ export const Pokemon = [
       "slug": "aegislash",
       "name": "Aegislash",
       "ThumbnailAltText": "Aegislash",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/681.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/681.png"),
       "id": 681,
       "type": [
          "steel",
@@ -20311,7 +20311,7 @@ export const Pokemon = [
       "slug": "aegislash",
       "name": "Aegislash",
       "ThumbnailAltText": "Aegislash",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/681.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/681.png"),
       "id": 681,
       "type": [
          "steel",
@@ -20335,7 +20335,7 @@ export const Pokemon = [
       "slug": "spritzee",
       "name": "Spritzee",
       "ThumbnailAltText": "Spritzee",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/682.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/682.png"),
       "id": 682,
       "type": [
          "fairy"
@@ -20358,7 +20358,7 @@ export const Pokemon = [
       "slug": "aromatisse",
       "name": "Aromatisse",
       "ThumbnailAltText": "Aromatisse",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/683.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/683.png"),
       "id": 683,
       "type": [
          "fairy"
@@ -20381,7 +20381,7 @@ export const Pokemon = [
       "slug": "swirlix",
       "name": "Swirlix",
       "ThumbnailAltText": "Swirlix",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/684.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/684.png"),
       "id": 684,
       "type": [
          "fairy"
@@ -20404,7 +20404,7 @@ export const Pokemon = [
       "slug": "slurpuff",
       "name": "Slurpuff",
       "ThumbnailAltText": "Slurpuff",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/685.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/685.png"),
       "id": 685,
       "type": [
          "fairy"
@@ -20428,7 +20428,7 @@ export const Pokemon = [
       "slug": "inkay",
       "name": "Inkay",
       "ThumbnailAltText": "Inkay",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/686.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/686.png"),
       "id": 686,
       "type": [
          "dark",
@@ -20453,7 +20453,7 @@ export const Pokemon = [
       "slug": "malamar",
       "name": "Malamar",
       "ThumbnailAltText": "Malamar",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/687.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/687.png"),
       "id": 687,
       "type": [
          "dark",
@@ -20480,7 +20480,7 @@ export const Pokemon = [
       "slug": "binacle",
       "name": "Binacle",
       "ThumbnailAltText": "Binacle",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/688.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/688.png"),
       "id": 688,
       "type": [
          "rock",
@@ -20507,7 +20507,7 @@ export const Pokemon = [
       "slug": "barbaracle",
       "name": "Barbaracle",
       "ThumbnailAltText": "Barbaracle",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/689.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/689.png"),
       "id": 689,
       "type": [
          "rock",
@@ -20533,7 +20533,7 @@ export const Pokemon = [
       "slug": "skrelp",
       "name": "Skrelp",
       "ThumbnailAltText": "Skrelp",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/690.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/690.png"),
       "id": 690,
       "type": [
          "poison",
@@ -20560,7 +20560,7 @@ export const Pokemon = [
       "slug": "dragalge",
       "name": "Dragalge",
       "ThumbnailAltText": "Dragalge",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/691.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/691.png"),
       "id": 691,
       "type": [
          "poison",
@@ -20584,7 +20584,7 @@ export const Pokemon = [
       "slug": "clauncher",
       "name": "Clauncher",
       "ThumbnailAltText": "Clauncher",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/692.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/692.png"),
       "id": 692,
       "type": [
          "water"
@@ -20607,7 +20607,7 @@ export const Pokemon = [
       "slug": "clawitzer",
       "name": "Clawitzer",
       "ThumbnailAltText": "Clawitzer",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/693.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/693.png"),
       "id": 693,
       "type": [
          "water"
@@ -20631,7 +20631,7 @@ export const Pokemon = [
       "slug": "helioptile",
       "name": "Helioptile",
       "ThumbnailAltText": "Helioptile",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/694.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/694.png"),
       "id": 694,
       "type": [
          "electric",
@@ -20656,7 +20656,7 @@ export const Pokemon = [
       "slug": "heliolisk",
       "name": "Heliolisk",
       "ThumbnailAltText": "Heliolisk",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/695.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/695.png"),
       "id": 695,
       "type": [
          "electric",
@@ -20684,7 +20684,7 @@ export const Pokemon = [
       "slug": "tyrunt",
       "name": "Tyrunt",
       "ThumbnailAltText": "Tyrunt",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/696.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/696.png"),
       "id": 696,
       "type": [
          "rock",
@@ -20712,7 +20712,7 @@ export const Pokemon = [
       "slug": "tyrantrum",
       "name": "Tyrantrum",
       "ThumbnailAltText": "Tyrantrum",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/697.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/697.png"),
       "id": 697,
       "type": [
          "rock",
@@ -20740,7 +20740,7 @@ export const Pokemon = [
       "slug": "amaura",
       "name": "Amaura",
       "ThumbnailAltText": "Amaura",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/698.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/698.png"),
       "id": 698,
       "type": [
          "rock",
@@ -20768,7 +20768,7 @@ export const Pokemon = [
       "slug": "aurorus",
       "name": "Aurorus",
       "ThumbnailAltText": "Aurorus",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/699.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/699.png"),
       "id": 699,
       "type": [
          "rock",
@@ -20792,7 +20792,7 @@ export const Pokemon = [
       "slug": "sylveon",
       "name": "Sylveon",
       "ThumbnailAltText": "Sylveon",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/700.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/700.png"),
       "id": 700,
       "type": [
          "fairy"
@@ -20819,7 +20819,7 @@ export const Pokemon = [
       "slug": "hawlucha",
       "name": "Hawlucha",
       "ThumbnailAltText": "Hawlucha",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/701.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/701.png"),
       "id": 701,
       "type": [
          "fighting",
@@ -20844,7 +20844,7 @@ export const Pokemon = [
       "slug": "dedenne",
       "name": "Dedenne",
       "ThumbnailAltText": "Dedenne",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/702.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/702.png"),
       "id": 702,
       "type": [
          "electric",
@@ -20870,7 +20870,7 @@ export const Pokemon = [
       "slug": "carbink",
       "name": "Carbink",
       "ThumbnailAltText": "Carbink",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/703.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/703.png"),
       "id": 703,
       "type": [
          "rock",
@@ -20896,7 +20896,7 @@ export const Pokemon = [
       "slug": "goomy",
       "name": "Goomy",
       "ThumbnailAltText": "Goomy",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/704.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/704.png"),
       "id": 704,
       "type": [
          "dragon"
@@ -20921,7 +20921,7 @@ export const Pokemon = [
       "slug": "sliggoo",
       "name": "Sliggoo",
       "ThumbnailAltText": "Sliggoo",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/705.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/705.png"),
       "id": 705,
       "type": [
          "dragon"
@@ -20946,7 +20946,7 @@ export const Pokemon = [
       "slug": "goodra",
       "name": "Goodra",
       "ThumbnailAltText": "Goodra",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/706.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/706.png"),
       "id": 706,
       "type": [
          "dragon"
@@ -20969,7 +20969,7 @@ export const Pokemon = [
       "slug": "klefki",
       "name": "Klefki",
       "ThumbnailAltText": "Klefki",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/707.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/707.png"),
       "id": 707,
       "type": [
          "steel",
@@ -20997,7 +20997,7 @@ export const Pokemon = [
       "slug": "phantump",
       "name": "Phantump",
       "ThumbnailAltText": "Phantump",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/708.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/708.png"),
       "id": 708,
       "type": [
          "ghost",
@@ -21025,7 +21025,7 @@ export const Pokemon = [
       "slug": "trevenant",
       "name": "Trevenant",
       "ThumbnailAltText": "Trevenant",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/709.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/709.png"),
       "id": 709,
       "type": [
          "ghost",
@@ -21053,7 +21053,7 @@ export const Pokemon = [
       "slug": "pumpkaboo",
       "name": "Pumpkaboo",
       "ThumbnailAltText": "Pumpkaboo",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/710.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/710.png"),
       "id": 710,
       "type": [
          "ghost",
@@ -21081,7 +21081,7 @@ export const Pokemon = [
       "slug": "pumpkaboo",
       "name": "Pumpkaboo",
       "ThumbnailAltText": "Pumpkaboo",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/710.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/710.png"),
       "id": 710,
       "type": [
          "ghost",
@@ -21109,7 +21109,7 @@ export const Pokemon = [
       "slug": "pumpkaboo",
       "name": "Pumpkaboo",
       "ThumbnailAltText": "Pumpkaboo",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/710.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/710.png"),
       "id": 710,
       "type": [
          "ghost",
@@ -21137,7 +21137,7 @@ export const Pokemon = [
       "slug": "pumpkaboo",
       "name": "Pumpkaboo",
       "ThumbnailAltText": "Pumpkaboo",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/710.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/710.png"),
       "id": 710,
       "type": [
          "ghost",
@@ -21165,7 +21165,7 @@ export const Pokemon = [
       "slug": "gourgeist",
       "name": "Gourgeist",
       "ThumbnailAltText": "Gourgeist",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/711.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/711.png"),
       "id": 711,
       "type": [
          "ghost",
@@ -21193,7 +21193,7 @@ export const Pokemon = [
       "slug": "gourgeist",
       "name": "Gourgeist",
       "ThumbnailAltText": "Gourgeist",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/711.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/711.png"),
       "id": 711,
       "type": [
          "ghost",
@@ -21221,7 +21221,7 @@ export const Pokemon = [
       "slug": "gourgeist",
       "name": "Gourgeist",
       "ThumbnailAltText": "Gourgeist",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/711.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/711.png"),
       "id": 711,
       "type": [
          "ghost",
@@ -21249,7 +21249,7 @@ export const Pokemon = [
       "slug": "gourgeist",
       "name": "Gourgeist",
       "ThumbnailAltText": "Gourgeist",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/711.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/711.png"),
       "id": 711,
       "type": [
          "ghost",
@@ -21276,7 +21276,7 @@ export const Pokemon = [
       "slug": "bergmite",
       "name": "Bergmite",
       "ThumbnailAltText": "Bergmite",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/712.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/712.png"),
       "id": 712,
       "type": [
          "ice"
@@ -21302,7 +21302,7 @@ export const Pokemon = [
       "slug": "avalugg",
       "name": "Avalugg",
       "ThumbnailAltText": "Avalugg",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/713.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/713.png"),
       "id": 713,
       "type": [
          "ice"
@@ -21328,7 +21328,7 @@ export const Pokemon = [
       "slug": "noibat",
       "name": "Noibat",
       "ThumbnailAltText": "Noibat",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/714.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/714.png"),
       "id": 714,
       "type": [
          "flying",
@@ -21355,7 +21355,7 @@ export const Pokemon = [
       "slug": "noivern",
       "name": "Noivern",
       "ThumbnailAltText": "Noivern",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/715.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/715.png"),
       "id": 715,
       "type": [
          "flying",
@@ -21379,7 +21379,7 @@ export const Pokemon = [
       "slug": "xerneas",
       "name": "Xerneas",
       "ThumbnailAltText": "Xerneas",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/716.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/716.png"),
       "id": 716,
       "type": [
          "fairy"
@@ -21404,7 +21404,7 @@ export const Pokemon = [
       "slug": "yveltal",
       "name": "Yveltal",
       "ThumbnailAltText": "Yveltal",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/717.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/717.png"),
       "id": 717,
       "type": [
          "dark",
@@ -21429,7 +21429,7 @@ export const Pokemon = [
       "slug": "zygarde",
       "name": "Zygarde",
       "ThumbnailAltText": "Zygarde",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/718.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/718.png"),
       "id": 718,
       "type": [
          "dragon",
@@ -21455,7 +21455,7 @@ export const Pokemon = [
       "slug": "zygarde",
       "name": "Zygarde",
       "ThumbnailAltText": "Zygarde",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/718.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/718.png"),
       "id": 718,
       "type": [
          "dragon",
@@ -21480,7 +21480,7 @@ export const Pokemon = [
       "slug": "zygarde",
       "name": "Zygarde",
       "ThumbnailAltText": "Zygarde",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/718.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/718.png"),
       "id": 718,
       "type": [
          "dragon",
@@ -21506,7 +21506,7 @@ export const Pokemon = [
       "slug": "diancie",
       "name": "Diancie",
       "ThumbnailAltText": "Diancie",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/719.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/719.png"),
       "id": 719,
       "type": [
          "rock",
@@ -21532,7 +21532,7 @@ export const Pokemon = [
       "slug": "diancie",
       "name": "Diancie",
       "ThumbnailAltText": "Diancie",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/719.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/719.png"),
       "id": 719,
       "type": [
          "rock",
@@ -21556,7 +21556,7 @@ export const Pokemon = [
       "slug": "hoopa",
       "name": "Hoopa",
       "ThumbnailAltText": "Hoopa",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/720.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/720.png"),
       "id": 720,
       "type": [
          "psychic",
@@ -21580,7 +21580,7 @@ export const Pokemon = [
       "slug": "hoopa",
       "name": "Hoopa",
       "ThumbnailAltText": "Hoopa",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/720.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/720.png"),
       "id": 720,
       "type": [
          "psychic",
@@ -21605,7 +21605,7 @@ export const Pokemon = [
       "slug": "volcanion",
       "name": "Volcanion",
       "ThumbnailAltText": "Volcanion",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/721.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/721.png"),
       "id": 721,
       "type": [
          "fire",
@@ -21632,7 +21632,7 @@ export const Pokemon = [
       "slug": "rowlet",
       "name": "Rowlet",
       "ThumbnailAltText": "Rowlet",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/722.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/722.png"),
       "id": 722,
       "type": [
          "grass",
@@ -21659,7 +21659,7 @@ export const Pokemon = [
       "slug": "dartrix",
       "name": "Dartrix",
       "ThumbnailAltText": "Dartrix",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/723.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/723.png"),
       "id": 723,
       "type": [
          "grass",
@@ -21686,7 +21686,7 @@ export const Pokemon = [
       "slug": "decidueye",
       "name": "Decidueye",
       "ThumbnailAltText": "Decidueye",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/724.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/724.png"),
       "id": 724,
       "type": [
          "grass",
@@ -21711,7 +21711,7 @@ export const Pokemon = [
       "slug": "litten",
       "name": "Litten",
       "ThumbnailAltText": "Litten",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/725.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/725.png"),
       "id": 725,
       "type": [
          "fire"
@@ -21735,7 +21735,7 @@ export const Pokemon = [
       "slug": "torracat",
       "name": "Torracat",
       "ThumbnailAltText": "Torracat",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/726.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/726.png"),
       "id": 726,
       "type": [
          "fire"
@@ -21760,7 +21760,7 @@ export const Pokemon = [
       "slug": "incineroar",
       "name": "Incineroar",
       "ThumbnailAltText": "Incineroar",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/727.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/727.png"),
       "id": 727,
       "type": [
          "fire",
@@ -21784,7 +21784,7 @@ export const Pokemon = [
       "slug": "popplio",
       "name": "Popplio",
       "ThumbnailAltText": "Popplio",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/728.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/728.png"),
       "id": 728,
       "type": [
          "water"
@@ -21807,7 +21807,7 @@ export const Pokemon = [
       "slug": "brionne",
       "name": "Brionne",
       "ThumbnailAltText": "Brionne",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/729.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/729.png"),
       "id": 729,
       "type": [
          "water"
@@ -21831,7 +21831,7 @@ export const Pokemon = [
       "slug": "primarina",
       "name": "Primarina",
       "ThumbnailAltText": "Primarina",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/730.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/730.png"),
       "id": 730,
       "type": [
          "water",
@@ -21857,7 +21857,7 @@ export const Pokemon = [
       "slug": "pikipek",
       "name": "Pikipek",
       "ThumbnailAltText": "Pikipek",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/731.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/731.png"),
       "id": 731,
       "type": [
          "normal",
@@ -21883,7 +21883,7 @@ export const Pokemon = [
       "slug": "trumbeak",
       "name": "Trumbeak",
       "ThumbnailAltText": "Trumbeak",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/732.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/732.png"),
       "id": 732,
       "type": [
          "normal",
@@ -21909,7 +21909,7 @@ export const Pokemon = [
       "slug": "toucannon",
       "name": "Toucannon",
       "ThumbnailAltText": "Toucannon",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/733.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/733.png"),
       "id": 733,
       "type": [
          "normal",
@@ -21933,7 +21933,7 @@ export const Pokemon = [
       "slug": "yungoos",
       "name": "Yungoos",
       "ThumbnailAltText": "Yungoos",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/734.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/734.png"),
       "id": 734,
       "type": [
          "normal"
@@ -21956,7 +21956,7 @@ export const Pokemon = [
       "slug": "gumshoos",
       "name": "Gumshoos",
       "ThumbnailAltText": "Gumshoos",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/735.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/735.png"),
       "id": 735,
       "type": [
          "normal"
@@ -21980,7 +21980,7 @@ export const Pokemon = [
       "slug": "grubbin",
       "name": "Grubbin",
       "ThumbnailAltText": "Grubbin",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/736.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/736.png"),
       "id": 736,
       "type": [
          "bug"
@@ -22003,7 +22003,7 @@ export const Pokemon = [
       "slug": "charjabug",
       "name": "Charjabug",
       "ThumbnailAltText": "Charjabug",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/737.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/737.png"),
       "id": 737,
       "type": [
          "bug",
@@ -22027,7 +22027,7 @@ export const Pokemon = [
       "slug": "vikavolt",
       "name": "Vikavolt",
       "ThumbnailAltText": "Vikavolt",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/738.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/738.png"),
       "id": 738,
       "type": [
          "bug",
@@ -22053,7 +22053,7 @@ export const Pokemon = [
       "slug": "crabrawler",
       "name": "Crabrawler",
       "ThumbnailAltText": "Crabrawler",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/739.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/739.png"),
       "id": 739,
       "type": [
          "fighting"
@@ -22081,7 +22081,7 @@ export const Pokemon = [
       "slug": "crabominable",
       "name": "Crabominable",
       "ThumbnailAltText": "Crabominable",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/740.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/740.png"),
       "id": 740,
       "type": [
          "fighting",
@@ -22108,7 +22108,7 @@ export const Pokemon = [
       "slug": "oricorio",
       "name": "Oricorio",
       "ThumbnailAltText": "Oricorio",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/741.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/741.png"),
       "id": 741,
       "type": [
          "ghost",
@@ -22135,7 +22135,7 @@ export const Pokemon = [
       "slug": "oricorio",
       "name": "Oricorio",
       "ThumbnailAltText": "Oricorio",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/741.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/741.png"),
       "id": 741,
       "type": [
          "psychic",
@@ -22159,7 +22159,7 @@ export const Pokemon = [
       "slug": "oricorio",
       "name": "Oricorio",
       "ThumbnailAltText": "Oricorio",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/741.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/741.png"),
       "id": 741,
       "type": [
          "electric",
@@ -22184,7 +22184,7 @@ export const Pokemon = [
       "slug": "oricorio",
       "name": "Oricorio",
       "ThumbnailAltText": "Oricorio",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/741.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/741.png"),
       "id": 741,
       "type": [
          "fire",
@@ -22212,7 +22212,7 @@ export const Pokemon = [
       "slug": "cutiefly",
       "name": "Cutiefly",
       "ThumbnailAltText": "Cutiefly",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/742.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/742.png"),
       "id": 742,
       "type": [
          "bug",
@@ -22240,7 +22240,7 @@ export const Pokemon = [
       "slug": "ribombee",
       "name": "Ribombee",
       "ThumbnailAltText": "Ribombee",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/743.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/743.png"),
       "id": 743,
       "type": [
          "bug",
@@ -22268,7 +22268,7 @@ export const Pokemon = [
       "slug": "rockruff",
       "name": "Rockruff",
       "ThumbnailAltText": "Rockruff",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/744.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/744.png"),
       "id": 744,
       "type": [
          "rock"
@@ -22295,7 +22295,7 @@ export const Pokemon = [
       "slug": "lycanroc",
       "name": "Lycanroc",
       "ThumbnailAltText": "Lycanroc",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/745.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/745.png"),
       "id": 745,
       "type": [
          "rock"
@@ -22322,7 +22322,7 @@ export const Pokemon = [
       "slug": "lycanroc",
       "name": "Lycanroc",
       "ThumbnailAltText": "Lycanroc",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/745.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/745.png"),
       "id": 745,
       "type": [
          "rock"
@@ -22345,7 +22345,7 @@ export const Pokemon = [
       "slug": "wishiwashi",
       "name": "Wishiwashi",
       "ThumbnailAltText": "Wishiwashi",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/746.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/746.png"),
       "id": 746,
       "type": [
          "water"
@@ -22368,7 +22368,7 @@ export const Pokemon = [
       "slug": "wishiwashi",
       "name": "Wishiwashi",
       "ThumbnailAltText": "Wishiwashi",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/746.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/746.png"),
       "id": 746,
       "type": [
          "water"
@@ -22393,7 +22393,7 @@ export const Pokemon = [
       "slug": "mareanie",
       "name": "Mareanie",
       "ThumbnailAltText": "Mareanie",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/747.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/747.png"),
       "id": 747,
       "type": [
          "poison",
@@ -22419,7 +22419,7 @@ export const Pokemon = [
       "slug": "toxapex",
       "name": "Toxapex",
       "ThumbnailAltText": "Toxapex",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/748.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/748.png"),
       "id": 748,
       "type": [
          "poison",
@@ -22445,7 +22445,7 @@ export const Pokemon = [
       "slug": "mudbray",
       "name": "Mudbray",
       "ThumbnailAltText": "Mudbray",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/749.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/749.png"),
       "id": 749,
       "type": [
          "ground"
@@ -22470,7 +22470,7 @@ export const Pokemon = [
       "slug": "mudsdale",
       "name": "Mudsdale",
       "ThumbnailAltText": "Mudsdale",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/750.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/750.png"),
       "id": 750,
       "type": [
          "ground"
@@ -22494,7 +22494,7 @@ export const Pokemon = [
       "slug": "dewpider",
       "name": "Dewpider",
       "ThumbnailAltText": "Dewpider",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/751.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/751.png"),
       "id": 751,
       "type": [
          "water",
@@ -22519,7 +22519,7 @@ export const Pokemon = [
       "slug": "araquanid",
       "name": "Araquanid",
       "ThumbnailAltText": "Araquanid",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/752.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/752.png"),
       "id": 752,
       "type": [
          "water",
@@ -22546,7 +22546,7 @@ export const Pokemon = [
       "slug": "fomantis",
       "name": "Fomantis",
       "ThumbnailAltText": "Fomantis",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/753.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/753.png"),
       "id": 753,
       "type": [
          "grass"
@@ -22572,7 +22572,7 @@ export const Pokemon = [
       "slug": "lurantis",
       "name": "Lurantis",
       "ThumbnailAltText": "Lurantis",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/754.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/754.png"),
       "id": 754,
       "type": [
          "grass"
@@ -22599,7 +22599,7 @@ export const Pokemon = [
       "slug": "morelull",
       "name": "Morelull",
       "ThumbnailAltText": "Morelull",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/755.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/755.png"),
       "id": 755,
       "type": [
          "grass",
@@ -22627,7 +22627,7 @@ export const Pokemon = [
       "slug": "shiinotic",
       "name": "Shiinotic",
       "ThumbnailAltText": "Shiinotic",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/756.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/756.png"),
       "id": 756,
       "type": [
          "grass",
@@ -22653,7 +22653,7 @@ export const Pokemon = [
       "slug": "salandit",
       "name": "Salandit",
       "ThumbnailAltText": "Salandit",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/757.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/757.png"),
       "id": 757,
       "type": [
          "poison",
@@ -22679,7 +22679,7 @@ export const Pokemon = [
       "slug": "salazzle",
       "name": "Salazzle",
       "ThumbnailAltText": "Salazzle",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/758.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/758.png"),
       "id": 758,
       "type": [
          "poison",
@@ -22706,7 +22706,7 @@ export const Pokemon = [
       "slug": "stufful",
       "name": "Stufful",
       "ThumbnailAltText": "Stufful",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/759.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/759.png"),
       "id": 759,
       "type": [
          "normal",
@@ -22733,7 +22733,7 @@ export const Pokemon = [
       "slug": "bewear",
       "name": "Bewear",
       "ThumbnailAltText": "Bewear",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/760.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/760.png"),
       "id": 760,
       "type": [
          "normal",
@@ -22761,7 +22761,7 @@ export const Pokemon = [
       "slug": "bounsweet",
       "name": "Bounsweet",
       "ThumbnailAltText": "Bounsweet",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/761.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/761.png"),
       "id": 761,
       "type": [
          "grass"
@@ -22788,7 +22788,7 @@ export const Pokemon = [
       "slug": "steenee",
       "name": "Steenee",
       "ThumbnailAltText": "Steenee",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/762.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/762.png"),
       "id": 762,
       "type": [
          "grass"
@@ -22815,7 +22815,7 @@ export const Pokemon = [
       "slug": "tsareena",
       "name": "Tsareena",
       "ThumbnailAltText": "Tsareena",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/763.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/763.png"),
       "id": 763,
       "type": [
          "grass"
@@ -22839,7 +22839,7 @@ export const Pokemon = [
       "slug": "comfey",
       "name": "Comfey",
       "ThumbnailAltText": "Comfey",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/764.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/764.png"),
       "id": 764,
       "type": [
          "fairy"
@@ -22863,7 +22863,7 @@ export const Pokemon = [
       "slug": "oranguru",
       "name": "Oranguru",
       "ThumbnailAltText": "Oranguru",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/765.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/765.png"),
       "id": 765,
       "type": [
          "normal",
@@ -22888,7 +22888,7 @@ export const Pokemon = [
       "slug": "passimian",
       "name": "Passimian",
       "ThumbnailAltText": "Passimian",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/766.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/766.png"),
       "id": 766,
       "type": [
          "fighting"
@@ -22912,7 +22912,7 @@ export const Pokemon = [
       "slug": "wimpod",
       "name": "Wimpod",
       "ThumbnailAltText": "Wimpod",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/767.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/767.png"),
       "id": 767,
       "type": [
          "bug",
@@ -22937,7 +22937,7 @@ export const Pokemon = [
       "slug": "golisopod",
       "name": "Golisopod",
       "ThumbnailAltText": "Golisopod",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/768.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/768.png"),
       "id": 768,
       "type": [
          "bug",
@@ -22964,7 +22964,7 @@ export const Pokemon = [
       "slug": "sandygast",
       "name": "Sandygast",
       "ThumbnailAltText": "Sandygast",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/769.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/769.png"),
       "id": 769,
       "type": [
          "ghost",
@@ -22991,7 +22991,7 @@ export const Pokemon = [
       "slug": "palossand",
       "name": "Palossand",
       "ThumbnailAltText": "Palossand",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/770.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/770.png"),
       "id": 770,
       "type": [
          "ghost",
@@ -23015,7 +23015,7 @@ export const Pokemon = [
       "slug": "pyukumuku",
       "name": "Pyukumuku",
       "ThumbnailAltText": "Pyukumuku",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/771.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/771.png"),
       "id": 771,
       "type": [
          "water"
@@ -23037,7 +23037,7 @@ export const Pokemon = [
       "slug": "type-null",
       "name": "Type: Null",
       "ThumbnailAltText": "Type: Null",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/772.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/772.png"),
       "id": 772,
       "type": [
          "normal"
@@ -23059,7 +23059,7 @@ export const Pokemon = [
       "slug": "silvally",
       "name": "Silvally",
       "ThumbnailAltText": "Silvally",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/773.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/773.png"),
       "id": 773,
       "type": [
          "normal"
@@ -23085,7 +23085,7 @@ export const Pokemon = [
       "slug": "minior",
       "name": "Minior",
       "ThumbnailAltText": "Minior",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/774.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/774.png"),
       "id": 774,
       "type": [
          "rock",
@@ -23112,7 +23112,7 @@ export const Pokemon = [
       "slug": "minior",
       "name": "Minior",
       "ThumbnailAltText": "Minior",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/774.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/774.png"),
       "id": 774,
       "type": [
          "rock",
@@ -23135,7 +23135,7 @@ export const Pokemon = [
       "slug": "komala",
       "name": "Komala",
       "ThumbnailAltText": "Komala",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/775.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/775.png"),
       "id": 775,
       "type": [
          "normal"
@@ -23159,7 +23159,7 @@ export const Pokemon = [
       "slug": "turtonator",
       "name": "Turtonator",
       "ThumbnailAltText": "Turtonator",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/776.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/776.png"),
       "id": 776,
       "type": [
          "fire",
@@ -23185,7 +23185,7 @@ export const Pokemon = [
       "slug": "togedemaru",
       "name": "Togedemaru",
       "ThumbnailAltText": "Togedemaru",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/777.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/777.png"),
       "id": 777,
       "type": [
          "electric",
@@ -23209,7 +23209,7 @@ export const Pokemon = [
       "slug": "mimikyu",
       "name": "Mimikyu",
       "ThumbnailAltText": "Mimikyu",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/778.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/778.png"),
       "id": 778,
       "type": [
          "ghost",
@@ -23237,7 +23237,7 @@ export const Pokemon = [
       "slug": "bruxish",
       "name": "Bruxish",
       "ThumbnailAltText": "Bruxish",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/779.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/779.png"),
       "id": 779,
       "type": [
          "water",
@@ -23264,7 +23264,7 @@ export const Pokemon = [
       "slug": "drampa",
       "name": "Drampa",
       "ThumbnailAltText": "Drampa",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/780.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/780.png"),
       "id": 780,
       "type": [
          "normal",
@@ -23291,7 +23291,7 @@ export const Pokemon = [
       "slug": "dhelmise",
       "name": "Dhelmise",
       "ThumbnailAltText": "Dhelmise",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/781.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/781.png"),
       "id": 781,
       "type": [
          "ghost",
@@ -23317,7 +23317,7 @@ export const Pokemon = [
       "slug": "jangmo-o",
       "name": "Jangmo-o",
       "ThumbnailAltText": "Jangmo-o",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/782.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/782.png"),
       "id": 782,
       "type": [
          "dragon"
@@ -23344,7 +23344,7 @@ export const Pokemon = [
       "slug": "hakamo-o",
       "name": "Hakamo-o",
       "ThumbnailAltText": "Hakamo-o",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/783.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/783.png"),
       "id": 783,
       "type": [
          "dragon",
@@ -23372,7 +23372,7 @@ export const Pokemon = [
       "slug": "kommo-o",
       "name": "Kommo-o",
       "ThumbnailAltText": "Kommo-o",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/784.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/784.png"),
       "id": 784,
       "type": [
          "dragon",
@@ -23396,7 +23396,7 @@ export const Pokemon = [
       "slug": "tapu-koko",
       "name": "Tapu Koko",
       "ThumbnailAltText": "Tapu Koko",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/785.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/785.png"),
       "id": 785,
       "type": [
          "electric",
@@ -23421,7 +23421,7 @@ export const Pokemon = [
       "slug": "tapu-lele",
       "name": "Tapu Lele",
       "ThumbnailAltText": "Tapu Lele",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/786.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/786.png"),
       "id": 786,
       "type": [
          "psychic",
@@ -23448,7 +23448,7 @@ export const Pokemon = [
       "slug": "tapu-bulu",
       "name": "Tapu Bulu",
       "ThumbnailAltText": "Tapu Bulu",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/787.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/787.png"),
       "id": 787,
       "type": [
          "grass",
@@ -23473,7 +23473,7 @@ export const Pokemon = [
       "slug": "tapu-fini",
       "name": "Tapu Fini",
       "ThumbnailAltText": "Tapu Fini",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/788.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/788.png"),
       "id": 788,
       "type": [
          "water",
@@ -23498,7 +23498,7 @@ export const Pokemon = [
       "slug": "cosmog",
       "name": "Cosmog",
       "ThumbnailAltText": "Cosmog",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/789.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/789.png"),
       "id": 789,
       "type": [
          "psychic"
@@ -23522,7 +23522,7 @@ export const Pokemon = [
       "slug": "cosmoem",
       "name": "Cosmoem",
       "ThumbnailAltText": "Cosmoem",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/790.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/790.png"),
       "id": 790,
       "type": [
          "psychic"
@@ -23547,7 +23547,7 @@ export const Pokemon = [
       "slug": "solgaleo",
       "name": "Solgaleo",
       "ThumbnailAltText": "Solgaleo",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/791.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/791.png"),
       "id": 791,
       "type": [
          "psychic",
@@ -23571,7 +23571,7 @@ export const Pokemon = [
       "slug": "lunala",
       "name": "Lunala",
       "ThumbnailAltText": "Lunala",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/792.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/792.png"),
       "id": 792,
       "type": [
          "psychic",
@@ -23597,7 +23597,7 @@ export const Pokemon = [
       "slug": "nihilego",
       "name": "Nihilego",
       "ThumbnailAltText": "Nihilego",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/793.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/793.png"),
       "id": 793,
       "type": [
          "rock",
@@ -23623,7 +23623,7 @@ export const Pokemon = [
       "slug": "buzzwole",
       "name": "Buzzwole",
       "ThumbnailAltText": "Buzzwole",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/794.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/794.png"),
       "id": 794,
       "type": [
          "bug",
@@ -23649,7 +23649,7 @@ export const Pokemon = [
       "slug": "pheromosa",
       "name": "Pheromosa",
       "ThumbnailAltText": "Pheromosa",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/795.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/795.png"),
       "id": 795,
       "type": [
          "bug",
@@ -23672,7 +23672,7 @@ export const Pokemon = [
       "slug": "xurkitree",
       "name": "Xurkitree",
       "ThumbnailAltText": "Xurkitree",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/796.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/796.png"),
       "id": 796,
       "type": [
          "electric"
@@ -23695,7 +23695,7 @@ export const Pokemon = [
       "slug": "celesteela",
       "name": "Celesteela",
       "ThumbnailAltText": "Celesteela",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/797.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/797.png"),
       "id": 797,
       "type": [
          "steel",
@@ -23719,7 +23719,7 @@ export const Pokemon = [
       "slug": "kartana",
       "name": "Kartana",
       "ThumbnailAltText": "Kartana",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/798.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/798.png"),
       "id": 798,
       "type": [
          "grass",
@@ -23746,7 +23746,7 @@ export const Pokemon = [
       "slug": "guzzlord",
       "name": "Guzzlord",
       "ThumbnailAltText": "Guzzlord",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/799.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/799.png"),
       "id": 799,
       "type": [
          "dark",
@@ -23771,7 +23771,7 @@ export const Pokemon = [
       "slug": "necrozma",
       "name": "Necrozma",
       "ThumbnailAltText": "Necrozma",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/800.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/800.png"),
       "id": 800,
       "type": [
          "psychic"
@@ -23794,7 +23794,7 @@ export const Pokemon = [
       "slug": "magearna",
       "name": "Magearna",
       "ThumbnailAltText": "Magearna",
-      "ThumbnailImage": "http://assets.pokemon.com/assets/cms2/img/pokedex/detail/801.png",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/801.png"),
       "id": 801,
       "type": [
          "steel",
