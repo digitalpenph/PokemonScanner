@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "PokemonScanner",
-    "description": "An empty new project",
+    "name": "Pokemon Scanner",
+    "description": "Scan a barcode to get pokemon. Level up a pokemon by getting the same pokemon.",
     "slug": "PokemonScanner",
     "privacy": "public",
     "sdkVersion": "23.0.0",

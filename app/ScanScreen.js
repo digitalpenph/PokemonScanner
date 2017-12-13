@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Image, TouchableOpacity, Text, View, StyleSheet, Alert } from 'react-native';
+import { AsyncStorage } from 'react-native';
 import { Constants, BarCodeScanner, Permissions } from 'expo';
 
 import { Pokemon } from '../data/pokemon.js';
@@ -18,10 +19,15 @@ export default class App extends Component {
 
   state = {
     hasCameraPermission: null,
-    id: -1
+    id: -1,
   };
 
   componentDidMount() {
+    this.setState({
+      pokemon: [],
+      pokemonid: 0
+    });
+    this.getPokemon();
     this._requestCameraPermission();
   }
 
@@ -48,7 +54,24 @@ export default class App extends Component {
     return Math.floor(Math.random() * max);
   }
 
-  reScan = () => {
+  getPokemon() {
+    AsyncStorage.getItem('pokemon', (err, result) => {
+      if (!err && result != null){
+        this.setState({
+          pokemon: JSON.parse(result)
+        });
+      }
+    });
+  }
+
+  savePokemon() {
+    let temp = this.state.pokemon;
+    let pokemonid = Pokemon[this.state.id]['id'];
+    temp.push(pokemonid);
+    this.setState({
+      pokemon: temp
+    });
+    AsyncStorage.setItem('pokemon', JSON.stringify(this.state.pokemon));
     this.setState({
       id: -1
     })
@@ -56,6 +79,7 @@ export default class App extends Component {
 
   render() {
     if(this.state.id >= 0) {
+      let id = Pokemon[this.state.id]['id'];
       let pokemon = Pokemon[this.state.id]['name'];
       let sprite = Pokemon[this.state.id]['ThumbnailImage'];
       return (
@@ -64,10 +88,10 @@ export default class App extends Component {
             style={{width: 200, height: 200}}
             source={sprite}
           />
-          <Text style={styles.paragraph}>{pokemon}</Text>
+          <Text style={styles.paragraph}>#{id} {pokemon}</Text>
           <TouchableOpacity
             style={styles.button}
-            onPress={this.reScan}
+            onPress={this.savePokemon.bind(this)}
           >
             <Text>Get Pokemon</Text>
           </TouchableOpacity>

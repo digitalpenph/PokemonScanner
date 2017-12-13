@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Image, Text, View, StyleSheet, FlatList } from 'react-native';
+import { AsyncStorage } from 'react-native';
 import { Constants } from 'expo';
 
 import { Pokemon } from '../data/pokemon.js';
@@ -21,14 +22,19 @@ export default class App extends Component {
     this.state = {
       isFetching: false,
       data: Pokemon,
+      pokemon: []
     };
+  }
+
+  componentDidMount() {
+    this.getPokemon();
   }
 
   onRefresh() {
     this.setState({ 
       isFetching: true,
     }, 
-    function() { this.fetchData() });
+    function() { this.fetchData(); this.getPokemon(); });
   }
 
   fetchData() {
@@ -38,24 +44,57 @@ export default class App extends Component {
     }); 
   }
 
+  getPokemon() {
+    AsyncStorage.getItem('pokemon', (err, result) => {
+      if (!err && result != null) {
+        this.setState({
+          pokemon: JSON.parse(result)
+        });
+      } else {
+        this.setState({
+          pokemon: []
+        });
+      }
+    });
+  }
+
   renderItem({ item, index }) {
-    return <View style={{
-      flex: 1,
-      margin: 1,
-      width: 300,
-      height: 100,
-      flexDirection: 'row',
-      backgroundColor: '#EFF0F0',
-      }}>
+    let hasPokemon = this.state.pokemon.includes(item.id);
+    if(!hasPokemon) {
+      return <View style={{
+        flex: 1,
+        margin: 1,
+        width: 300,
+        height: 100,
+        flexDirection: 'row',
+        backgroundColor: '#EFF0F0',
+        }}>
+        <Image source={require("../assets/pokemonapi/sprites/pokemon/0.png")}></Image>
+        <View style={styles.details}>
+          <Text style={styles.text}>#{item.number} ????</Text>
+          <Text style={styles.text}>Height: ????</Text>
+          <Text style={styles.text}>Weight: ????</Text>
+        </View>
+      </View>
+    } else {
+      return <View style={{
+        flex: 1,
+        margin: 1,
+        width: 300,
+        height: 100,
+        flexDirection: 'row',
+        backgroundColor: '#EFF0F0',
+        }}>
         <Image source={item.ThumbnailImage}></Image>
         <View style={styles.details}>
-          <Text style={styles.text}>{item.name} {item.number}</Text>
+          <Text style={styles.text}>#{item.number} {item.name}</Text>
           <Text style={styles.text}>Height: {item.height}</Text>
           <Text style={styles.text}>Weight: {item.weight}</Text>
         </View>
       </View>
     }
-    
+  }
+  
     render () {
     return (
       <FlatList
@@ -83,7 +122,7 @@ const styles = StyleSheet.create({
   },
   details: {
     margin : 2,
-    alignItems: 'center'
+    justifyContent: 'center'
   },
   text: {
     color: '#272729'
