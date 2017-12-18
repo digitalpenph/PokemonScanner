@@ -28,6 +28,7 @@ export default class App extends Component {
       pokemonid: 0
     });
     this.getPokemon();
+    this.maxPokemon();
     this._requestCameraPermission();
   }
 
@@ -39,19 +40,27 @@ export default class App extends Component {
   };
 
   _handleBarCodeRead = data => {
-    let id = data['data'].substring(0, 3);
-    var reg = new RegExp('^[0-9]+$');
-    if(reg.test(id)) {
-      this.setState({
-        id: this.generateRandomNumber(parseInt(id)),
-      });
-    } else {
-      Alert.alert("You got nothing.");
-    }
+    this.setState({
+      id: this.generateRandomNumber(),
+    });
   };
 
-  generateRandomNumber=(max)=> {
-    return Math.floor(Math.random() * max);
+  generateRandomNumber=()=> {
+    return Math.floor(Math.random() * this.state.max) + 1;
+  }
+  
+  maxPokemon() {
+    AsyncStorage.getItem('max', (err, result) => {
+      if (!err && result != null) {
+        this.setState({
+          max: parseInt(result)
+        });
+      } else {
+        this.setState({
+          max: 151
+        });
+      }
+    });
   }
 
   getPokemon() {

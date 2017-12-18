@@ -28,6 +28,7 @@ export default class App extends Component {
 
   componentDidMount() {
     this.getPokemon();
+    this.maxPokemon();
   }
 
   onRefresh() {
@@ -42,6 +43,20 @@ export default class App extends Component {
       isFetching: false,
       data: Pokemon
     }); 
+  }
+
+  maxPokemon() {
+    AsyncStorage.getItem('max', (err, result) => {
+      if (!err && result != null) {
+        this.setState({
+          max: parseInt(result)
+        });
+      } else {
+        this.setState({
+          max: 151
+        });
+      }
+    });
   }
 
   getPokemon() {
@@ -59,44 +74,48 @@ export default class App extends Component {
   }
 
   renderItem({ item, index }) {
-    let hasPokemon = this.state.pokemon.includes(item.id);
-    if(!hasPokemon) {
-      return <View style={{
-        flex: 1,
-        margin: 1,
-        width: 300,
-        height: 100,
-        flexDirection: 'row',
-        backgroundColor: '#EFF0F0',
-        }}>
-        <Image source={require("../assets/pokemonapi/sprites/pokemon/0.png")}></Image>
-        <View style={styles.details}>
-          <Text style={styles.text}>#{item.number} ????</Text>
-          <Text style={styles.text}>Height: ????</Text>
-          <Text style={styles.text}>Weight: ????</Text>
+    if(item.id <= this.state.max) {
+      let hasPokemon = this.state.pokemon.includes(item.id);
+      if(!hasPokemon) {
+        return <View style={{
+          flex: 1,
+          margin: 1,
+          width: 300,
+          height: 100,
+          flexDirection: 'row',
+          backgroundColor: '#EFF0F0',
+          }}>
+          <Image source={require("../assets/pokemonapi/sprites/pokemon/0.png")}></Image>
+          <View style={styles.details}>
+            <Text style={styles.text}>#{item.number} ????</Text>
+            <Text style={styles.text}>Height: ????</Text>
+            <Text style={styles.text}>Weight: ????</Text>
+          </View>
         </View>
-      </View>
-    } else {
-      return <View style={{
-        flex: 1,
-        margin: 1,
-        width: 300,
-        height: 100,
-        flexDirection: 'row',
-        backgroundColor: '#EFF0F0',
-        }}>
-        <Image source={item.ThumbnailImage}></Image>
-        <View style={styles.details}>
-          <Text style={styles.text}>#{item.number} {item.name}</Text>
-          <Text style={styles.text}>Height: {item.height}</Text>
-          <Text style={styles.text}>Weight: {item.weight}</Text>
+      } else {
+        return <View style={{
+          flex: 1,
+          margin: 1,
+          width: 300,
+          height: 100,
+          flexDirection: 'row',
+          backgroundColor: '#EFF0F0',
+          }}>
+          <Image source={item.ThumbnailImage}></Image>
+          <View style={styles.details}>
+            <Text style={styles.text}>#{item.number} {item.name}</Text>
+            <Text style={styles.text}>Height: {item.height}</Text>
+            <Text style={styles.text}>Weight: {item.weight}</Text>
+          </View>
         </View>
-      </View>
+      }
     }
-  }
-  
-    render () {
+  } 
+
+  render () {
     return (
+      <View>
+      <Text>Pokemon: {this.state.max}</Text>
       <FlatList
         contentContainerStyle={styles.list}
         onRefresh={() => this.onRefresh()}
@@ -105,8 +124,9 @@ export default class App extends Component {
         numColumns={1}
         renderItem={this.renderItem.bind(this)}
       />
+      </View>
     );
-    }
+  }
 }
 
 const styles = StyleSheet.create({

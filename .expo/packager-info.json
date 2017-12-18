@@ -1,8 +1,8 @@
 {
-  "expoServerPort": 19000,
-  "packagerPort": 19001,
-  "packagerPid": 13111,
-  "expoServerNgrokUrl": "https://7h-sff.traci12.pokemonscanner.exp.direct",
-  "packagerNgrokUrl": "https://packager.7h-sff.traci12.pokemonscanner.exp.direct",
-  "ngrokPid": 13150
+  "expoServerPort": null,
+  "packagerPort": null,
+  "packagerPid": null,
+  "expoServerNgrokUrl": null,
+  "packagerNgrokUrl": null,
+  "ngrokPid": null
 }
