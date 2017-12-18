@@ -114,8 +114,8 @@ export default class App extends Component {
 
   render () {
     return (
-      <View>
-      <Text>Pokemon: {this.state.max}</Text>
+      <View style={styles.container}>
+      <Text style={styles.heading}>Pokemon: {this.state.pokemon.length}/{this.state.max}</Text>
       <FlatList
         contentContainerStyle={styles.list}
         onRefresh={() => this.onRefresh()}
@@ -134,11 +134,19 @@ const styles = StyleSheet.create({
     width: 26,
     height: 26,
   },
+  container: {    
+    paddingTop: Constants.statusBarHeight
+  },
+  heading: {
+    color: '#272729',
+    margin : 2,
+    fontSize: 18,
+    fontWeight: 'bold',
+  },
   list: {
     justifyContent: 'center',
     flexDirection: 'row',
     flexWrap: 'wrap',
-    paddingTop: Constants.statusBarHeight,
   },
   details: {
     margin : 2,
