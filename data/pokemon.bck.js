@@ -79,6 +79,32 @@ export const Pokemon = [
    },
    {
       "abilities": [
+         "Overgrow"
+      ],
+      "detailPageURL": "/us/pokedex/venusaur",
+      "weight": 220.5,
+      "weakness": [
+         "Fire",
+         "Flying",
+         "Ice",
+         "Psychic"
+      ],
+      "number": "003",
+      "height": 79,
+      "collectibles_slug": "venusaur",
+      "featured": "true",
+      "slug": "venusaur",
+      "name": "Venusaur",
+      "ThumbnailAltText": "Venusaur",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/3.png"),
+      "id": 3,
+      "type": [
+         "grass",
+         "poison"
+      ]
+   },
+   {
+      "abilities": [
          "Blaze"
       ],
       "detailPageURL": "/us/pokedex/charmander",
@@ -152,6 +178,56 @@ export const Pokemon = [
    },
    {
       "abilities": [
+         "Tough Claws"
+      ],
+      "detailPageURL": "/us/pokedex/charizard",
+      "weight": 243.6,
+      "weakness": [
+         "Dragon",
+         "Rock",
+         "Ground"
+      ],
+      "number": "006",
+      "height": 67,
+      "collectibles_slug": "charizard",
+      "featured": "true",
+      "slug": "charizard",
+      "name": "Charizard",
+      "ThumbnailAltText": "Charizard",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/6.png"),
+      "id": 6,
+      "type": [
+         "fire",
+         "dragon"
+      ]
+   },
+   {
+      "abilities": [
+         "Blaze"
+      ],
+      "detailPageURL": "/us/pokedex/charizard",
+      "weight": 199.5,
+      "weakness": [
+         "Rock",
+         "Electric",
+         "Water"
+      ],
+      "number": "006",
+      "height": 67,
+      "collectibles_slug": "charizard",
+      "featured": "true",
+      "slug": "charizard",
+      "name": "Charizard",
+      "ThumbnailAltText": "Charizard",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/6.png"),
+      "id": 6,
+      "type": [
+         "fire",
+         "flying"
+      ]
+   },
+   {
+      "abilities": [
          "Torrent"
       ],
       "detailPageURL": "/us/pokedex/squirtle",
@@ -205,6 +281,29 @@ export const Pokemon = [
       "weakness": [
          "Grass",
          "Electric"
+      ],
+      "number": "009",
+      "height": 63,
+      "collectibles_slug": "blastoise",
+      "featured": "true",
+      "slug": "blastoise",
+      "name": "Blastoise",
+      "ThumbnailAltText": "Blastoise",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/9.png"),
+      "id": 9,
+      "type": [
+         "water"
+      ]
+   },
+   {
+      "abilities": [
+         "Torrent"
+      ],
+      "detailPageURL": "/us/pokedex/blastoise",
+      "weight": 188.5,
+      "weakness": [
+         "Electric",
+         "Grass"
       ],
       "number": "009",
       "height": 63,
@@ -374,6 +473,32 @@ export const Pokemon = [
    },
    {
       "abilities": [
+         "Swarm"
+      ],
+      "detailPageURL": "/us/pokedex/beedrill",
+      "weight": 65,
+      "weakness": [
+         "Fire",
+         "Flying",
+         "Psychic",
+         "Rock"
+      ],
+      "number": "015",
+      "height": 39,
+      "collectibles_slug": "beedrill",
+      "featured": "true",
+      "slug": "beedrill",
+      "name": "Beedrill",
+      "ThumbnailAltText": "Beedrill",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/15.png"),
+      "id": 15,
+      "type": [
+         "bug",
+         "poison"
+      ]
+   },
+   {
+      "abilities": [
          "Keen Eye",
          "Tangled Feet"
       ],
@@ -451,6 +576,32 @@ export const Pokemon = [
    },
    {
       "abilities": [
+         "Keen Eye",
+         "Tangled Feet"
+      ],
+      "detailPageURL": "/us/pokedex/pidgeot",
+      "weight": 87.1,
+      "weakness": [
+         "Electric",
+         "Ice",
+         "Rock"
+      ],
+      "number": "018",
+      "height": 59,
+      "collectibles_slug": "pidgeot",
+      "featured": "true",
+      "slug": "pidgeot",
+      "name": "Pidgeot",
+      "ThumbnailAltText": "Pidgeot",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/18.png"),
+      "id": 18,
+      "type": [
+         "normal",
+         "flying"
+      ]
+   },
+   {
+      "abilities": [
          "Gluttony",
          "Hustle"
       ],
@@ -477,6 +628,29 @@ export const Pokemon = [
    },
    {
       "abilities": [
+         "Guts",
+         "Run Away"
+      ],
+      "detailPageURL": "/us/pokedex/rattata",
+      "weight": 7.7,
+      "weakness": [
+         "Fighting"
+      ],
+      "number": "019",
+      "height": 12,
+      "collectibles_slug": "rattata",
+      "featured": "true",
+      "slug": "rattata",
+      "name": "Rattata",
+      "ThumbnailAltText": "Rattata",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/19.png"),
+      "id": 19,
+      "type": [
+         "normal"
+      ]
+   },
+   {
+      "abilities": [
          "Gluttony",
          "Hustle"
       ],
@@ -498,6 +672,29 @@ export const Pokemon = [
       "id": 20,
       "type": [
          "dark",
+         "normal"
+      ]
+   },
+   {
+      "abilities": [
+         "Guts",
+         "Run Away"
+      ],
+      "detailPageURL": "/us/pokedex/raticate",
+      "weight": 40.8,
+      "weakness": [
+         "Fighting"
+      ],
+      "number": "020",
+      "height": 28,
+      "collectibles_slug": "raticate",
+      "featured": "true",
+      "slug": "raticate",
+      "name": "Raticate",
+      "ThumbnailAltText": "Raticate",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/20.png"),
+      "id": 20,
+      "type": [
          "normal"
       ]
    },
@@ -649,6 +846,28 @@ export const Pokemon = [
    },
    {
       "abilities": [
+         "Static"
+      ],
+      "detailPageURL": "/us/pokedex/raichu",
+      "weight": 66.1,
+      "weakness": [
+         "Ground"
+      ],
+      "number": "026",
+      "height": 31,
+      "collectibles_slug": "raichu",
+      "featured": "true",
+      "slug": "raichu",
+      "name": "Raichu",
+      "ThumbnailAltText": "Raichu",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/26.png"),
+      "id": 26,
+      "type": [
+         "electric"
+      ]
+   },
+   {
+      "abilities": [
          "Snow Cloak"
       ],
       "detailPageURL": "/us/pokedex/sandshrew",
@@ -674,6 +893,30 @@ export const Pokemon = [
    },
    {
       "abilities": [
+         "Sand Veil"
+      ],
+      "detailPageURL": "/us/pokedex/sandshrew",
+      "weight": 26.5,
+      "weakness": [
+         "Grass",
+         "Ice",
+         "Water"
+      ],
+      "number": "027",
+      "height": 24,
+      "collectibles_slug": "sandshrew",
+      "featured": "true",
+      "slug": "sandshrew",
+      "name": "Sandshrew",
+      "ThumbnailAltText": "Sandshrew",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/27.png"),
+      "id": 27,
+      "type": [
+         "ground"
+      ]
+   },
+   {
+      "abilities": [
          "Snow Cloak"
       ],
       "detailPageURL": "/us/pokedex/sandslash",
@@ -695,6 +938,30 @@ export const Pokemon = [
       "type": [
          "ice",
          "steel"
+      ]
+   },
+   {
+      "abilities": [
+         "Sand Veil"
+      ],
+      "detailPageURL": "/us/pokedex/sandslash",
+      "weight": 65,
+      "weakness": [
+         "Grass",
+         "Ice",
+         "Water"
+      ],
+      "number": "028",
+      "height": 39,
+      "collectibles_slug": "sandslash",
+      "featured": "true",
+      "slug": "sandslash",
+      "name": "Sandslash",
+      "ThumbnailAltText": "Sandslash",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/28.png"),
+      "id": 28,
+      "type": [
+         "ground"
       ]
    },
    {
@@ -922,6 +1189,30 @@ export const Pokemon = [
    },
    {
       "abilities": [
+         "Flash Fire"
+      ],
+      "detailPageURL": "/us/pokedex/vulpix",
+      "weight": 21.8,
+      "weakness": [
+         "Ground",
+         "Rock",
+         "Water"
+      ],
+      "number": "037",
+      "height": 24,
+      "collectibles_slug": "vulpix",
+      "featured": "true",
+      "slug": "vulpix",
+      "name": "Vulpix",
+      "ThumbnailAltText": "Vulpix",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/37.png"),
+      "id": 37,
+      "type": [
+         "fire"
+      ]
+   },
+   {
+      "abilities": [
          "Snow Cloak"
       ],
       "detailPageURL": "/us/pokedex/ninetales",
@@ -944,6 +1235,30 @@ export const Pokemon = [
       "type": [
          "ice",
          "fairy"
+      ]
+   },
+   {
+      "abilities": [
+         "Flash Fire"
+      ],
+      "detailPageURL": "/us/pokedex/ninetales",
+      "weight": 43.9,
+      "weakness": [
+         "Ground",
+         "Rock",
+         "Water"
+      ],
+      "number": "038",
+      "height": 43,
+      "collectibles_slug": "ninetales",
+      "featured": "true",
+      "slug": "ninetales",
+      "name": "Ninetales",
+      "ThumbnailAltText": "Ninetales",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/38.png"),
+      "id": 38,
+      "type": [
+         "fire"
       ]
    },
    {
@@ -1267,6 +1582,31 @@ export const Pokemon = [
    },
    {
       "abilities": [
+         "Arena Trap",
+         "Sand Veil"
+      ],
+      "detailPageURL": "/us/pokedex/diglett",
+      "weight": 1.8,
+      "weakness": [
+         "Grass",
+         "Ice",
+         "Water"
+      ],
+      "number": "050",
+      "height": 8,
+      "collectibles_slug": "diglett",
+      "featured": "true",
+      "slug": "diglett",
+      "name": "Diglett",
+      "ThumbnailAltText": "Diglett",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/50.png"),
+      "id": 50,
+      "type": [
+         "ground"
+      ]
+   },
+   {
+      "abilities": [
          "Sand Veil",
          "Tangling Hair"
       ],
@@ -1290,6 +1630,31 @@ export const Pokemon = [
       "type": [
          "ground",
          "steel"
+      ]
+   },
+   {
+      "abilities": [
+         "Arena Trap",
+         "Sand Veil"
+      ],
+      "detailPageURL": "/us/pokedex/dugtrio",
+      "weight": 73.4,
+      "weakness": [
+         "Grass",
+         "Ice",
+         "Water"
+      ],
+      "number": "051",
+      "height": 28,
+      "collectibles_slug": "dugtrio",
+      "featured": "true",
+      "slug": "dugtrio",
+      "name": "Dugtrio",
+      "ThumbnailAltText": "Dugtrio",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/51.png"),
+      "id": 51,
+      "type": [
+         "ground"
       ]
    },
    {
@@ -1319,6 +1684,29 @@ export const Pokemon = [
    },
    {
       "abilities": [
+         "Pickup",
+         "Technician"
+      ],
+      "detailPageURL": "/us/pokedex/meowth",
+      "weight": 9.3,
+      "weakness": [
+         "Fighting"
+      ],
+      "number": "052",
+      "height": 16,
+      "collectibles_slug": "meowth",
+      "featured": "true",
+      "slug": "meowth",
+      "name": "Meowth",
+      "ThumbnailAltText": "Meowth",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/52.png"),
+      "id": 52,
+      "type": [
+         "normal"
+      ]
+   },
+   {
+      "abilities": [
          "Fur Coat",
          "Technician"
       ],
@@ -1340,6 +1728,29 @@ export const Pokemon = [
       "id": 53,
       "type": [
          "dark"
+      ]
+   },
+   {
+      "abilities": [
+         "Limber",
+         "Technician"
+      ],
+      "detailPageURL": "/us/pokedex/persian",
+      "weight": 70.5,
+      "weakness": [
+         "Fighting"
+      ],
+      "number": "053",
+      "height": 39,
+      "collectibles_slug": "persian",
+      "featured": "true",
+      "slug": "persian",
+      "name": "Persian",
+      "ThumbnailAltText": "Persian",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/53.png"),
+      "id": 53,
+      "type": [
+         "normal"
       ]
    },
    {
@@ -1642,6 +2053,31 @@ export const Pokemon = [
    },
    {
       "abilities": [
+         "Inner Focus",
+         "Synchronize"
+      ],
+      "detailPageURL": "/us/pokedex/alakazam",
+      "weight": 105.8,
+      "weakness": [
+         "Bug",
+         "Dark",
+         "Ghost"
+      ],
+      "number": "065",
+      "height": 59,
+      "collectibles_slug": "alakazam",
+      "featured": "true",
+      "slug": "alakazam",
+      "name": "Alakazam",
+      "ThumbnailAltText": "Alakazam",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/65.png"),
+      "id": 65,
+      "type": [
+         "psychic"
+      ]
+   },
+   {
+      "abilities": [
          "Guts",
          "No Guard"
       ],
@@ -1874,6 +2310,35 @@ export const Pokemon = [
    },
    {
       "abilities": [
+         "Rock Head",
+         "Sturdy"
+      ],
+      "detailPageURL": "/us/pokedex/geodude",
+      "weight": 44.1,
+      "weakness": [
+         "Grass",
+         "Water",
+         "Fighting",
+         "Ground",
+         "Ice",
+         "Steel"
+      ],
+      "number": "074",
+      "height": 16,
+      "collectibles_slug": "geodude",
+      "featured": "true",
+      "slug": "geodude",
+      "name": "Geodude",
+      "ThumbnailAltText": "Geodude",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/74.png"),
+      "id": 74,
+      "type": [
+         "rock",
+         "ground"
+      ]
+   },
+   {
+      "abilities": [
          "Magnet Pull",
          "Sturdy"
       ],
@@ -1901,6 +2366,35 @@ export const Pokemon = [
    },
    {
       "abilities": [
+         "Rock Head",
+         "Sturdy"
+      ],
+      "detailPageURL": "/us/pokedex/graveler",
+      "weight": 231.5,
+      "weakness": [
+         "Grass",
+         "Water",
+         "Fighting",
+         "Ground",
+         "Ice",
+         "Steel"
+      ],
+      "number": "075",
+      "height": 39,
+      "collectibles_slug": "graveler",
+      "featured": "true",
+      "slug": "graveler",
+      "name": "Graveler",
+      "ThumbnailAltText": "Graveler",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/75.png"),
+      "id": 75,
+      "type": [
+         "rock",
+         "ground"
+      ]
+   },
+   {
+      "abilities": [
          "Magnet Pull",
          "Sturdy"
       ],
@@ -1924,6 +2418,35 @@ export const Pokemon = [
       "type": [
          "rock",
          "electric"
+      ]
+   },
+   {
+      "abilities": [
+         "Rock Head",
+         "Sturdy"
+      ],
+      "detailPageURL": "/us/pokedex/golem",
+      "weight": 661.4,
+      "weakness": [
+         "Grass",
+         "Water",
+         "Fighting",
+         "Ground",
+         "Ice",
+         "Steel"
+      ],
+      "number": "076",
+      "height": 55,
+      "collectibles_slug": "golem",
+      "featured": "true",
+      "slug": "golem",
+      "name": "Golem",
+      "ThumbnailAltText": "Golem",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/76.png"),
+      "id": 76,
+      "type": [
+         "rock",
+         "ground"
       ]
    },
    {
@@ -2019,6 +2542,34 @@ export const Pokemon = [
       ],
       "number": "080",
       "height": 79,
+      "collectibles_slug": "slowbro",
+      "featured": "true",
+      "slug": "slowbro",
+      "name": "Slowbro",
+      "ThumbnailAltText": "Slowbro",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/80.png"),
+      "id": 80,
+      "type": [
+         "water",
+         "psychic"
+      ]
+   },
+   {
+      "abilities": [
+         "Oblivious",
+         "Own Tempo"
+      ],
+      "detailPageURL": "/us/pokedex/slowbro",
+      "weight": 173.1,
+      "weakness": [
+         "Bug",
+         "Dark",
+         "Electric",
+         "Ghost",
+         "Grass"
+      ],
+      "number": "080",
+      "height": 63,
       "collectibles_slug": "slowbro",
       "featured": "true",
       "slug": "slowbro",
@@ -2238,6 +2789,30 @@ export const Pokemon = [
    },
    {
       "abilities": [
+         "Stench",
+         "Sticky Hold"
+      ],
+      "detailPageURL": "/us/pokedex/grimer",
+      "weight": 66.1,
+      "weakness": [
+         "Ground",
+         "Psychic"
+      ],
+      "number": "088",
+      "height": 35,
+      "collectibles_slug": "grimer",
+      "featured": "true",
+      "slug": "grimer",
+      "name": "Grimer",
+      "ThumbnailAltText": "Grimer",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/88.png"),
+      "id": 88,
+      "type": [
+         "poison"
+      ]
+   },
+   {
+      "abilities": [
          "Gluttony",
          "Poison Touch"
       ],
@@ -2258,6 +2833,30 @@ export const Pokemon = [
       "type": [
          "poison",
          "dark"
+      ]
+   },
+   {
+      "abilities": [
+         "Stench",
+         "Sticky Hold"
+      ],
+      "detailPageURL": "/us/pokedex/muk",
+      "weight": 66.1,
+      "weakness": [
+         "Ground",
+         "Psychic"
+      ],
+      "number": "089",
+      "height": 47,
+      "collectibles_slug": "muk",
+      "featured": "true",
+      "slug": "muk",
+      "name": "Muk",
+      "ThumbnailAltText": "Muk",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/89.png"),
+      "id": 89,
+      "type": [
+         "poison"
       ]
    },
    {
@@ -2375,6 +2974,31 @@ export const Pokemon = [
       ],
       "number": "094",
       "height": 55,
+      "collectibles_slug": "gengar",
+      "featured": "true",
+      "slug": "gengar",
+      "name": "Gengar",
+      "ThumbnailAltText": "Gengar",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/94.png"),
+      "id": 94,
+      "type": [
+         "ghost",
+         "poison"
+      ]
+   },
+   {
+      "abilities": [
+         "Levitate"
+      ],
+      "detailPageURL": "/us/pokedex/gengar",
+      "weight": 89.3,
+      "weakness": [
+         "Dark",
+         "Ghost",
+         "Psychic"
+      ],
+      "number": "094",
+      "height": 59,
       "collectibles_slug": "gengar",
       "featured": "true",
       "slug": "gengar",
@@ -2619,6 +3243,35 @@ export const Pokemon = [
    },
    {
       "abilities": [
+         "Chlorophyll"
+      ],
+      "detailPageURL": "/us/pokedex/exeggutor",
+      "weight": 264.6,
+      "weakness": [
+         "Bug",
+         "Dark",
+         "Fire",
+         "Flying",
+         "Ghost",
+         "Ice",
+         "Poison"
+      ],
+      "number": "103",
+      "height": 79,
+      "collectibles_slug": "exeggutor",
+      "featured": "true",
+      "slug": "exeggutor",
+      "name": "Exeggutor",
+      "ThumbnailAltText": "Exeggutor",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/103.png"),
+      "id": 103,
+      "type": [
+         "grass",
+         "psychic"
+      ]
+   },
+   {
+      "abilities": [
          "Lightning Rod",
          "Rock Head"
       ],
@@ -2668,6 +3321,31 @@ export const Pokemon = [
       "type": [
          "fire",
          "ghost"
+      ]
+   },
+   {
+      "abilities": [
+         "Lightning Rod",
+         "Rock Head"
+      ],
+      "detailPageURL": "/us/pokedex/marowak",
+      "weight": 99.2,
+      "weakness": [
+         "Grass",
+         "Ice",
+         "Water"
+      ],
+      "number": "105",
+      "height": 39,
+      "collectibles_slug": "marowak",
+      "featured": "true",
+      "slug": "marowak",
+      "name": "Marowak",
+      "ThumbnailAltText": "Marowak",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/105.png"),
+      "id": 105,
+      "type": [
+         "ground"
       ]
    },
    {
@@ -2901,6 +3579,29 @@ export const Pokemon = [
       ],
       "detailPageURL": "/us/pokedex/kangaskhan",
       "weight": 220.5,
+      "weakness": [
+         "Fighting"
+      ],
+      "number": "115",
+      "height": 87,
+      "collectibles_slug": "kangaskhan",
+      "featured": "true",
+      "slug": "kangaskhan",
+      "name": "Kangaskhan",
+      "ThumbnailAltText": "Kangaskhan",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/115.png"),
+      "id": 115,
+      "type": [
+         "normal"
+      ]
+   },
+   {
+      "abilities": [
+         "Early Bird",
+         "Scrappy"
+      ],
+      "detailPageURL": "/us/pokedex/kangaskhan",
+      "weight": 176.4,
       "weakness": [
          "Fighting"
       ],
@@ -3223,6 +3924,31 @@ export const Pokemon = [
    },
    {
       "abilities": [
+         "Hyper Cutter",
+         "Mold Breaker"
+      ],
+      "detailPageURL": "/us/pokedex/pinsir",
+      "weight": 121.3,
+      "weakness": [
+         "Fire",
+         "Flying",
+         "Rock"
+      ],
+      "number": "127",
+      "height": 59,
+      "collectibles_slug": "pinsir",
+      "featured": "true",
+      "slug": "pinsir",
+      "name": "Pinsir",
+      "ThumbnailAltText": "Pinsir",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/127.png"),
+      "id": 127,
+      "type": [
+         "bug"
+      ]
+   },
+   {
+      "abilities": [
          "Anger Point",
          "Intimidate"
       ],
@@ -3292,6 +4018,30 @@ export const Pokemon = [
       "type": [
          "water",
          "dark"
+      ]
+   },
+   {
+      "abilities": [
+         "Intimidate"
+      ],
+      "detailPageURL": "/us/pokedex/gyarados",
+      "weight": 518.1,
+      "weakness": [
+         "Electric",
+         "Rock"
+      ],
+      "number": "130",
+      "height": 256,
+      "collectibles_slug": "gyarados",
+      "featured": "true",
+      "slug": "gyarados",
+      "name": "Gyarados",
+      "ThumbnailAltText": "Gyarados",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/130.png"),
+      "id": 130,
+      "type": [
+         "water",
+         "flying"
       ]
    },
    {
@@ -3595,6 +4345,34 @@ export const Pokemon = [
    },
    {
       "abilities": [
+         "Pressure",
+         "Rock Head"
+      ],
+      "detailPageURL": "/us/pokedex/aerodactyl",
+      "weight": 130.1,
+      "weakness": [
+         "Electric",
+         "Ice",
+         "Rock",
+         "Steel",
+         "Water"
+      ],
+      "number": "142",
+      "height": 71,
+      "collectibles_slug": "aerodactyl",
+      "featured": "true",
+      "slug": "aerodactyl",
+      "name": "Aerodactyl",
+      "ThumbnailAltText": "Aerodactyl",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/142.png"),
+      "id": 142,
+      "type": [
+         "rock",
+         "flying"
+      ]
+   },
+   {
+      "abilities": [
          "Immunity",
          "Thick Fat"
       ],
@@ -3778,6 +4556,55 @@ export const Pokemon = [
       ],
       "number": "150",
       "height": 59,
+      "collectibles_slug": "mewtwo",
+      "featured": "true",
+      "slug": "mewtwo",
+      "name": "Mewtwo",
+      "ThumbnailAltText": "Mewtwo",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/150.png"),
+      "id": 150,
+      "type": [
+         "psychic"
+      ]
+   },
+   {
+      "abilities": [
+         "Steadfast"
+      ],
+      "detailPageURL": "/us/pokedex/mewtwo",
+      "weight": 280,
+      "weakness": [
+         "Ghost",
+         "Flying",
+         "Fairy"
+      ],
+      "number": "150",
+      "height": 91,
+      "collectibles_slug": "mewtwo",
+      "featured": "true",
+      "slug": "mewtwo",
+      "name": "Mewtwo",
+      "ThumbnailAltText": "Mewtwo",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/150.png"),
+      "id": 150,
+      "type": [
+         "psychic",
+         "fighting"
+      ]
+   },
+   {
+      "abilities": [
+         "Pressure"
+      ],
+      "detailPageURL": "/us/pokedex/mewtwo",
+      "weight": 269,
+      "weakness": [
+         "Bug",
+         "Dark",
+         "Ghost"
+      ],
+      "number": "150",
+      "height": 79,
       "collectibles_slug": "mewtwo",
       "featured": "true",
       "slug": "mewtwo",
@@ -4567,6 +5394,28 @@ export const Pokemon = [
    },
    {
       "abilities": [
+         "Static"
+      ],
+      "detailPageURL": "/us/pokedex/ampharos",
+      "weight": 135.6,
+      "weakness": [
+         "Ground"
+      ],
+      "number": "181",
+      "height": 55,
+      "collectibles_slug": "ampharos",
+      "featured": "true",
+      "slug": "ampharos",
+      "name": "Ampharos",
+      "ThumbnailAltText": "Ampharos",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/181.png"),
+      "id": 181,
+      "type": [
+         "electric"
+      ]
+   },
+   {
+      "abilities": [
          "Chlorophyll"
       ],
       "detailPageURL": "/us/pokedex/bellossom",
@@ -5253,6 +6102,33 @@ export const Pokemon = [
    },
    {
       "abilities": [
+         "Rock Head",
+         "Sturdy"
+      ],
+      "detailPageURL": "/us/pokedex/steelix",
+      "weight": 881.8,
+      "weakness": [
+         "Fighting",
+         "Fire",
+         "Ground",
+         "Water"
+      ],
+      "number": "208",
+      "height": 362,
+      "collectibles_slug": "steelix",
+      "featured": "true",
+      "slug": "steelix",
+      "name": "Steelix",
+      "ThumbnailAltText": "Steelix",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/208.png"),
+      "id": 208,
+      "type": [
+         "steel",
+         "ground"
+      ]
+   },
+   {
+      "abilities": [
          "Intimidate",
          "Run Away"
       ],
@@ -5350,6 +6226,30 @@ export const Pokemon = [
    },
    {
       "abilities": [
+         "Swarm",
+         "Technician"
+      ],
+      "detailPageURL": "/us/pokedex/scizor",
+      "weight": 260.1,
+      "weakness": [
+         "Fire"
+      ],
+      "number": "212",
+      "height": 71,
+      "collectibles_slug": "scizor",
+      "featured": "true",
+      "slug": "scizor",
+      "name": "Scizor",
+      "ThumbnailAltText": "Scizor",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/212.png"),
+      "id": 212,
+      "type": [
+         "bug",
+         "steel"
+      ]
+   },
+   {
+      "abilities": [
          "Gluttony",
          "Sturdy"
       ],
@@ -5388,6 +6288,33 @@ export const Pokemon = [
       ],
       "number": "214",
       "height": 67,
+      "collectibles_slug": "heracross",
+      "featured": "true",
+      "slug": "heracross",
+      "name": "Heracross",
+      "ThumbnailAltText": "Heracross",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/214.png"),
+      "id": 214,
+      "type": [
+         "bug",
+         "fighting"
+      ]
+   },
+   {
+      "abilities": [
+         "Guts",
+         "Swarm"
+      ],
+      "detailPageURL": "/us/pokedex/heracross",
+      "weight": 119,
+      "weakness": [
+         "Flying",
+         "Fire",
+         "Psychic",
+         "Fairy"
+      ],
+      "number": "214",
+      "height": 59,
       "collectibles_slug": "heracross",
       "featured": "true",
       "slug": "heracross",
@@ -5776,6 +6703,33 @@ export const Pokemon = [
       ],
       "number": "229",
       "height": 75,
+      "collectibles_slug": "houndoom",
+      "featured": "true",
+      "slug": "houndoom",
+      "name": "Houndoom",
+      "ThumbnailAltText": "Houndoom",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/229.png"),
+      "id": 229,
+      "type": [
+         "dark",
+         "fire"
+      ]
+   },
+   {
+      "abilities": [
+         "Early Bird",
+         "Flash Fire"
+      ],
+      "detailPageURL": "/us/pokedex/houndoom",
+      "weight": 77.2,
+      "weakness": [
+         "Fighting",
+         "Ground",
+         "Rock",
+         "Water"
+      ],
+      "number": "229",
+      "height": 55,
       "collectibles_slug": "houndoom",
       "featured": "true",
       "slug": "houndoom",
@@ -6257,6 +7211,35 @@ export const Pokemon = [
    },
    {
       "abilities": [
+         "Sand Stream"
+      ],
+      "detailPageURL": "/us/pokedex/tyranitar",
+      "weight": 445.3,
+      "weakness": [
+         "Fighting",
+         "Bug",
+         "Grass",
+         "Ground",
+         "Steel",
+         "Water",
+         "Fairy"
+      ],
+      "number": "248",
+      "height": 79,
+      "collectibles_slug": "tyranitar",
+      "featured": "true",
+      "slug": "tyranitar",
+      "name": "Tyranitar",
+      "ThumbnailAltText": "Tyranitar",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/248.png"),
+      "id": 248,
+      "type": [
+         "rock",
+         "dark"
+      ]
+   },
+   {
+      "abilities": [
          "Pressure"
       ],
       "detailPageURL": "/us/pokedex/lugia",
@@ -6418,6 +7401,32 @@ export const Pokemon = [
    },
    {
       "abilities": [
+         "Overgrow"
+      ],
+      "detailPageURL": "/us/pokedex/sceptile",
+      "weight": 115.1,
+      "weakness": [
+         "Bug",
+         "Fire",
+         "Flying",
+         "Ice",
+         "Poison"
+      ],
+      "number": "254",
+      "height": 67,
+      "collectibles_slug": "sceptile",
+      "featured": "true",
+      "slug": "sceptile",
+      "name": "Sceptile",
+      "ThumbnailAltText": "Sceptile",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/254.png"),
+      "id": 254,
+      "type": [
+         "grass"
+      ]
+   },
+   {
+      "abilities": [
          "Blaze"
       ],
       "detailPageURL": "/us/pokedex/torchic",
@@ -6494,6 +7503,32 @@ export const Pokemon = [
    },
    {
       "abilities": [
+         "Blaze"
+      ],
+      "detailPageURL": "/us/pokedex/blaziken",
+      "weight": 114.6,
+      "weakness": [
+         "Flying",
+         "Ground",
+         "Psychic",
+         "Water"
+      ],
+      "number": "257",
+      "height": 75,
+      "collectibles_slug": "blaziken",
+      "featured": "true",
+      "slug": "blaziken",
+      "name": "Blaziken",
+      "ThumbnailAltText": "Blaziken",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/257.png"),
+      "id": 257,
+      "type": [
+         "fire",
+         "fighting"
+      ]
+   },
+   {
+      "abilities": [
          "Torrent"
       ],
       "detailPageURL": "/us/pokedex/mudkip",
@@ -6549,6 +7584,29 @@ export const Pokemon = [
       ],
       "number": "260",
       "height": 75,
+      "collectibles_slug": "swampert",
+      "featured": "true",
+      "slug": "swampert",
+      "name": "Swampert",
+      "ThumbnailAltText": "Swampert",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/260.png"),
+      "id": 260,
+      "type": [
+         "water",
+         "ground"
+      ]
+   },
+   {
+      "abilities": [
+         "Torrent"
+      ],
+      "detailPageURL": "/us/pokedex/swampert",
+      "weight": 180.6,
+      "weakness": [
+         "Grass"
+      ],
+      "number": "260",
+      "height": 59,
       "collectibles_slug": "swampert",
       "featured": "true",
       "slug": "swampert",
@@ -7124,6 +8182,32 @@ export const Pokemon = [
    },
    {
       "abilities": [
+         "Synchronize",
+         "Trace"
+      ],
+      "detailPageURL": "/us/pokedex/gardevoir",
+      "weight": 106.7,
+      "weakness": [
+         "Ghost",
+         "Steel",
+         "Poison"
+      ],
+      "number": "282",
+      "height": 63,
+      "collectibles_slug": "gardevoir",
+      "featured": "true",
+      "slug": "gardevoir",
+      "name": "Gardevoir",
+      "ThumbnailAltText": "Gardevoir",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/282.png"),
+      "id": 282,
+      "type": [
+         "psychic",
+         "fairy"
+      ]
+   },
+   {
+      "abilities": [
          "Swift Swim"
       ],
       "detailPageURL": "/us/pokedex/surskit",
@@ -7615,6 +8699,30 @@ export const Pokemon = [
    },
    {
       "abilities": [
+         "Keen Eye",
+         "Stall"
+      ],
+      "detailPageURL": "/us/pokedex/sableye",
+      "weight": 24.3,
+      "weakness": [
+         "Fairy"
+      ],
+      "number": "302",
+      "height": 20,
+      "collectibles_slug": "sableye",
+      "featured": "true",
+      "slug": "sableye",
+      "name": "Sableye",
+      "ThumbnailAltText": "Sableye",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/302.png"),
+      "id": 302,
+      "type": [
+         "dark",
+         "ghost"
+      ]
+   },
+   {
+      "abilities": [
          "Huge Power"
       ],
       "detailPageURL": "/us/pokedex/mawile",
@@ -7625,6 +8733,31 @@ export const Pokemon = [
       ],
       "number": "303",
       "height": 39,
+      "collectibles_slug": "mawile",
+      "featured": "true",
+      "slug": "mawile",
+      "name": "Mawile",
+      "ThumbnailAltText": "Mawile",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/303.png"),
+      "id": 303,
+      "type": [
+         "steel",
+         "fairy"
+      ]
+   },
+   {
+      "abilities": [
+         "Hyper Cutter",
+         "Intimidate"
+      ],
+      "detailPageURL": "/us/pokedex/mawile",
+      "weight": 25.4,
+      "weakness": [
+         "Fire",
+         "Ground"
+      ],
+      "number": "303",
+      "height": 24,
       "collectibles_slug": "mawile",
       "featured": "true",
       "slug": "mawile",
@@ -7715,6 +8848,32 @@ export const Pokemon = [
    },
    {
       "abilities": [
+         "Rock Head",
+         "Sturdy"
+      ],
+      "detailPageURL": "/us/pokedex/aggron",
+      "weight": 793.7,
+      "weakness": [
+         "Fighting",
+         "Ground",
+         "Water"
+      ],
+      "number": "306",
+      "height": 83,
+      "collectibles_slug": "aggron",
+      "featured": "true",
+      "slug": "aggron",
+      "name": "Aggron",
+      "ThumbnailAltText": "Aggron",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/306.png"),
+      "id": 306,
+      "type": [
+         "steel",
+         "rock"
+      ]
+   },
+   {
+      "abilities": [
          "Pure Power"
       ],
       "detailPageURL": "/us/pokedex/meditite",
@@ -7765,6 +8924,31 @@ export const Pokemon = [
    },
    {
       "abilities": [
+         "Pure Power"
+      ],
+      "detailPageURL": "/us/pokedex/medicham",
+      "weight": 69.4,
+      "weakness": [
+         "Flying",
+         "Ghost",
+         "Fairy"
+      ],
+      "number": "308",
+      "height": 51,
+      "collectibles_slug": "medicham",
+      "featured": "true",
+      "slug": "medicham",
+      "name": "Medicham",
+      "ThumbnailAltText": "Medicham",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/308.png"),
+      "id": 308,
+      "type": [
+         "fighting",
+         "psychic"
+      ]
+   },
+   {
+      "abilities": [
          "Lightning Rod",
          "Static"
       ],
@@ -7797,6 +8981,29 @@ export const Pokemon = [
       ],
       "number": "310",
       "height": 71,
+      "collectibles_slug": "manectric",
+      "featured": "true",
+      "slug": "manectric",
+      "name": "Manectric",
+      "ThumbnailAltText": "Manectric",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/310.png"),
+      "id": 310,
+      "type": [
+         "electric"
+      ]
+   },
+   {
+      "abilities": [
+         "Lightning Rod",
+         "Static"
+      ],
+      "detailPageURL": "/us/pokedex/manectric",
+      "weight": 88.6,
+      "weakness": [
+         "Ground"
+      ],
+      "number": "310",
+      "height": 59,
       "collectibles_slug": "manectric",
       "featured": "true",
       "slug": "manectric",
@@ -8033,6 +9240,33 @@ export const Pokemon = [
    },
    {
       "abilities": [
+         "Rough Skin"
+      ],
+      "detailPageURL": "/us/pokedex/sharpedo",
+      "weight": 195.8,
+      "weakness": [
+         "Bug",
+         "Electric",
+         "Fighting",
+         "Grass",
+         "Fairy"
+      ],
+      "number": "319",
+      "height": 71,
+      "collectibles_slug": "sharpedo",
+      "featured": "true",
+      "slug": "sharpedo",
+      "name": "Sharpedo",
+      "ThumbnailAltText": "Sharpedo",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/319.png"),
+      "id": 319,
+      "type": [
+         "water",
+         "dark"
+      ]
+   },
+   {
+      "abilities": [
          "Oblivious",
          "Water Veil"
       ],
@@ -8116,6 +9350,31 @@ export const Pokemon = [
       ],
       "number": "323",
       "height": 98,
+      "collectibles_slug": "camerupt",
+      "featured": "true",
+      "slug": "camerupt",
+      "name": "Camerupt",
+      "ThumbnailAltText": "Camerupt",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/323.png"),
+      "id": 323,
+      "type": [
+         "fire",
+         "ground"
+      ]
+   },
+   {
+      "abilities": [
+         "Magma Armor",
+         "Solid Rock"
+      ],
+      "detailPageURL": "/us/pokedex/camerupt",
+      "weight": 485,
+      "weakness": [
+         "Water",
+         "Ground"
+      ],
+      "number": "323",
+      "height": 75,
       "collectibles_slug": "camerupt",
       "featured": "true",
       "slug": "camerupt",
@@ -8404,6 +9663,32 @@ export const Pokemon = [
       "type": [
          "dragon",
          "fairy"
+      ]
+   },
+   {
+      "abilities": [
+         "Natural Cure"
+      ],
+      "detailPageURL": "/us/pokedex/altaria",
+      "weight": 45.4,
+      "weakness": [
+         "Ice",
+         "Dragon",
+         "Rock",
+         "Fairy"
+      ],
+      "number": "334",
+      "height": 43,
+      "collectibles_slug": "altaria",
+      "featured": "true",
+      "slug": "altaria",
+      "name": "Altaria",
+      "ThumbnailAltText": "Altaria",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/334.png"),
+      "id": 334,
+      "type": [
+         "dragon",
+         "flying"
       ]
    },
    {
@@ -8840,6 +10125,75 @@ export const Pokemon = [
    },
    {
       "abilities": [
+         "Forecast"
+      ],
+      "detailPageURL": "/us/pokedex/castform",
+      "weight": 1.8,
+      "weakness": [
+         "Grass",
+         "Electric"
+      ],
+      "number": "351",
+      "height": 12,
+      "collectibles_slug": "castform",
+      "featured": "true",
+      "slug": "castform",
+      "name": "Castform",
+      "ThumbnailAltText": "Castform",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/351.png"),
+      "id": 351,
+      "type": [
+         "water"
+      ]
+   },
+   {
+      "abilities": [
+         "Forecast"
+      ],
+      "detailPageURL": "/us/pokedex/castform",
+      "weight": 1.8,
+      "weakness": [
+         "Water",
+         "Rock",
+         "Ground"
+      ],
+      "number": "351",
+      "height": 12,
+      "collectibles_slug": "castform",
+      "featured": "true",
+      "slug": "castform",
+      "name": "Castform",
+      "ThumbnailAltText": "Castform",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/351.png"),
+      "id": 351,
+      "type": [
+         "fire"
+      ]
+   },
+   {
+      "abilities": [
+         "Forecast"
+      ],
+      "detailPageURL": "/us/pokedex/castform",
+      "weight": 1.8,
+      "weakness": [
+         "Fighting"
+      ],
+      "number": "351",
+      "height": 12,
+      "collectibles_slug": "castform",
+      "featured": "true",
+      "slug": "castform",
+      "name": "Castform",
+      "ThumbnailAltText": "Castform",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/351.png"),
+      "id": 351,
+      "type": [
+         "normal"
+      ]
+   },
+   {
+      "abilities": [
          "Color Change"
       ],
       "detailPageURL": "/us/pokedex/kecleon",
@@ -8896,6 +10250,30 @@ export const Pokemon = [
       ],
       "number": "354",
       "height": 47,
+      "collectibles_slug": "banette",
+      "featured": "true",
+      "slug": "banette",
+      "name": "Banette",
+      "ThumbnailAltText": "Banette",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/354.png"),
+      "id": 354,
+      "type": [
+         "ghost"
+      ]
+   },
+   {
+      "abilities": [
+         "Frisk",
+         "Insomnia"
+      ],
+      "detailPageURL": "/us/pokedex/banette",
+      "weight": 27.6,
+      "weakness": [
+         "Dark",
+         "Ghost"
+      ],
+      "number": "354",
+      "height": 43,
       "collectibles_slug": "banette",
       "featured": "true",
       "slug": "banette",
@@ -9031,6 +10409,31 @@ export const Pokemon = [
    },
    {
       "abilities": [
+         "Pressure",
+         "Super Luck"
+      ],
+      "detailPageURL": "/us/pokedex/absol",
+      "weight": 103.6,
+      "weakness": [
+         "Fighting",
+         "Bug",
+         "Fairy"
+      ],
+      "number": "359",
+      "height": 47,
+      "collectibles_slug": "absol",
+      "featured": "true",
+      "slug": "absol",
+      "name": "Absol",
+      "ThumbnailAltText": "Absol",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/359.png"),
+      "id": 359,
+      "type": [
+         "dark"
+      ]
+   },
+   {
+      "abilities": [
          "Shadow Tag"
       ],
       "detailPageURL": "/us/pokedex/wynaut",
@@ -9093,6 +10496,32 @@ export const Pokemon = [
       ],
       "number": "362",
       "height": 83,
+      "collectibles_slug": "glalie",
+      "featured": "true",
+      "slug": "glalie",
+      "name": "Glalie",
+      "ThumbnailAltText": "Glalie",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/362.png"),
+      "id": 362,
+      "type": [
+         "ice"
+      ]
+   },
+   {
+      "abilities": [
+         "Ice Body",
+         "Inner Focus"
+      ],
+      "detailPageURL": "/us/pokedex/glalie",
+      "weight": 565.5,
+      "weakness": [
+         "Fire",
+         "Fighting",
+         "Rock",
+         "Steel"
+      ],
+      "number": "362",
+      "height": 59,
       "collectibles_slug": "glalie",
       "featured": "true",
       "slug": "glalie",
@@ -9380,6 +10809,32 @@ export const Pokemon = [
    },
    {
       "abilities": [
+         "Intimidate"
+      ],
+      "detailPageURL": "/us/pokedex/salamence",
+      "weight": 226.2,
+      "weakness": [
+         "Ice",
+         "Dragon",
+         "Rock",
+         "Fairy"
+      ],
+      "number": "373",
+      "height": 59,
+      "collectibles_slug": "salamence",
+      "featured": "true",
+      "slug": "salamence",
+      "name": "Salamence",
+      "ThumbnailAltText": "Salamence",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/373.png"),
+      "id": 373,
+      "type": [
+         "dragon",
+         "flying"
+      ]
+   },
+   {
+      "abilities": [
          "Clear Body"
       ],
       "detailPageURL": "/us/pokedex/beldum",
@@ -9444,6 +10899,32 @@ export const Pokemon = [
       ],
       "number": "376",
       "height": 98,
+      "collectibles_slug": "metagross",
+      "featured": "true",
+      "slug": "metagross",
+      "name": "Metagross",
+      "ThumbnailAltText": "Metagross",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/376.png"),
+      "id": 376,
+      "type": [
+         "steel",
+         "psychic"
+      ]
+   },
+   {
+      "abilities": [
+         "Clear Body"
+      ],
+      "detailPageURL": "/us/pokedex/metagross",
+      "weight": 1212.5,
+      "weakness": [
+         "Fire",
+         "Ground",
+         "Ghost",
+         "Dark"
+      ],
+      "number": "376",
+      "height": 63,
       "collectibles_slug": "metagross",
       "featured": "true",
       "slug": "metagross",
@@ -9563,6 +11044,34 @@ export const Pokemon = [
       "abilities": [
          "Levitate"
       ],
+      "detailPageURL": "/us/pokedex/latias",
+      "weight": 88.2,
+      "weakness": [
+         "Bug",
+         "Dark",
+         "Dragon",
+         "Ghost",
+         "Ice",
+         "Fairy"
+      ],
+      "number": "380",
+      "height": 55,
+      "collectibles_slug": "latias",
+      "featured": "true",
+      "slug": "latias",
+      "name": "Latias",
+      "ThumbnailAltText": "Latias",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/380.png"),
+      "id": 380,
+      "type": [
+         "dragon",
+         "psychic"
+      ]
+   },
+   {
+      "abilities": [
+         "Levitate"
+      ],
       "detailPageURL": "/us/pokedex/latios",
       "weight": 154.3,
       "weakness": [
@@ -9575,6 +11084,34 @@ export const Pokemon = [
       ],
       "number": "381",
       "height": 91,
+      "collectibles_slug": "latios",
+      "featured": "true",
+      "slug": "latios",
+      "name": "Latios",
+      "ThumbnailAltText": "Latios",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/381.png"),
+      "id": 381,
+      "type": [
+         "dragon",
+         "psychic"
+      ]
+   },
+   {
+      "abilities": [
+         "Levitate"
+      ],
+      "detailPageURL": "/us/pokedex/latios",
+      "weight": 132.3,
+      "weakness": [
+         "Bug",
+         "Dark",
+         "Dragon",
+         "Ghost",
+         "Ice",
+         "Fairy"
+      ],
+      "number": "381",
+      "height": 79,
       "collectibles_slug": "latios",
       "featured": "true",
       "slug": "latios",
@@ -9612,6 +11149,29 @@ export const Pokemon = [
    },
    {
       "abilities": [
+         "Drizzle"
+      ],
+      "detailPageURL": "/us/pokedex/kyogre",
+      "weight": 776,
+      "weakness": [
+         "Electric",
+         "Grass"
+      ],
+      "number": "382",
+      "height": 177,
+      "collectibles_slug": "kyogre",
+      "featured": "true",
+      "slug": "kyogre",
+      "name": "Kyogre",
+      "ThumbnailAltText": "Kyogre",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/382.png"),
+      "id": 382,
+      "type": [
+         "water"
+      ]
+   },
+   {
+      "abilities": [
          "Desolate Land"
       ],
       "detailPageURL": "/us/pokedex/groudon",
@@ -9636,6 +11196,30 @@ export const Pokemon = [
    },
    {
       "abilities": [
+         "Drought"
+      ],
+      "detailPageURL": "/us/pokedex/groudon",
+      "weight": 2094.4,
+      "weakness": [
+         "Grass",
+         "Ice",
+         "Water"
+      ],
+      "number": "383",
+      "height": 138,
+      "collectibles_slug": "groudon",
+      "featured": "true",
+      "slug": "groudon",
+      "name": "Groudon",
+      "ThumbnailAltText": "Groudon",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/383.png"),
+      "id": 383,
+      "type": [
+         "ground"
+      ]
+   },
+   {
+      "abilities": [
          "Delta Stream"
       ],
       "detailPageURL": "/us/pokedex/rayquaza",
@@ -9648,6 +11232,32 @@ export const Pokemon = [
       ],
       "number": "384",
       "height": 425,
+      "collectibles_slug": "rayquaza",
+      "featured": "true",
+      "slug": "rayquaza",
+      "name": "Rayquaza",
+      "ThumbnailAltText": "Rayquaza",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/384.png"),
+      "id": 384,
+      "type": [
+         "dragon",
+         "flying"
+      ]
+   },
+   {
+      "abilities": [
+         "Air Lock"
+      ],
+      "detailPageURL": "/us/pokedex/rayquaza",
+      "weight": 455.2,
+      "weakness": [
+         "Ice",
+         "Dragon",
+         "Rock",
+         "Fairy"
+      ],
+      "number": "384",
+      "height": 276,
       "collectibles_slug": "rayquaza",
       "featured": "true",
       "slug": "rayquaza",
@@ -9683,6 +11293,78 @@ export const Pokemon = [
       "id": 385,
       "type": [
          "steel",
+         "psychic"
+      ]
+   },
+   {
+      "abilities": [
+         "Pressure"
+      ],
+      "detailPageURL": "/us/pokedex/deoxys",
+      "weight": 134,
+      "weakness": [
+         "Bug",
+         "Dark",
+         "Ghost"
+      ],
+      "number": "386",
+      "height": 67,
+      "collectibles_slug": "deoxys",
+      "featured": "true",
+      "slug": "deoxys",
+      "name": "Deoxys",
+      "ThumbnailAltText": "Deoxys",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/386.png"),
+      "id": 386,
+      "type": [
+         "psychic"
+      ]
+   },
+   {
+      "abilities": [
+         "Pressure"
+      ],
+      "detailPageURL": "/us/pokedex/deoxys",
+      "weight": 134,
+      "weakness": [
+         "Bug",
+         "Dark",
+         "Ghost"
+      ],
+      "number": "386",
+      "height": 67,
+      "collectibles_slug": "deoxys",
+      "featured": "true",
+      "slug": "deoxys",
+      "name": "Deoxys",
+      "ThumbnailAltText": "Deoxys",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/386.png"),
+      "id": 386,
+      "type": [
+         "psychic"
+      ]
+   },
+   {
+      "abilities": [
+         "Pressure"
+      ],
+      "detailPageURL": "/us/pokedex/deoxys",
+      "weight": 134,
+      "weakness": [
+         "Bug",
+         "Dark",
+         "Ghost"
+      ],
+      "number": "386",
+      "height": 67,
+      "collectibles_slug": "deoxys",
+      "featured": "true",
+      "slug": "deoxys",
+      "name": "Deoxys",
+      "ThumbnailAltText": "Deoxys",
+      "ThumbnailImage": require("../assets/pokemonapi/sprites/pokemon/386.png"),
+      "id": 386,
+      "type": [
          "psychic"
       ]
    },

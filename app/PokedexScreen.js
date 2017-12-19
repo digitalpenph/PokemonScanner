@@ -1,11 +1,11 @@
-import React, { Component } from 'react';
-import { Image, Text, View, StyleSheet, FlatList } from 'react-native';
+import React, { PureComponent } from 'react';
+import { Alert, Image, Text, View, StyleSheet, FlatList } from 'react-native';
 import { AsyncStorage } from 'react-native';
 import { Constants } from 'expo';
 
 import { Pokemon } from '../data/pokemon.js';
 
-export default class App extends Component {
+export default class App extends PureComponent {
   static navigationOptions = {
     header: null,
     tabBarLabel: 'Pokedex',
@@ -26,16 +26,38 @@ export default class App extends Component {
     };
   }
 
+  componentDidFocus() {
+    Alert.alert("asdasd");
+  }
+
   componentDidMount() {
     this.getPokemon();
     this.maxPokemon();
   }
 
   onRefresh() {
+    this.getPokemon(); 
+    let pokemonCount = parseInt(this.state.pokemon.length);
+    if(pokemonCount >= 151) {
+      AsyncStorage.setItem('max', '251'); 
+    } else if(pokemonCount >= 251) {
+      AsyncStorage.setItem('max', '386'); 
+    } else if(pokemonCount >= 386) {
+      AsyncStorage.setItem('max', '493'); 
+    } else if(pokemonCount >= 493) {
+      AsyncStorage.setItem('max', '649'); 
+    } else if(pokemonCount >= 649) {
+      AsyncStorage.setItem('max', '721'); 
+    } else if(pokemonCount >= 721) {
+      AsyncStorage.setItem('max', '807'); 
+    }
+    this.maxPokemon();
     this.setState({ 
       isFetching: true,
     }, 
-    function() { this.fetchData(); this.getPokemon(); });
+    function() {
+      this.fetchData(); 
+    });
   }
 
   fetchData() {
@@ -112,6 +134,8 @@ export default class App extends Component {
     }
   } 
 
+  _keyExtractor = (item, index) => item.id;
+
   render () {
     return (
       <View style={styles.container}>
@@ -121,6 +145,8 @@ export default class App extends Component {
         onRefresh={() => this.onRefresh()}
         refreshing={this.state.isFetching}
         data={this.state.data}
+        keyExtractor={this._keyExtractor}
+        initialNumToRender={this.state.max}
         numColumns={1}
         renderItem={this.renderItem.bind(this)}
       />
