@@ -161,7 +161,8 @@ const styles = StyleSheet.create({
     height: 26,
   },
   container: {    
-    paddingTop: Constants.statusBarHeight
+    paddingTop: Constants.statusBarHeight,
+    paddingBottom: Constants.statusBarHeight + 1
   },
   heading: {
     color: '#272729',

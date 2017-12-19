@@ -25,10 +25,12 @@ export default class App extends Component {
   componentDidMount() {
     this.setState({
       pokemon: [],
-      pokemonid: 0
+      pokemonid: 0,
+      barcode: []
     });
     this.getPokemon();
     this.maxPokemon();
+    this.getBarcode();
     this._requestCameraPermission();
   }
 
@@ -40,13 +42,39 @@ export default class App extends Component {
   };
 
   _handleBarCodeRead = data => {
-    this.setState({
-      id: this.generateRandomNumber(),
-    });
+    let barcodeData = JSON.stringify(data);
+    let hasBarcode = this.state.barcode.includes(barcodeData);
+    if(!hasBarcode) {
+      this.setState({
+        id: this.generateRandomNumber(),
+      });
+      this.addBarcode(barcodeData);
+    } else {
+      Alert.alert("You already extracted a pokemon here.");
+    }
   };
 
   generateRandomNumber=()=> {
     return Math.floor(Math.random() * this.state.max) + 1;
+  }
+
+  addBarcode(data) {
+    let temp = this.state.barcode;
+    temp.push(data);
+    this.setState({
+      barcode: temp
+    });
+    AsyncStorage.setItem('barcode', JSON.stringify(this.state.barcode));
+  }
+
+  getBarcode() {
+    AsyncStorage.getItem('barcode', (err, result) => {
+      if (!err && result != null) {
+        this.setState({
+          max: JSON.parse(result)
+        });
+      }
+    });
   }
   
   maxPokemon() {
