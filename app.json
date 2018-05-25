@@ -15,7 +15,10 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "bundleIdentifier": "com.digitalpenph.operationmindgame"
+    },
+    "android": {
+      "package": "com.digitalpenph.operationmindgame"
     }
   }
 }
